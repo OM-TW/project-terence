@@ -1,4 +1,5 @@
-import { IReactProps, ReadyOnly, TransitionType } from '@/settings/type';
+import { IReactProps, TransitionType } from '@/settings/type';
+import { ReadyOnly } from '@/settings/type-unity';
 import useTween from 'lesca-use-tween';
 import { useEffect } from 'react';
 import Regular from './regular';
