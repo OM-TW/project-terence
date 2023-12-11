@@ -11,8 +11,8 @@ const Navigation = memo(() => {
       <div className='menu'>
         <ul>
           {['messenger', 'facebook', 'instagram'].map((e) => (
-            <li>
-              <button className={e} key={e} />
+            <li key={e}>
+              <button className={e} />
             </li>
           ))}
         </ul>
