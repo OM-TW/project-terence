@@ -1,10 +1,13 @@
 import OnloadProvider from 'lesca-react-onload';
-import { Suspense, lazy, memo, useMemo, useState } from 'react';
+import { Suspense, lazy, memo, useContext, useMemo, useState } from 'react';
 import { HomeContext, HomePages, HomeState, HomeStepType, THomeState } from './config';
 import './index.less';
 import Landing from './landing';
+import { Context } from '@/settings/constant';
+import { ActionType } from '@/settings/type';
 
 const Home = memo(() => {
+  const [, setContext] = useContext(Context);
   const [state, setState] = useState<THomeState>(HomeState);
   const { step } = state;
 
@@ -22,7 +25,12 @@ const Home = memo(() => {
   }, [step]);
 
   return (
-    <OnloadProvider onload={() => setState((S) => ({ ...S, step: HomeStepType.loaded }))}>
+    <OnloadProvider
+      onload={() => {
+        setState((S) => ({ ...S, step: HomeStepType.loaded }));
+        setContext({ type: ActionType.LoadingProcess, state: { enabled: false } });
+      }}
+    >
       <div className='Home'>
         <HomeContext.Provider value={[state, setState]}>
           <Landing />

@@ -1,0 +1,48 @@
+.Opening {
+  .Aside {
+    @apply w-full h-auto absolute top-0 pl-52 overflow-hidden pb-48;
+
+    .square {
+      @apply w-52 h-52 bg-black relative;
+
+      &::after {
+        top: 60%;
+        left: 60%;
+        content: '';
+
+        mask-image: url('../landing/img/slash-lg.svg');
+        mask-repeat: repeat-x;
+        mask-size: auto 184%;
+        mask-position: 46.7% center;
+        @apply absolute w-32 h-32 bg-OM-red-100;
+      }
+    }
+
+    .descriptions {
+      margin-top: -5rem;
+      @apply w-full pl-72 relative text-white;
+
+      h1 {
+        @apply font-noto-medium text-2xl mb-2;
+      }
+      p {
+        @apply font-noto-medium text-sm leading-loose;
+      }
+    }
+
+    &::before {
+      top: -1%;
+      left: 27%;
+      width: image-width(@img) * @scale;
+      height: image-height(@img) * @scale;
+      background-image: url(@img);
+      background-size: 100%;
+      content: '';
+
+      @scale: 0.8;
+      @img: './img/stairs.svg';
+
+      @apply absolute;
+    }
+  }
+}

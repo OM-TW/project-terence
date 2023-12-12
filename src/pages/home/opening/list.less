@@ -1,0 +1,75 @@
+.Opening {
+  .List {
+    @apply absolute top-0 left-0 w-72 h-full flex justify-center items-center overflow-hidden;
+
+    & > div {
+      @apply relative w-full h-auto;
+
+      ol {
+        li {
+          @apply relative py-3;
+
+          * {
+            transition-duration: 0.3s;
+          }
+
+          & > button {
+            transform-origin: 50% bottom;
+            @apply relative text-base text-white font-noto-semiBold tracking-widest pl-16 pr-2 leading-tight;
+
+            &:hover {
+              @apply bg-black;
+            }
+          }
+
+          &::before {
+            margin-top: -1.2rem;
+            transition-duration: 0.5s;
+            @apply absolute -left-4 w-2 h-full text-white font-noto-semiBold text-6xl opacity-0 z-10;
+          }
+        }
+
+        & > li:nth-child(1) {
+          &::before {
+            content: '01';
+          }
+        }
+
+        & > li:nth-child(2) {
+          &::before {
+            content: '02';
+          }
+        }
+
+        & > li:nth-child(3) {
+          &::before {
+            content: '03';
+          }
+        }
+
+        & > li:nth-child(4) {
+          &::before {
+            content: '04';
+          }
+        }
+
+        & > li:nth-child(5) {
+          &::before {
+            content: '05';
+          }
+        }
+
+        .active {
+          & > button {
+            transform: scale(1.5);
+            @apply border-b;
+          }
+
+          &::before {
+            @apply opacity-100;
+          }
+        }
+      }
+    }
+  }
+}
