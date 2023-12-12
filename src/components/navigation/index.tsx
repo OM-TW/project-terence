@@ -18,7 +18,7 @@ const Navigation = memo(() => {
         </ul>
       </div>
       <div className='shortcut'>
-        <button>news</button>
+        <button>News</button>
       </div>
     </nav>
   );

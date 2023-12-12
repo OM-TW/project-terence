@@ -1,0 +1,43 @@
+@font-face {
+  font-weight: 900;
+  font-style: normal;
+  font-family: 'Noto Serif TC Black';
+  src:
+    url('subset-NotoSerifTC-Black-Alphabetic.woff2') format('woff2'),
+    url('subset-NotoSerifTC-Black-Alphabetic.woff') format('woff');
+
+  font-display: swap;
+}
+
+@font-face {
+  font-weight: 600;
+  font-style: normal;
+  font-family: 'Noto Serif TC SemiBold';
+  src:
+    url('subset-NotoSerifTC-SemiBold-Alphabetic.woff2') format('woff2'),
+    url('subset-NotoSerifTC-SemiBold-Alphabetic.woff') format('woff');
+
+  font-display: swap;
+}
+
+@font-face {
+  font-weight: 500;
+  font-style: normal;
+  font-family: 'Noto Serif TC Medium';
+  src:
+    url('subset-NotoSerifTC-Medium-Alphabetic.woff2') format('woff2'),
+    url('subset-NotoSerifTC-Medium-Alphabetic.woff') format('woff');
+
+  font-display: swap;
+}
+
+@font-face {
+  font-weight: normal;
+  font-style: normal;
+  font-family: 'Noto Serif TC Regular';
+  src:
+    url('subset-NotoSerifTC-Regular-Alphabetic.woff2') format('woff2'),
+    url('subset-NotoSerifTC-Regular-Alphabetic.woff') format('woff');
+
+  font-display: swap;
+}

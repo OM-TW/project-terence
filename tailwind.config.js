@@ -15,9 +15,15 @@ export default {
     fontSize: {
       ...fontSize,
     },
+    fontFamily: {
+      'noto-black': ['Noto Serif TC Black', 'serif'],
+      'noto-semiBold': ['Noto Serif TC SemiBold', 'serif'],
+      'noto-medium': ['Noto Serif TC Medium', 'serif'],
+      'noto-regular': ['Noto Serif TC Regular', 'serif'],
+    },
     colors: {
       ...color,
-      // primary: '#E83F43',
+      primary: '#E83F43',
       // secondary: '#ff6600',
       // tertiary: '#ff0066',
       // quaternary: '#00ff00',

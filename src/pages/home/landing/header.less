@@ -1,0 +1,38 @@
+.Landing {
+  .Header {
+    @apply absolute w-full h-full flex justify-center items-center select-none pb-44;
+
+    & > div {
+      @apply w-full pl-52 flex flex-col justify-start items-start;
+
+      & > div:first-child {
+        font-size: 7rem;
+        @apply font-noto-semiBold tracking-tighter flex flex-row justify-start items-baseline;
+
+        &::after {
+          content: 'th';
+          @apply text-4xl tracking-normal ml-1;
+        }
+      }
+
+      & > div:nth-child(2) {
+        margin-top: -3rem;
+        @apply relative flex flex-row justify-start items-center pl-12 font-noto-medium text-2xl tracking-wider;
+
+        &::before {
+          border-width: 0.5px;
+          content: '';
+          @apply w-40 border-black mr-3;
+        }
+      }
+
+      & > div:nth-child(3) {
+        @apply relative flex flex-col justify-start items-start font-noto-medium text-6xl tracking-widest mt-9;
+
+        & > span {
+          @apply font-noto-regular tracking-normal text-2xl mt-3;
+        }
+      }
+    }
+  }
+}
