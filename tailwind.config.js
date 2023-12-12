@@ -11,17 +11,24 @@ delete color.blueGray;
 export default {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
+    container: { screen: {} },
     fontSize: {
       ...fontSize,
     },
     colors: {
       ...color,
-      primary: '#870000',
-      secondary: '#ff6600',
-      tertiary: '#ff0066',
-      quaternary: '#00ff00',
+      // primary: '#E83F43',
+      // secondary: '#ff6600',
+      // tertiary: '#ff0066',
+      // quaternary: '#00ff00',
       backgroundColor: '#EB3F43',
       textColor: '#000',
+      'OM-red-300': '#E83F43',
+      'OM-red-200': '#F58E8F',
+      'OM-red-100': '#FBCECE',
+      'OM-gray-300': '#545659',
+      'OM-gray-200': '#A6A6A8',
+      'OM-gray-100': '#F0F0F0',
     },
     extend: {},
   },

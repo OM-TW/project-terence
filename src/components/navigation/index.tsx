@@ -17,6 +17,9 @@ const Navigation = memo(() => {
           ))}
         </ul>
       </div>
+      <div className='shortcut'>
+        <button>news</button>
+      </div>
     </nav>
   );
 });
