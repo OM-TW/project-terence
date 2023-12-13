@@ -1,0 +1,78 @@
+.Course {
+  .Carousel {
+    padding-top: 21rem;
+    padding-left: 36rem;
+    @apply absolute w-full;
+
+    & > div {
+      @apply relative w-full;
+
+      .wrapper {
+        @apply w-full relative overflow-x-scroll p-5;
+
+        & > div {
+          @apply flex flex-row flex-nowrap;
+
+          .card {
+            @apply flex flex-col justify-start items-center p-2;
+
+            .img {
+              padding-bottom: (unit(image-height(@img) / unit(image-width(@img))) * 100%);
+              background-size: cover;
+
+              @img: './img/0.jpg';
+              @apply w-full;
+            }
+
+            .monster-0 {
+              background-image: url('./img/0.jpg');
+            }
+
+            .monster-1 {
+              background-image: url('./img/1.jpg');
+            }
+
+            .monster-2 {
+              background-image: url('./img/2.jpg');
+            }
+
+            .monster-3 {
+              background-image: url('./img/3.jpg');
+            }
+
+            h1 {
+              @apply font-noto-medium text-lg;
+            }
+
+            p {
+              @apply font-noto-regular text-sm py-1;
+            }
+          }
+        }
+      }
+
+      .more {
+        @apply absolute w-20 h-20 right-full mr-16 top-1/2 -mt-10;
+
+        & > button {
+          @apply relative w-full h-full border rounded-full border-black font-noto-semiBold text-lg;
+
+          & > span {
+            @apply relative w-auto;
+
+            &::before {
+              height: 1px;
+              content: '';
+              @apply w-32 absolute bg-black bottom-2 right-full mr-2;
+            }
+          }
+        }
+      }
+
+      &::before {
+        content: '';
+        @apply absolute w-52 h-52 bg-OM-gray-200 right-0 top-0;
+      }
+    }
+  }
+}

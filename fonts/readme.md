@@ -37,6 +37,7 @@ ABCDEFGGIJKLMNOPQRSTUVWXYZ
 招募職位
 
 培訓面向貢獻能力期待特質培訓面向貢獻能力期待特質培訓面向貢獻能力期待特質
+大師獨家課
 
 ```
 
@@ -46,5 +47,8 @@ ABCDEFGGIJKLMNOPQRSTUVWXYZ
 0123456789
 asbdefghijklmnpoqrstuvwxyz
 ABCDEFGGIJKLMNOPQRSTUVWXYZ
+集結眾多大師的精采課程，
+傳承奧美的經驗、經典的廣告智慧，
+陪伴大家一起學習、一起成長！
 
 ```

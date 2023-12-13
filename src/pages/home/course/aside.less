@@ -1,0 +1,44 @@
+.Course {
+  .Aside {
+    @apply w-full h-full absolute flex justify-start items-start pt-24;
+
+    .squire {
+      @apply w-52 h-52 bg-OM-red-100 relative;
+
+      &::after {
+        top: 60%;
+        left: 60%;
+        content: '';
+
+        mask-image: url('../landing/img/slash-lg.svg');
+        mask-repeat: repeat-x;
+        mask-size: auto 184%;
+        mask-position: 50% center;
+        @apply absolute w-32 h-32 bg-black;
+      }
+    }
+
+    .descriptions {
+      @apply w-auto ml-28 mt-28 text-black relative;
+
+      h1 {
+        @apply relative text-6xl font-noto-medium tracking-widest;
+      }
+
+      span {
+        @apply font-noto-semiBold text-2xl tracking-wider my-1;
+      }
+
+      p {
+        @apply font-noto-regular text-sm pt-5 leading-loose;
+      }
+
+      &::before {
+        top: -9px;
+        left: 125px;
+        content: '';
+        @apply w-8 h-8 bg-OM-red-300 absolute;
+      }
+    }
+  }
+}
