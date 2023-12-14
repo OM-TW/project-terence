@@ -32,6 +32,7 @@ export default {
       'OM-red-300': '#E83F43',
       'OM-red-200': '#F58E8F',
       'OM-red-100': '#FBCECE',
+      'OM-gray-400': '#262526',
       'OM-gray-300': '#545659',
       'OM-gray-200': '#A6A6A8',
       'OM-gray-100': '#F0F0F0',
