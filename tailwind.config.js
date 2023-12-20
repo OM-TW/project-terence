@@ -24,7 +24,7 @@ export default {
     colors: {
       ...color,
       primary: '#E83F43',
-      // secondary: '#ff6600',
+      secondary: '#ff5454',
       // tertiary: '#ff0066',
       // quaternary: '#00ff00',
       backgroundColor: '#EB3F43',

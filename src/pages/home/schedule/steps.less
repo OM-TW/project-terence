@@ -1,0 +1,69 @@
+.Schedule {
+  .Steps {
+    @size: 15px;
+    @apply w-full flex flex-col justify-start items-start;
+    .head {
+      padding: 0 @size;
+
+      @apply w-full flex flex-row justify-center items-center mt-10 space-x-3;
+
+      & > div {
+        @apply w-1/3;
+
+        .breadcrumbs {
+          padding: 0 @size;
+          @apply w-full h-16 relative space-x-4;
+
+          & > div {
+            @apply w-full p-3 bg-secondary tracking-widest h-full flex justify-start items-center font-noto-semiBold text-white text-xl;
+
+            & > div {
+              @apply pt-1;
+            }
+          }
+
+          &::before,
+          &::after {
+            width: 30px;
+            background-size: auto 100%;
+            background-repeat: no-repeat;
+            content: '';
+            @apply absolute h-full top-0;
+          }
+
+          &::before {
+            left: -@size;
+            background-image: url('./img/arrow-e.svg');
+          }
+
+          &::after {
+            right: -@size;
+            background-image: url('./img/arrow-f.svg');
+          }
+        }
+      }
+
+      & > div:nth-child(1) {
+        .breadcrumbs {
+          padding: 0 @size 0 0;
+          &::before {
+            @apply hidden;
+          }
+        }
+      }
+    }
+
+    .body {
+      padding: 0 @size;
+      @apply w-full flex flex-row;
+
+      & > div {
+        @apply p-5 text-white font-noto-regular text-base leading-loose;
+
+        p {
+          @apply my-3;
+        }
+      }
+    }
+  }
+}

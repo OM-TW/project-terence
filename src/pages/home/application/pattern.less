@@ -1,0 +1,49 @@
+.Application {
+  .Pattern {
+    @apply absolute w-full h-full flex justify-center items-center select-none;
+
+    .ctx {
+      @apply flex flex-col justify-center items-center;
+
+      h1 {
+        @apply font-noto-medium text-7xl text-white;
+      }
+
+      h5 {
+        @apply font-noto-semiBold text-2xl text-white my-2;
+      }
+
+      .tie {
+        width: image-width(@img) * @scale;
+        height: image-height(@img) * @scale;
+
+        @scale: 0.7;
+        @img: '../landing/img/tie.svg';
+
+        @apply mt-5 relative;
+
+        &::before {
+          content: '';
+
+          mask-image: url(@img);
+          mask-size: 100%;
+          mask-repeat: no-repeat;
+          @apply absolute w-full h-full bg-OM-red-300;
+        }
+
+        .key {
+          top: 60%;
+          left: 40%;
+          width: image-width(@img) * @scale;
+          height: image-height(@img) * @scale;
+          background-image: url(@img);
+          background-size: 100%;
+
+          @img: './img/key.svg';
+
+          @apply absolute;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+.ScrollDown {
+  transform-origin: 120px center;
+  @apply absolute capitalize text-white font-noto-regular rotate-90 bottom-0 -ml-20 text-base;
+
+  &::after {
+    height: 1px;
+    content: '';
+    @apply absolute w-12 bg-white top-1/2 ml-1;
+  }
+}

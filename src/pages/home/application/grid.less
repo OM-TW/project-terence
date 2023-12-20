@@ -1,0 +1,150 @@
+.Application {
+  .Grid {
+    @apply absolute w-full h-full overflow-hidden;
+
+    .leftCorner {
+      left: -90vh/4;
+      left: -90dvh/4;
+      @apply absolute w-full h-full opacity-30;
+
+      .cistern {
+        display: grid;
+        width: 100vh;
+        width: 100dvh;
+
+        grid-template-columns: repeat(4, 1fr);
+
+        @apply h-full relative;
+
+        & > div {
+          @apply w-full h-full relative;
+          & > div {
+            mask-repeat: repeat-x;
+            mask-position: center;
+            @apply w-full h-full absolute top-0 left-0;
+          }
+          & > div:nth-child(2) {
+            mask-image: url('../landing/img/slash-lg.svg');
+            mask-repeat: repeat-x;
+          }
+        }
+
+        .sm {
+          mask-size: auto 184%;
+          mask-position: 46.7% center;
+        }
+
+        .lg {
+          mask-size: auto 220%;
+          mask-position: 45.5% center;
+        }
+
+        & > div:nth-child(5) {
+          & > div:nth-child(1) {
+            @apply bg-OM-red-300;
+          }
+          & > div:nth-child(2) {
+            .sm;
+            @apply bg-OM-red-300;
+          }
+        }
+
+        & > div:nth-child(6) {
+          & > div:nth-child(1) {
+            @apply bg-OM-red-300;
+          }
+          & > div:nth-child(2) {
+            .sm;
+            @apply bg-black;
+          }
+        }
+
+        & > div:nth-child(9) {
+          & > div:nth-child(1) {
+            @apply bg-white;
+          }
+          & > div:nth-child(2) {
+            .lg;
+            @apply bg-black;
+          }
+        }
+        & > div:nth-child(15) {
+          & > div:nth-child(1) {
+            @apply bg-white;
+          }
+          & > div:nth-child(2) {
+            .sm;
+            @apply bg-OM-gray-300;
+          }
+        }
+      }
+    }
+
+    .rightCorner {
+      @apply absolute w-full h-full opacity-30 flex justify-end;
+
+      .cistern {
+        display: grid;
+        width: 100vh;
+        width: 100dvh;
+
+        grid-template-columns: repeat(4, 1fr);
+
+        @apply h-full relative;
+
+        & > div {
+          @apply w-full h-full relative;
+          & > div {
+            mask-repeat: repeat-x;
+            mask-position: center;
+            @apply w-full h-full absolute top-0 left-0;
+          }
+          & > div:nth-child(2) {
+            mask-image: url('../landing/img/slash-lg.svg');
+            mask-repeat: repeat-x;
+          }
+        }
+
+        .sm {
+          mask-size: auto 184%;
+          mask-position: 46.7% center;
+        }
+
+        .lg {
+          mask-size: auto 220%;
+          mask-position: 45.5% center;
+        }
+
+        & > div:nth-child(2) {
+          & > div:nth-child(1) {
+            @apply bg-black;
+          }
+          & > div:nth-child(2) {
+            .sm;
+            @apply bg-white;
+          }
+        }
+
+        & > div:nth-child(7) {
+          & > div:nth-child(1) {
+            @apply bg-OM-gray-200;
+          }
+          & > div:nth-child(2) {
+            .lg;
+            @apply bg-white;
+          }
+        }
+
+        & > div:nth-child(8) {
+          & > div:nth-child(1) {
+            @apply bg-OM-red-300;
+          }
+          & > div:nth-child(2) {
+            .sm;
+            @apply bg-black;
+          }
+        }
+      }
+    }
+  }
+}

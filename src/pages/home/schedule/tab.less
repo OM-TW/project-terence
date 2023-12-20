@@ -1,0 +1,22 @@
+.Schedule {
+  .Tab {
+    @apply w-full flex flex-row justify-center items-center;
+
+    .group {
+      @apply w-full flex flex-row justify-center items-center space-x-10;
+
+      .btn {
+        transition-duration: 0.2s;
+        @apply border-white font-noto-semiBold opacity-50 text-white text-2xl w-48 text-center leading-loose;
+
+        &:hover {
+          @apply border-b opacity-100;
+        }
+      }
+
+      .on {
+        @apply border-b opacity-100;
+      }
+    }
+  }
+}
