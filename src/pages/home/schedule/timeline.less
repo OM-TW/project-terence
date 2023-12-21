@@ -1,0 +1,84 @@
+.Schedule {
+  .Timeline {
+    @apply w-full relative flex flex-col justify-start items-center text-white mt-14;
+
+    h1 {
+      @apply text-2xl font-noto-semiBold;
+    }
+
+    .steps {
+      top: 50%;
+
+      @apply relative w-full mt-8 flex flex-row justify-center h-20;
+
+      .line {
+        margin-top: -6px;
+        @apply absolute w-full top-1/2 h-3 flex flex-row justify-center items-center;
+
+        .l {
+          width: 11%;
+          height: 1px;
+          @apply bg-secondary;
+        }
+
+        .b {
+          @apply border border-secondary w-2 h-2 rounded-full;
+        }
+
+        &::before,
+        &::after {
+          width: 8%;
+          height: 1px;
+          content: '';
+          @apply bg-secondary;
+        }
+      }
+
+      .info {
+        padding: 0 4.1%;
+        @apply absolute top-0 w-full h-full flex flex-row justify-between items-center;
+
+        & > div {
+          // background: rgba(0, 255, 9, 0.5);
+          @apply w-24 h-full relative flex flex-col;
+
+          & > div:nth-child(1),
+          & > div:nth-child(3) {
+            @apply w-full font-noto-medium text-center text-sm;
+          }
+
+          & > div:nth-child(2) {
+            @scale: 1;
+            @img: './img/check.svg';
+            @apply flex-1 w-full flex justify-center items-center;
+
+            & > div {
+              @apply w-6 h-6 bg-center bg-no-repeat rounded-full;
+            }
+
+            .over {
+              background-image: url('./img/check.svg');
+              background-position: center;
+              background-size: 50%;
+              background-repeat: no-repeat;
+              @apply bg-tertiary;
+            }
+
+            .now {
+              &::after {
+                content: '';
+
+                mask-image: url('./img/check.svg');
+                mask-position: center;
+                mask-size: 50%;
+                mask-repeat: no-repeat;
+                @apply absolute w-full h-full bg-tertiary;
+              }
+              @apply bg-white relative;
+            }
+          }
+        }
+      }
+    }
+  }
+}

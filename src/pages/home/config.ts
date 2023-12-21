@@ -2,6 +2,7 @@ import { createContext, Dispatch, SetStateAction } from 'react';
 
 export const HomePages = [
   { page: 'landing', name: '首頁' },
+  { page: 'tie', name: '年度視覺' },
   { page: 'opening', name: '招募職務' },
   { page: 'course', name: '大師獨家課' },
   { page: 'application', name: '如何申請' },

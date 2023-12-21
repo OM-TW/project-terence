@@ -4,6 +4,7 @@ import { ScheduleContext, ScheduleState } from './config';
 import Tab from './tab';
 import Steps from './steps';
 import Details from './details';
+import Timeline from './timeline';
 
 const Schedule = memo(() => {
   const value = useState(ScheduleState);
@@ -15,6 +16,7 @@ const Schedule = memo(() => {
           <Tab />
           <Steps />
           <Details />
+          <Timeline />
         </div>
       </ScheduleContext.Provider>
     </section>

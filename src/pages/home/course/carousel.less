@@ -14,7 +14,7 @@
           @apply flex flex-row flex-nowrap;
 
           .card {
-            @apply flex flex-col justify-start items-center p-2;
+            @apply flex flex-col justify-start items-center p-2 text-white;
 
             .img {
               padding-bottom: (unit(image-height(@img) / unit(image-width(@img))) * 100%);
@@ -55,7 +55,7 @@
         @apply absolute w-20 h-20 right-full mr-16 top-1/2 -mt-10;
 
         & > button {
-          @apply relative w-full h-full border rounded-full border-black font-noto-semiBold text-lg;
+          @apply relative w-full h-full border rounded-full border-white font-noto-semiBold text-lg text-white;
 
           & > span {
             @apply relative w-auto;
@@ -63,7 +63,7 @@
             &::before {
               height: 1px;
               content: '';
-              @apply w-32 absolute bg-black bottom-2 right-full mr-2;
+              @apply w-32 absolute bg-white bottom-2 right-full mr-2;
             }
           }
         }
@@ -71,7 +71,7 @@
 
       &::before {
         content: '';
-        @apply absolute w-52 h-52 bg-OM-gray-200 right-0 top-0;
+        @apply absolute w-52 h-52 bg-secondary right-0 top-0;
       }
     }
   }
