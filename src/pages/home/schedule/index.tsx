@@ -5,6 +5,7 @@ import Tab from './tab';
 import Steps from './steps';
 import Details from './details';
 import Timeline from './timeline';
+import QuickApply from '@/components/quickApply';
 
 const Schedule = memo(() => {
   const value = useState(ScheduleState);
@@ -12,11 +13,12 @@ const Schedule = memo(() => {
   return (
     <section className='Schedule'>
       <ScheduleContext.Provider value={value}>
-        <div className='w-full max-w-5xl flex flex-col justify-center items-center'>
+        <div className='w-full max-w-5xl flex flex-col justify-center items-center pb-10'>
           <Tab />
           <Steps />
           <Details />
           <Timeline />
+          <QuickApply />
         </div>
       </ScheduleContext.Provider>
     </section>

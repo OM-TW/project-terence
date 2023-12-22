@@ -1,0 +1,27 @@
+.Button-Apply {
+  @apply w-32 h-32 bg-black rounded-full flex flex-col justify-center items-center text-white font-noto-semiBold text-sm duration-200;
+
+  & > div {
+    @apply w-8 h-8 relative mb-2 duration-200;
+
+    & > div {
+      height: 0.5px;
+      @apply w-full bg-white absolute top-1/2 duration-200;
+    }
+
+    & > div:first-child {
+      @apply rotate-90;
+    }
+  }
+
+  &:hover {
+    @apply bg-white text-black;
+
+    & > div {
+      @apply rotate-180;
+      & > div {
+        @apply bg-black;
+      }
+    }
+  }
+}
