@@ -1,5 +1,5 @@
 import { IReactProps } from '@/settings/type';
-import { MouseEventHandler, memo, useContext, useEffect } from 'react';
+import { MouseEventHandler, memo, useContext } from 'react';
 import { ScheduleContext, SchedulePageType } from './config';
 import './tab.less';
 
@@ -15,7 +15,6 @@ const Button = memo(({ children, active, onClick }: P) => {
 
 const Tab = memo(() => {
   const [state, setState] = useContext(ScheduleContext);
-  useEffect(() => {}, []);
   return (
     <div className='Tab'>
       <div className='group'>

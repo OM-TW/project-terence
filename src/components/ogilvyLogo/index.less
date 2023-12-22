@@ -1,11 +1,13 @@
 .OgilvyLogo {
   width: image-width(@img) * @scale;
   height: image-height(@img) * @scale;
-  background-image: url(@img);
-  background-size: 100%;
 
+  mask-image: url(@img);
+  mask-size: 100%;
+  mask-repeat: no-repeat;
+  mask-position: center;
   @scale: 0.75;
   @img: './img/logo.svg';
 
-  @apply fixed top-5 left-5;
+  @apply fixed top-5 left-5 bg-white;
 }

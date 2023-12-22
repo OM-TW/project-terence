@@ -1,0 +1,44 @@
+.Navigation {
+  .Drawer {
+    @apply absolute h-screen top-0 bg-white right-0 overflow-hidden duration-200;
+
+    .ctx {
+      @apply absolute w-full h-full flex flex-row justify-between pl-32;
+
+      & > div:nth-child(1) {
+        width: 48rem;
+        @apply h-full flex items-center;
+
+        ol {
+          @apply justify-center items-start space-y-5;
+
+          li {
+            @apply inline-block;
+
+            & > div {
+              @apply relative w-96 pl-10 my-5;
+
+              h1 {
+                @apply font-noto-medium text-3xl tracking-widest;
+              }
+
+              span {
+                @apply font-noto-regular text-sm tracking-widest;
+              }
+
+              &::before {
+                height: 1px;
+                content: '';
+                @apply absolute w-8 bg-OM-red-300 top-1/2 left-0;
+              }
+            }
+          }
+        }
+      }
+
+      & > div:nth-child(2) {
+        @apply flex-1 h-full relative;
+      }
+    }
+  }
+}

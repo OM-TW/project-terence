@@ -1,25 +1,39 @@
 import { memo, useEffect, useState } from 'react';
 import './index.less';
-import { ScheduleContext, ScheduleState } from './config';
+import { ScheduleContext, SchedulePageType, ScheduleState } from './config';
 import Tab from './tab';
 import Steps from './steps';
 import Details from './details';
 import Timeline from './timeline';
 import QuickApply from '@/components/quickApply';
 
+const Flow = memo(() => {
+  return (
+    <>
+      <Steps />
+      <Details />
+      <Timeline />
+    </>
+  );
+});
+
+const FAQ = memo(() => {
+  return <>fff</>;
+});
+
 const Schedule = memo(() => {
   const value = useState(ScheduleState);
+  const { page } = value[0];
+
   useEffect(() => {}, []);
   return (
     <section className='Schedule'>
       <ScheduleContext.Provider value={value}>
-        <div className='w-full max-w-5xl flex flex-col justify-center items-center pb-10'>
+        <div className='w-full pb-40 max-w-5xl flex flex-col justify-start items-center pt-10'>
           <Tab />
-          <Steps />
-          <Details />
-          <Timeline />
-          <QuickApply />
+          {page === SchedulePageType.Process ? <Flow /> : <FAQ />}
         </div>
+        <QuickApply />
       </ScheduleContext.Provider>
     </section>
   );

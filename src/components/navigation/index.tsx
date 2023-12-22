@@ -1,13 +1,13 @@
-import { memo, useEffect } from 'react';
+import { memo, useState } from 'react';
+import Button from '../button';
+import Drawer from './drawer';
 import './index.less';
 
 const Navigation = memo(() => {
-  useEffect(() => {}, []);
+  const [status, setStatus] = useState(false);
+
   return (
     <nav className='Navigation'>
-      <div className='icon'>
-        <div />
-      </div>
       <div className='menu'>
         <ul>
           {['messenger', 'facebook', 'instagram'].map((e) => (
@@ -20,6 +20,15 @@ const Navigation = memo(() => {
       <div className='shortcut'>
         <button>News</button>
       </div>
+      <Drawer status={status} />
+      <Button
+        className='relative'
+        onClick={() => {
+          setStatus((S) => !S);
+        }}
+      >
+        <Button.Drawer status={status} />
+      </Button>
     </nav>
   );
 });

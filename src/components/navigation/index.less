@@ -1,22 +1,5 @@
 .Navigation {
-  @apply w-24 h-full fixed right-0 top-0 bg-white flex-col justify-between hidden lg:flex;
-
-  .icon {
-    padding-bottom: 100%;
-    @apply w-full relative;
-
-    & > div {
-      @apply absolute top-0 left-0 right-0 bottom-0;
-
-      &::before {
-        background-image: url('./img/icon.svg');
-        background-position: center;
-        background-repeat: no-repeat;
-        content: '';
-        @apply w-full h-full absolute top-0 left-0;
-      }
-    }
-  }
+  @apply w-24 h-full fixed right-0 top-0 bg-white justify-between flex-col-reverse hidden lg:flex;
 
   .menu {
     @apply w-full flex flex-col justify-start py-5;
@@ -69,7 +52,7 @@
 
   .shortcut {
     right: 100%;
-    @apply w-24 h-24 absolute bg-black text-white;
+    @apply w-24 h-24 absolute bg-black text-white top-0;
 
     & > button {
       transition-duration: 0.2s;
