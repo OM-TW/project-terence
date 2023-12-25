@@ -34,11 +34,11 @@ const Schedule = memo(() => {
   return (
     <section className='Schedule'>
       <ScheduleContext.Provider value={value}>
-        <div className='w-full pb-40 max-w-5xl flex flex-col justify-start items-center pt-10'>
+        <div className='w-full pb-56 max-w-5xl flex flex-col justify-start items-center pt-10'>
           <Tab />
           {page === SchedulePageType.Process ? <Flow /> : <FAQ />}
         </div>
-        <QuickApply />
+        {page === SchedulePageType.Process && <QuickApply />}
       </ScheduleContext.Provider>
     </section>
   );
