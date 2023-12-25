@@ -1,0 +1,37 @@
+.Schedule {
+  .Accordion {
+    @apply w-full mt-12 pr-5 lg:pr-24 pl-5 lg:pl-0;
+
+    & > .ctx {
+      @apply relative w-full p-8 text-white font-noto-semiBold border-b border-secondary duration-300;
+
+      & > div {
+        max-height: 130px;
+        @apply w-full flex relative flex-row justify-start items-center overflow-hidden;
+
+        & > div:nth-child(1) {
+          @apply flex-1 flex flex-row justify-start items-start;
+
+          & > div:nth-child(1) {
+            @apply text-3xl h-14 flex items-center;
+          }
+
+          & > div:nth-child(2) {
+            @apply flex-1 flex flex-col justify-start items-start px-5;
+            h1 {
+              @apply font-noto-semiBold text-xl h-14 flex items-center;
+            }
+
+            p {
+              @apply font-noto-semiBold text-sm text-justify;
+            }
+          }
+        }
+
+        & > div:nth-child(2) {
+          @apply h-full flex justify-center items-center px-5;
+        }
+      }
+    }
+  }
+}

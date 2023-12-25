@@ -1,0 +1,31 @@
+.Button-collapse {
+  @apply w-16 h-16 relative bg-secondary rounded-full duration-300;
+
+  &::before,
+  &::after {
+    height: 1px;
+    content: '';
+    @apply w-4 absolute bg-white rounded-full top-1/2 left-1/2 mt-2;
+  }
+
+  &::before {
+    @apply -ml-4 origin-right rotate-45;
+  }
+
+  &::after {
+    @apply origin-left -rotate-45;
+  }
+
+  &:hover {
+    @apply bg-OM-gray-400;
+    &::before,
+    &::after {
+      // @apply bg-OM-red-300;
+    }
+  }
+}
+
+.Button-collapse-active {
+  transform: scale(1, -1);
+  @apply bg-OM-red-300;
+}

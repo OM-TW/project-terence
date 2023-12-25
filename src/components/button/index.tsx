@@ -6,6 +6,7 @@ import Drawer from './drawer';
 import { twMerge } from 'tailwind-merge';
 import Close from './close';
 import Course from './course';
+import Collapse from './collapse';
 
 type T = ReadyOnly<{
   onClick?: () => void;
@@ -26,5 +27,6 @@ Button.Apply = Apply;
 Button.Drawer = Drawer;
 Button.Close = Close;
 Button.Course = Course;
+Button.Collapse = Collapse;
 
 export default Button;

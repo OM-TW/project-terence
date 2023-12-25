@@ -6,6 +6,7 @@ import Steps from './steps';
 import Details from './details';
 import Timeline from './timeline';
 import QuickApply from '@/components/quickApply';
+import Accordion from './accordion';
 
 const Flow = memo(() => {
   return (
@@ -18,7 +19,11 @@ const Flow = memo(() => {
 });
 
 const FAQ = memo(() => {
-  return <>fff</>;
+  return (
+    <>
+      <Accordion />
+    </>
+  );
 });
 
 const Schedule = memo(() => {
