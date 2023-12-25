@@ -4,15 +4,18 @@ import Apply from './apply';
 import Regular from './regular';
 import Drawer from './drawer';
 import { twMerge } from 'tailwind-merge';
+import Close from './close';
+import Course from './course';
 
 type T = ReadyOnly<{
   onClick?: () => void;
   className?: string;
+  style?: React.CSSProperties;
 }>;
 
-const Button = ({ children, onClick, className }: IReactProps & T) => {
+const Button = ({ children, onClick, className, style }: IReactProps & T) => {
   return (
-    <button className={twMerge(className)} onClick={onClick}>
+    <button className={twMerge(className)} style={style} onClick={onClick}>
       {children}
     </button>
   );
@@ -21,5 +24,7 @@ const Button = ({ children, onClick, className }: IReactProps & T) => {
 Button.Regular = Regular;
 Button.Apply = Apply;
 Button.Drawer = Drawer;
+Button.Close = Close;
+Button.Course = Course;
 
 export default Button;

@@ -1,14 +1,21 @@
-import { memo, useEffect } from 'react';
-import './index.less';
+import { memo, useState } from 'react';
 import Aside from './aside';
 import Carousel from './carousel';
+import { CourseContext, CourseState } from './config';
+import Detail from './detail';
+import './index.less';
 
 const Course = memo(() => {
-  useEffect(() => {}, []);
+  const value = useState(CourseState);
+  const { trigger } = value[0];
+
   return (
     <section className='Course'>
-      <Aside />
-      <Carousel />
+      <CourseContext.Provider {...{ value }}>
+        <Aside />
+        <Carousel />
+        {trigger && <Detail />}
+      </CourseContext.Provider>
     </section>
   );
 });

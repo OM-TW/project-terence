@@ -1,6 +1,7 @@
 import { MENU } from '@/settings/config';
 import { memo } from 'react';
 import { twMerge } from 'tailwind-merge';
+import Aside from './aside';
 import './drawer.less';
 
 const Drawer = memo(({ status }: { status: boolean }) => (
@@ -18,7 +19,9 @@ const Drawer = memo(({ status }: { status: boolean }) => (
           ))}
         </ol>
       </div>
-      <div></div>
+      <div>
+        <Aside />
+      </div>
     </div>
   </div>
 ));

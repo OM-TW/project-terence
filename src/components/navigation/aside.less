@@ -1,0 +1,75 @@
+.Navigation {
+  .Aside {
+    @apply w-full relative h-full flex flex-col justify-between items-start;
+
+    .grid {
+      @apply relative w-52 h-52 bg-OM-gray-100 left-10;
+
+      & > div {
+        top: 60%;
+        left: 60%;
+        @apply absolute w-32 h-32 bg-OM-red-300;
+
+        &::before {
+          content: '';
+
+          mask-image: url('../../pages/home/landing/img/slash-lg.svg');
+          mask-repeat: repeat-x;
+          mask-size: auto 184%;
+          mask-position: 46.7% center;
+          @apply absolute w-full h-full bg-black;
+        }
+      }
+    }
+
+    .contact {
+      @apply w-full flex flex-row space-x-10 justify-end pb-16 pr-24;
+
+      & > div {
+        @apply h-full;
+      }
+
+      & > div:nth-child(1) {
+        @apply flex flex-row space-x-1 pt-2;
+
+        & > button {
+          mask-position: center;
+          mask-repeat: no-repeat;
+
+          @apply w-7 h-7 bg-black;
+
+          &:hover {
+            @apply bg-OM-red-300;
+          }
+        }
+
+        .fb {
+          mask-image: url(./img/fb.svg);
+          mask-size: 30%;
+        }
+
+        .ig {
+          mask-image: url(./img/ig.svg);
+          mask-size: 70%;
+        }
+      }
+
+      & > div:nth-child(2),
+      & > div:nth-child(3) {
+        @apply font-noto-semiBold tracking-widest text-sm;
+
+        a {
+          @apply underline underline-offset-2;
+
+          &:hover {
+            @apply text-OM-red-300;
+          }
+        }
+
+        & > span {
+          @apply uppercase leading-8;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,59 @@
+.Course {
+  .Detail {
+    @apply fixed w-full h-full bg-OM-gray-100 top-0 left-0 z-10;
+
+    .close {
+      @apply absolute right-0 top-0;
+    }
+
+    .controller {
+      @apply absolute bottom-52 left-80 w-56 flex flex-row justify-between;
+
+      &::before {
+        margin-top: 6px;
+        margin-left: -4rem;
+        width: 8rem;
+        height: 1px;
+        content: '';
+        @apply absolute bg-black top-1/2 left-1/2;
+      }
+    }
+
+    .pagination {
+      width: 36rem;
+      @apply absolute bottom-32 right-0 flex justify-center;
+
+      & > div {
+        @apply w-52 flex justify-between relative font-noto-medium items-center;
+
+        & > span:nth-child(1) {
+          @apply text-xl;
+        }
+        & > span:nth-child(2) {
+          @apply text-sm opacity-50;
+        }
+
+        &::before {
+          margin-left: -4.5rem;
+          height: 1px;
+          content: '';
+          @apply absolute w-36 bg-black top-1/2 left-1/2;
+        }
+      }
+
+      &::after {
+        bottom: 3rem;
+        width: 36rem;
+        height: 36rem;
+        content: '';
+
+        mask-repeat: repeat-x;
+        mask-image: url('./img/slash.svg');
+        mask-size: auto 130%;
+        mask-position: 36.9% center;
+
+        @apply absolute bg-white;
+      }
+    }
+  }
+}

@@ -4,6 +4,6 @@ import './regular.less';
 
 const Regular = memo(({ children }: IReactProps) => {
   useEffect(() => {}, []);
-  return <div className='button-regular'>{children}</div>;
+  return <div className='Button-regular'>{children}</div>;
 });
 export default Regular;

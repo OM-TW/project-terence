@@ -2,7 +2,7 @@
   .Carousel {
     padding-top: 21rem;
     padding-left: 36rem;
-    @apply absolute w-full;
+    @apply absolute w-full pr-24;
 
     & > div {
       @apply relative w-full;
@@ -14,7 +14,7 @@
           @apply flex flex-row flex-nowrap;
 
           .card {
-            @apply flex flex-col justify-start items-center p-2 text-white;
+            @apply flex flex-col justify-start items-center p-2 text-white duration-200;
 
             .img {
               padding-bottom: (unit(image-height(@img) / unit(image-width(@img))) * 100%);
@@ -47,6 +47,10 @@
             p {
               @apply font-noto-regular text-sm py-1;
             }
+
+            &:hover {
+              @apply bg-OM-gray-300;
+            }
           }
         }
       }
@@ -71,7 +75,7 @@
 
       &::before {
         content: '';
-        @apply absolute w-52 h-52 bg-secondary right-0 top-0;
+        @apply absolute w-52 h-52 bg-secondary right-10 -top-14;
       }
     }
   }

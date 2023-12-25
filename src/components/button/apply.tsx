@@ -4,7 +4,7 @@ import './apply.less';
 const Apply = memo(() => {
   useEffect(() => {}, []);
   return (
-    <div className='Button-Apply'>
+    <div className='Button-apply'>
       <div>
         <div />
         <div />

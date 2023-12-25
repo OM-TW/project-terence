@@ -1,0 +1,33 @@
+.Button-close {
+  @apply w-16 h-16 bg-black relative;
+  &::after,
+  &::before {
+    margin-left: -25%;
+    width: 50%;
+    height: 2px;
+    content: '';
+    @apply absolute bg-OM-gray-100 top-1/2 left-1/2 duration-300;
+  }
+
+  &::after {
+    transform: rotate(45deg);
+  }
+
+  &::before {
+    transform: rotate(-45deg);
+  }
+
+  &:hover {
+    @apply bg-OM-red-300;
+    &::after,
+    &::before {
+      @apply bg-black;
+    }
+    &::after {
+      transform: rotate(45deg + 180deg);
+    }
+    &::before {
+      transform: rotate(-45deg - 180deg);
+    }
+  }
+}
