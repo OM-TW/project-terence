@@ -1,0 +1,27 @@
+.About {
+  .Phase {
+    margin-top: 690px;
+    @apply relative w-full pointer-events-none flex flex-col justify-start items-center;
+
+    .action {
+      @apply w-32 h-32 bg-OM-red-300 rounded-full flex justify-center items-center text-center flex-col text-white text-base font-noto-medium;
+
+      &::after {
+        width: image-width(@img) * @scale;
+        height: image-height(@img) * @scale;
+        background-image: url(@img);
+        background-size: 100%;
+        content: '';
+
+        @scale: 0.6;
+        @img: './img/arrow.svg';
+        @apply relative mt-2;
+      }
+    }
+
+    .streak {
+      width: 1px;
+      @apply h-52 bg-OM-red-300;
+    }
+  }
+}
