@@ -1,0 +1,1 @@
+import{b as s,j as e}from"./index-Co7cd-Mi.js";const r=s.memo(()=>(s.useEffect(()=>{},[]),e.jsx("div",{className:"Header",children:e.jsxs("div",{children:["就是相信自己",e.jsx("br",{}),"永遠可以更棒。"]})}))),c=s.memo(()=>(s.useEffect(()=>{},[]),e.jsx("section",{className:"Experience",children:e.jsx(r,{})})));export{c as default};
