@@ -6,7 +6,7 @@ import Header from './header';
 import './index.less';
 
 const Container = memo(({ children }: IReactProps) => (
-  <div className='w-full h-1/2'>{children}</div>
+  <div className='w-full h-full'>{children}</div>
 ));
 
 const Landing = memo(() => {
