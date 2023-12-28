@@ -10,7 +10,9 @@ type T = IReactProps & {
 const Course = memo(({ children, active }: T) => {
   useEffect(() => {}, []);
   return (
-    <div className={twMerge('Button-course', active ? 'Button-course-on' : '')}>{children}</div>
+    <div className={twMerge('Button-course', active ? 'Button-course-on' : '')}>
+      <div className='relative'>{children}</div>
+    </div>
   );
 });
 export default Course;

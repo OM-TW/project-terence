@@ -43,9 +43,11 @@ const Carousel = memo(() => {
           </div>
         </div>
         <div className='more'>
-          <Button onClick={() => setState((S) => ({ ...S, trigger: true }))}>
-            <span>More</span>
-          </Button>
+          <div>
+            <Button onClick={() => setState((S) => ({ ...S, trigger: true }))}>
+              <span>More</span>
+            </Button>
+          </div>
         </div>
       </div>
     </div>

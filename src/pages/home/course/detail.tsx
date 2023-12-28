@@ -20,6 +20,7 @@ const Detail = memo(() => {
           <span className='current'>{Pad(index + 1, 2)}</span>
           <span className='total'>{Pad(CourseMonsters.length, 2)}</span>
         </div>
+        <div className='temp' />
       </div>
       <div className='controller'>
         <Button

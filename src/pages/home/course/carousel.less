@@ -2,7 +2,15 @@
   .Carousel {
     padding-top: 21rem;
     padding-left: 36rem;
-    @apply absolute w-full pr-24;
+    @apply relative w-full pb-24 lg:pb-0;
+
+    @media only screen and (max-width: 1024px) {
+      & {
+        padding-top: 30rem;
+        padding-left: 0rem;
+        @apply pr-0;
+      }
+    }
 
     & > div {
       @apply relative w-full;
@@ -56,18 +64,22 @@
       }
 
       .more {
-        @apply absolute w-20 h-20 right-full mr-16 top-1/2 -mt-10;
+        @apply w-full flex justify-end lg:w-auto relative lg:absolute lg:right-full mr-16 top-1/2 mt-10;
 
-        & > button {
-          @apply relative w-full h-full border rounded-full border-white font-noto-semiBold text-lg text-white;
+        & > div {
+          @apply w-20 h-20 m-5 lg:m-0;
 
-          & > span {
-            @apply relative w-auto;
+          & > button {
+            @apply relative w-full h-full border rounded-full border-white font-noto-semiBold text-lg text-white;
 
-            &::before {
-              height: 1px;
-              content: '';
-              @apply w-32 absolute bg-white bottom-2 right-full mr-2;
+            & > span {
+              @apply relative w-auto;
+
+              &::before {
+                height: 1px;
+                content: '';
+                @apply w-32 absolute bg-white bottom-2 right-full mr-2;
+              }
             }
           }
         }
