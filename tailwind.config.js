@@ -16,10 +16,10 @@ export default {
       ...fontSize,
     },
     fontFamily: {
-      'noto-black': ['Noto Serif TC Black', 'serif'],
-      'noto-semiBold': ['Noto Serif TC SemiBold', 'serif'],
-      'noto-medium': ['Noto Serif TC Medium', 'serif'],
-      'noto-regular': ['Noto Serif TC Regular', 'serif'],
+      'noto-black': ['Noto Serif TC', 'serif'],
+      'noto-semiBold': ['Noto Serif TC', 'serif'],
+      'noto-medium': ['Noto Serif TC', 'serif'],
+      'noto-regular': ['Noto Serif TC', 'serif'],
     },
     colors: {
       ...color,

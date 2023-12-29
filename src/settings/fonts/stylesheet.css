@@ -15,7 +15,8 @@
   font-family: 'Noto Serif TC SemiBold';
   src:
     url('subset-NotoSerifTC-SemiBold-Alphabetic.woff2') format('woff2'),
-    url('subset-NotoSerifTC-SemiBold-Alphabetic.woff') format('woff');
+    url('subset-NotoSerifTC-SemiBold-Alphabetic.woff') format('woff'),
+    url('subset-NotoSerifTC-SemiBold-Alphabetic.svg#NotoSerifTC-SemiBold-Alphabetic') format('svg');
 
   font-display: swap;
 }
