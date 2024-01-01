@@ -1,0 +1,19 @@
+.Select {
+  border-width: 0.5px;
+  background-image: url('./img/arrow.svg');
+  background-position: calc(~'100% - 1rem') center;
+  background-size: auto 60%;
+  background-repeat: no-repeat;
+  cursor: pointer;
+
+  appearance: none;
+  @apply relative bg-transparent pl-10 pr-24 py-3 text-left outline-none border-white text-white font-noto-medium;
+
+  option {
+    direction: ltr;
+  }
+
+  &:hover {
+    @apply bg-OM-red-200;
+  }
+}

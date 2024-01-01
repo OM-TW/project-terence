@@ -1,44 +1,42 @@
 .Experience {
   .Header {
-    @apply relative pt-24 pl-44;
+    @apply relative pt-24 pl-44 flex flex-row justify-between items-center;
 
-    .title {
-      @apply relative -indent-20 ml-12 text-5xl leading-relaxed text-white tracking-wider font-noto-medium;
-    }
-
-    .sub {
-      @apply relative text-base text-white tracking-wider mt-8 flex flex-row items-center font-noto-medium;
-
-      &::before {
-        height: 1px;
-        content: '';
-        @apply w-10 bg-white relative mr-5;
+    & > div:nth-child(1) {
+      @apply w-1/2 relative;
+      .title {
+        @apply relative -indent-20 ml-12 text-5xl leading-relaxed text-white tracking-wider font-noto-medium;
       }
-    }
 
-    .select {
-      @apply mt-5;
-      select {
-        appearance: none;
-        @apply bg-transparent pl-10 pr-16 py-3 text-left outline-none border border-white text-white font-noto-medium;
+      .sub {
+        @apply relative text-base text-white tracking-wider mt-8 flex flex-row items-center font-noto-medium;
 
-        option {
-          direction: ltr;
+        &::before {
+          height: 1px;
+          content: '';
+          @apply w-10 bg-white relative mr-5;
         }
       }
+
+      .select {
+        @apply mt-5;
+      }
+
+      &::before {
+        top: -24px;
+        left: -75px;
+        content: '';
+
+        mask-image: url('../landing/img/slash-lg.svg');
+        mask-repeat: repeat-x;
+        mask-size: auto 124%;
+        mask-position: 50% center;
+
+        @apply absolute w-32 h-32 bg-secondary rounded-full;
+      }
     }
-
-    &::before {
-      top: 66px;
-      left: 95px;
-      content: '';
-
-      mask-image: url('../landing/img/slash-lg.svg');
-      mask-repeat: repeat-x;
-      mask-size: auto 124%;
-      mask-position: 50% center;
-
-      @apply absolute w-32 h-32 bg-secondary rounded-full;
+    & > div:nth-child(2) {
+      @apply flex-1;
     }
   }
 }
