@@ -47,7 +47,9 @@ const Carousel = memo(() => {
 
   const x = useMemo(() => {
     if (offset === 0) return 0;
-    return 0 - offset * percent;
+    const currentOffset = offset + 96;
+    if (percent >= 1) return 0 - currentOffset;
+    return 0 - currentOffset * percent;
   }, [percent, offset]);
 
   return (

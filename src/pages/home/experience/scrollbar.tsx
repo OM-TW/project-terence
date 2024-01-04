@@ -3,17 +3,19 @@ import Draggable, { DraggableEventHandler } from 'react-draggable';
 import { ExperienceContext } from './config';
 
 const ScrollBar = memo(() => {
+  const DraggableRef = useRef<Draggable>(null);
+
   const [, setState] = useContext(ExperienceContext);
   const ref = useRef<HTMLDivElement>(null);
   const [right, setRight] = useState<number>(0);
-  const [gap, setGap] = useState<number>(0);
 
   useEffect(() => {
     const resize = () => {
-      if (ref.current) {
-        setRight(ref.current?.getBoundingClientRect().width - 20 || 0);
+      if (ref.current) setRight(ref.current?.getBoundingClientRect().width - 20 || 0);
+      setState((S) => ({ ...S, percent: 0 }));
+      if (DraggableRef.current) {
+        DraggableRef.current.setState({ x: 0 });
       }
-      setGap(window.innerWidth >= 1024 ? 96 : 50);
     };
     resize();
     window.addEventListener('resize', resize);
@@ -21,7 +23,7 @@ const ScrollBar = memo(() => {
   }, []);
 
   const eventLogger: DraggableEventHandler = (_, data) => {
-    const percent = data.x / (right - gap);
+    const percent = data.x / right;
     setState((S) => ({ ...S, percent }));
   };
 
@@ -29,7 +31,7 @@ const ScrollBar = memo(() => {
     <div className='scroll'>
       <div ref={ref} className='bar'>
         {ref.current && (
-          <Draggable onDrag={eventLogger} axis='x' bounds={{ left: 0, right }}>
+          <Draggable ref={DraggableRef} onDrag={eventLogger} axis='x' bounds={{ left: 0, right }}>
             <div className='btn' />
           </Draggable>
         )}
