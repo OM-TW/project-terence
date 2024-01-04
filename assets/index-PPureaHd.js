@@ -1,0 +1,1 @@
+import{b as o,j as t}from"./index-CYh-XvDA.js";const r=o.memo(({children:e})=>(o.useEffect(()=>(document.body.style.overflow="hidden",()=>{document.body.style.overflow="auto"})),t.jsx("div",{className:"Dialog",children:e})));export{r as D};
