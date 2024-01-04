@@ -1,0 +1,73 @@
+.Experience {
+  .Carousel {
+    @apply w-full pl-0 lg:pl-32 pt-10;
+
+    .slide {
+      display: inline-block;
+      background-image: url('./img/border.svg');
+      background-position: left center;
+      background-size: 6px auto;
+      background-repeat: no-repeat;
+      @apply bg-white w-72 px-5 py-14 space-y-5;
+
+      .title {
+        @apply flex flex-row justify-start font-noto-medium;
+
+        h2 {
+          @apply text-xl px-2 tracking-widest;
+        }
+
+        & > div {
+          width: 1px;
+          transform: rotate(25.5deg);
+          @apply h-12 bg-black;
+        }
+
+        span {
+          @apply pt-5 px-2 text-base tracking-wider;
+        }
+      }
+
+      .content {
+        display: -webkit-box;
+        overflow: hidden;
+        -webkit-box-orient: vertical;
+        min-height: 104px;
+        max-width: 200px;
+
+        -webkit-line-clamp: 4;
+        @apply leading-relaxed;
+      }
+    }
+
+    .scroll {
+      @apply w-full py-10 px-10 lg:px-0;
+
+      .bar {
+        height: 1px;
+
+        @apply w-full bg-secondary;
+
+        .btn {
+          @apply w-1 h-1 bg-primary relative;
+
+          &::before {
+            background-image: url('./img/scroll-symbol.svg');
+            background-position: center;
+            background-size: 50% auto;
+            background-repeat: no-repeat;
+            content: '';
+
+            @apply absolute w-10 h-10 bg-white rounded-full cursor-pointer -mt-5 -ml-5;
+          }
+
+          &:active {
+            &::before {
+              @apply bg-OM-gray-200;
+            }
+          }
+        }
+      }
+    }
+  }
+}

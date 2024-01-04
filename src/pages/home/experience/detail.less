@@ -1,0 +1,47 @@
+.Experience {
+  .Detail {
+    .close {
+      @apply absolute right-0 top-0;
+    }
+
+    .context {
+      @apply w-full h-full overflow-y-scroll p-20;
+
+      .header {
+        @apply flex flex-row justify-start items-center border-b border-OM-gray-200 pb-20;
+
+        h2 {
+          @apply text-6xl font-noto-semiBold flex flex-row justify-start items-baseline -mt-8;
+
+          span {
+            @apply text-2xl;
+          }
+        }
+
+        hr {
+          width: 0.5px;
+          transform: rotate(30deg);
+          @apply h-20 bg-OM-gray-300 mx-7;
+        }
+
+        .sub {
+          span {
+            @apply font-noto-semiBold text-lg tracking-wider;
+          }
+
+          h3 {
+            @apply font-noto-medium text-4xl;
+          }
+        }
+      }
+
+      .body {
+        @apply w-full py-10 font-noto-medium text-base;
+
+        p {
+          @apply py-4;
+        }
+      }
+    }
+  }
+}

@@ -39,11 +39,11 @@
         @apply absolute top-0 w-full h-full flex flex-row justify-between items-center;
 
         & > div {
-          @apply w-24 h-full relative flex flex-col;
+          @apply w-24 h-full relative flex flex-col text-ellipsis whitespace-nowrap;
 
           & > div:nth-child(1),
           & > div:nth-child(3) {
-            @apply w-full font-noto-medium text-center text-sm;
+            @apply w-full font-noto-medium text-center text-sm md:text-sm;
           }
 
           & > div:nth-child(2) {

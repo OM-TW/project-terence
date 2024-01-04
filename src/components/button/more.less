@@ -1,0 +1,43 @@
+.Button-More {
+  @apply relative border duration-200 rounded-full font-noto-semiBold flex justify-center items-center;
+
+  & > span {
+    @apply relative w-auto;
+
+    &::before {
+      height: 1px;
+      content: '';
+      @apply w-32 absolute bottom-2 right-full mr-2;
+    }
+  }
+
+  &:hover {
+    @apply bg-black text-white;
+  }
+}
+
+.Button-More-large {
+  @apply w-24 h-24 bg-transparent text-lg text-white border-white;
+  & > span {
+    &::before {
+      @apply bg-white;
+    }
+  }
+}
+
+.Button-More-small {
+  @apply w-16 h-16 bg-transparent text-sm text-black border-black;
+  & > span {
+    &::before {
+      @apply bg-black;
+    }
+  }
+
+  &:hover {
+    & > span {
+      &::before {
+        @apply bg-OM-gray-200;
+      }
+    }
+  }
+}

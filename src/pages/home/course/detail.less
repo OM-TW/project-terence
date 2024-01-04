@@ -1,7 +1,5 @@
 .Course {
   .Detail {
-    @apply fixed w-full h-full bg-OM-gray-100 top-0 left-0 z-10;
-
     .close {
       @apply absolute right-0 top-0;
     }
@@ -21,6 +19,7 @@
 
     .pagination {
       width: 36rem;
+
       @apply absolute bottom-32 right-0 flex justify-center;
 
       @media only screen and (max-width: 1024px) {
@@ -30,7 +29,7 @@
       }
 
       & > div:not(.temp) {
-        @apply w-52 flex justify-between relative font-noto-medium items-center;
+        @apply w-60 flex justify-between relative font-noto-medium items-center bg-OM-gray-100 z-10 px-5;
 
         & > span:nth-child(1) {
           @apply text-xl;
@@ -57,9 +56,15 @@
         @img: './img/d1.png';
         @apply absolute -bottom-32 right-52 mix-blend-luminosity;
 
+        @media only screen and (max-width: 1500px) {
+          & {
+            @apply right-0;
+          }
+        }
+
         @media only screen and (max-width: 1024px) {
           & {
-            @apply right-5;
+            @apply -right-60;
           }
         }
       }

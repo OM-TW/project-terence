@@ -1,12 +1,13 @@
 import { IReactProps } from '@/settings/type';
 import { ReadyOnly } from '@/settings/type-unity';
-import Apply from './apply';
-import Regular from './regular';
-import Drawer from './drawer';
 import { twMerge } from 'tailwind-merge';
+import Apply from './apply';
 import Close from './close';
-import Course from './course';
 import Collapse from './collapse';
+import Course from './course';
+import Drawer from './drawer';
+import More from './more';
+import Regular from './regular';
 
 type T = ReadyOnly<{
   onClick?: () => void;
@@ -28,5 +29,6 @@ Button.Drawer = Drawer;
 Button.Close = Close;
 Button.Course = Course;
 Button.Collapse = Collapse;
+Button.More = More;
 
 export default Button;
