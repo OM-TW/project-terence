@@ -14,7 +14,7 @@ const ScrollBar = memo(() => {
       if (ref.current) setRight(ref.current?.getBoundingClientRect().width - 20 || 0);
       setState((S) => ({ ...S, percent: 0 }));
       if (DraggableRef.current) {
-        DraggableRef.current.setState({ x: 0 });
+        DraggableRef.current.setState((S) => ({ ...S, x: 0 }));
       }
     };
     resize();

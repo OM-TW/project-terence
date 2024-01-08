@@ -8,6 +8,7 @@ import Course from './course';
 import Drawer from './drawer';
 import More from './more';
 import Regular from './regular';
+import Terence from './terence';
 
 type T = ReadyOnly<{
   onClick?: () => void;
@@ -30,5 +31,6 @@ Button.Close = Close;
 Button.Course = Course;
 Button.Collapse = Collapse;
 Button.More = More;
+Button.Terence = Terence;
 
 export default Button;

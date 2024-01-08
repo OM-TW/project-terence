@@ -1,0 +1,24 @@
+.Button-terence {
+  @apply relative w-full max-w-2xl text-white flex flex-col items-start justify-start space-y-2 py-5 border-b border-b-secondary;
+
+  h1 {
+    @apply font-noto-medium text-3xl;
+  }
+
+  p {
+    @apply font-noto-regular text-sm;
+  }
+
+  &::after {
+    width: 8%;
+    height: 1px;
+    content: '';
+    @apply absolute bottom-0 left-0 bg-white transition-all duration-300;
+  }
+
+  &:hover {
+    &::after {
+      width: 100%;
+    }
+  }
+}
