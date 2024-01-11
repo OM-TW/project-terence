@@ -1,6 +1,7 @@
 import { IReactProps } from '@/settings/type';
 import { memo, useEffect } from 'react';
 import './index.less';
+import { MacScrollbar } from 'mac-scrollbar';
 
 const Dialog = memo(({ children }: IReactProps) => {
   useEffect(() => {
@@ -9,6 +10,10 @@ const Dialog = memo(({ children }: IReactProps) => {
       document.body.style.overflow = 'auto';
     };
   });
-  return <div className='Dialog'>{children}</div>;
+  return (
+    <div className='Dialog'>
+      <MacScrollbar>{children}</MacScrollbar>
+    </div>
+  );
 });
 export default Dialog;

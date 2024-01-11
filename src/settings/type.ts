@@ -47,3 +47,7 @@ export type TContext = [IState, Dispatch<IAction>];
 export interface IReactProps {
   readonly children?: ReactNode;
 }
+
+export type ScrollbarElement = HTMLDivElement & {
+  set: (v: number) => void;
+};

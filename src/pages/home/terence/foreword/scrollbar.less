@@ -1,0 +1,33 @@
+.Terence {
+  .Foreword {
+    .ScrollBar {
+      @apply w-full py-10 px-10 lg:px-0 lg:pl-32;
+
+      .bar {
+        height: 1px;
+
+        @apply w-full bg-white;
+
+        .btn {
+          @apply w-1 h-1 bg-primary relative;
+
+          &::before {
+            background-image: url('./img/scrollbar.svg');
+            background-position: center;
+            background-size: 50% auto;
+            background-repeat: no-repeat;
+            content: '';
+
+            @apply absolute w-10 h-10 bg-black rounded-full cursor-pointer -mt-5 -ml-5;
+          }
+
+          &:active {
+            &::before {
+              @apply bg-OM-gray-200;
+            }
+          }
+        }
+      }
+    }
+  }
+}

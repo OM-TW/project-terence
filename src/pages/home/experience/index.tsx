@@ -1,13 +1,13 @@
-import { memo, useEffect, useState } from 'react';
+import { memo, useState } from 'react';
 import Carousel from './carousel';
-import Header from './header';
-import './index.less';
 import { ExperienceContext, ExperienceState } from './config';
 import Detail from './detail';
+import Header from './header';
+import './index.less';
 
 const Experience = memo(() => {
   const value = useState(ExperienceState);
-  useEffect(() => {}, []);
+
   return (
     <ExperienceContext.Provider value={value}>
       <section className='Experience'>

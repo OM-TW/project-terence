@@ -1,15 +1,24 @@
 import Button from '@/components/button';
 import Dialog from '@/components/dialog';
-import { memo, useContext, useEffect } from 'react';
+import { memo, useContext, useEffect, useMemo } from 'react';
 import { TerenceContext } from './config';
 import './detail.less';
+import About from './about';
+import Foreword from './foreword';
 
 const Detail = memo(() => {
-  const [, setState] = useContext(TerenceContext);
+  const [state, setState] = useContext(TerenceContext);
+  const { index } = state;
+
   useEffect(() => {}, []);
+  const Page = useMemo(() => {
+    return [<About />, <Foreword />][index];
+  }, [index]);
+
   return (
     <Dialog>
       <div className='Detail'>
+        {Page}
         <div className='close'>
           <Button onClick={() => setState((S) => ({ ...S, trigger: false }))}>
             <Button.Close />

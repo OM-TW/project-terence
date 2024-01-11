@@ -1,17 +1,17 @@
-import { forwardRef, useImperativeHandle, useContext, useEffect, useRef, useState } from 'react';
+import { forwardRef, useContext, useEffect, useImperativeHandle, useRef, useState } from 'react';
 import Draggable, { DraggableEventHandler } from 'react-draggable';
-import { ExperienceContext } from './config';
+import { ForewordContext } from './config';
+import './scrollbar.less';
 
 const ScrollBar = forwardRef((_, ref) => {
+  const [, setState] = useContext(ForewordContext);
   const DraggableRef = useRef<Draggable>(null);
-
-  const [, setState] = useContext(ExperienceContext);
-  const scrollRef = useRef<HTMLDivElement>(null);
+  const barRef = useRef<HTMLDivElement>(null);
   const [right, setRight] = useState<number>(0);
 
   useEffect(() => {
     const resize = () => {
-      if (scrollRef.current) setRight(scrollRef.current?.getBoundingClientRect().width - 20 || 0);
+      if (barRef.current) setRight(barRef.current?.getBoundingClientRect().width - 20 || 0);
       setState((S) => ({ ...S, percent: 0 }));
       if (DraggableRef.current) {
         DraggableRef.current.setState((S) => ({ ...S, x: 0 }));
@@ -50,9 +50,9 @@ const ScrollBar = forwardRef((_, ref) => {
   }));
 
   return (
-    <div className='scroll'>
-      <div ref={scrollRef} className='bar'>
-        {scrollRef.current && (
+    <div className='ScrollBar'>
+      <div ref={barRef} className='bar'>
+        {barRef.current && (
           <Draggable ref={DraggableRef} onDrag={eventLogger} axis='x' bounds={{ left: 0, right }}>
             <div className='btn' />
           </Draggable>

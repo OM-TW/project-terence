@@ -1,6 +1,7 @@
-import { memo, useContext, useEffect, useMemo, useRef, useState } from 'react';
-import './carousel.less';
 import Button from '@/components/button';
+import { ScrollbarElement } from '@/settings/type';
+import { WheelEvent, memo, useContext, useEffect, useMemo, useRef, useState } from 'react';
+import './carousel.less';
 import { ExperienceContext, ExperienceList } from './config';
 import ScrollBar from './scrollbar';
 
@@ -30,8 +31,11 @@ const Carousel = memo(() => {
   const { percent } = state;
 
   const slickRef = useRef<HTMLDivElement>(null);
+  const scrollRef = useRef<ScrollbarElement>(null);
   const totalWidth = ExperienceList.length * 272;
   const [offset, getOffset] = useState<number>(0);
+
+  const touchProperty = useRef({ x: 0, enabled: false });
 
   useEffect(() => {
     const resize = () => {
@@ -52,19 +56,37 @@ const Carousel = memo(() => {
     return 0 - currentOffset * percent;
   }, [percent, offset]);
 
+  const onWheel = (e: WheelEvent<HTMLDivElement>) => {
+    if (scrollRef.current) scrollRef.current.set(e.deltaX);
+  };
+
   return (
     <div className='Carousel'>
       <div ref={slickRef} className='w-full overflow-x-hidden pl-12 pr-5 py-10'>
         <div
           style={{ width: `${totalWidth}px`, transform: `translateX(${x}px)` }}
           className='flex flex-nowrap space-x-5 duration-100'
+          onWheel={onWheel}
+          onTouchStart={(e) => {
+            touchProperty.current.enabled = true;
+            touchProperty.current.x = e.touches[0].clientX;
+          }}
+          onTouchMove={(e) => {
+            const currentX = e.touches[0].clientX;
+            const delta = Math.floor(touchProperty.current.x - currentX);
+            scrollRef.current?.set(delta);
+            touchProperty.current.x = currentX;
+          }}
+          onTouchEnd={() => {
+            touchProperty.current.enabled = false;
+          }}
         >
           {ExperienceList.map((data, index) => {
             return <Slide key={JSON.stringify(data)} data={data} index={index} />;
           })}
         </div>
       </div>
-      <ScrollBar />
+      <ScrollBar ref={scrollRef} />
     </div>
   );
 });
