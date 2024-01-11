@@ -1,0 +1,1 @@
+import{b as o,j as e,v as s}from"./index-xImf41Mx.js";const a=o.memo(({children:t})=>(o.useEffect(()=>(document.body.style.overflow="hidden",()=>{document.body.style.overflow="auto"})),e.jsx("div",{className:"Dialog",children:e.jsx(s,{children:t})})));export{a as D};
