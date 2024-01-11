@@ -1,11 +1,12 @@
 .Course {
   .Detail {
+    // min-height: 880px;
     .close {
-      @apply absolute right-0 top-0;
+      @apply fixed right-0 top-0;
     }
 
     .controller {
-      @apply absolute bottom-52 left-5 lg:left-80 w-56 flex flex-row justify-between;
+      @apply fixed bottom-52 left-5 lg:left-80 w-56 flex flex-row justify-between;
 
       &::before {
         margin-top: 6px;
@@ -15,12 +16,30 @@
         content: '';
         @apply absolute bg-black top-1/2 left-1/2;
       }
+
+      @media only screen and (max-height: 750px) {
+        & {
+          @apply bottom-16;
+        }
+      }
+
+      @media only screen and (max-height: 600px) {
+        & {
+          @apply bottom-6;
+        }
+      }
     }
 
     .pagination {
       width: 36rem;
 
       @apply absolute bottom-32 right-0 flex justify-center;
+
+      @media only screen and (max-height: 750px) {
+        & {
+          @apply bottom-8;
+        }
+      }
 
       @media only screen and (max-width: 1024px) {
         & {
@@ -65,6 +84,12 @@
         @media only screen and (max-width: 1024px) {
           & {
             @apply -right-60;
+          }
+        }
+
+        @media only screen and (max-height: 600px) {
+          & {
+            // @apply hidden;
           }
         }
       }

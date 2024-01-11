@@ -2,6 +2,12 @@
   .Aside {
     @apply w-full h-full pt-24 top-0 pointer-events-none;
 
+    @media screen and (max-height: 650px) {
+      & {
+        @apply pt-5;
+      }
+    }
+
     & > div {
       @apply w-full h-full flex justify-start items-start;
 
@@ -23,6 +29,12 @@
 
       .descriptions {
         @apply w-auto ml-28 mt-28 text-white relative;
+
+        @media screen and (max-height: 650px) {
+          & {
+            @apply mt-0;
+          }
+        }
 
         h1 {
           @apply relative text-6xl font-noto-medium tracking-widest;

@@ -9,8 +9,8 @@ const Detail = memo(() => {
   const [state, setState] = useContext(CourseContext);
   const { index } = state;
   return (
-    <div className='Detail'>
-      <Dialog>
+    <Dialog>
+      <div className='Detail'>
         <div className='pagination'>
           <div>
             <span className='current'>{Pad(index + 1, 2)}</span>
@@ -45,8 +45,8 @@ const Detail = memo(() => {
             <Button.Close />
           </Button>
         </div>
-      </Dialog>
-    </div>
+      </div>
+    </Dialog>
   );
 });
 export default Detail;
