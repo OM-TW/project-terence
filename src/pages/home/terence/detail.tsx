@@ -5,6 +5,8 @@ import { TerenceContext } from './config';
 import './detail.less';
 import About from './about';
 import Foreword from './foreword';
+import Seven from './seven';
+import Quotes from './quotes';
 
 const Detail = memo(() => {
   const [state, setState] = useContext(TerenceContext);
@@ -12,7 +14,7 @@ const Detail = memo(() => {
 
   useEffect(() => {}, []);
   const Page = useMemo(() => {
-    return [<About />, <Foreword />][index];
+    return [<About />, <Foreword />, <Seven />, <Quotes />][index];
   }, [index]);
 
   return (

@@ -1,8 +1,10 @@
+@BreakPoint: 650px;
+
 .Course {
   .Aside {
     @apply w-full h-full pt-24 top-0 pointer-events-none;
 
-    @media screen and (max-height: 650px) {
+    @media screen and (max-height: @BreakPoint) {
       & {
         @apply pt-5;
       }
@@ -30,7 +32,7 @@
       .descriptions {
         @apply w-auto ml-28 mt-28 text-white relative;
 
-        @media screen and (max-height: 650px) {
+        @media screen and (max-height: @BreakPoint) {
           & {
             @apply mt-0;
           }

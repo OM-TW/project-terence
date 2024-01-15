@@ -1,3 +1,4 @@
+@import url('../../settings/config.less');
 .Navigation {
   .Drawer {
     @apply absolute h-screen top-0 bg-white right-0 overflow-hidden duration-200;
@@ -9,7 +10,7 @@
         width: 48rem;
         @apply h-full flex items-center;
 
-        @media only screen and (max-width: 1280px) {
+        @media only screen and (max-width: @LG) {
           & {
             @apply w-96;
           }
