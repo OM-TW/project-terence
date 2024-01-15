@@ -9,6 +9,12 @@
         width: 48rem;
         @apply h-full flex items-center;
 
+        @media only screen and (max-width: 1280px) {
+          & {
+            @apply w-96;
+          }
+        }
+
         ol {
           @apply justify-center items-start space-y-5;
 
