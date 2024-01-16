@@ -2,7 +2,6 @@ import { Dispatch, SetStateAction, memo, useContext } from 'react';
 import './carousel.less';
 import { CourseContext, CourseMonsters, TCourseState } from './config';
 import Button from '@/components/button';
-import { MacScrollbar } from 'mac-scrollbar';
 
 const CardWidth = 300;
 type T = {
@@ -38,13 +37,11 @@ const Carousel = memo(() => {
       <div>
         <div className='wrapper'>
           <div style={{ width: `${width}px` }}>
-            <MacScrollbar suppressScrollY>
-              <div className='w-full flex flex-row justify-start items-start'>
-                {CourseMonsters.map((item, index) => (
-                  <Card key={JSON.stringify(item)} data={item} index={index} setState={setState} />
-                ))}
-              </div>
-            </MacScrollbar>
+            <div className='w-full flex flex-row justify-start items-start'>
+              {CourseMonsters.map((item, index) => (
+                <Card key={JSON.stringify(item)} data={item} index={index} setState={setState} />
+              ))}
+            </div>
           </div>
         </div>
         <div className='more'>

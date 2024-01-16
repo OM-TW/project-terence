@@ -1,4 +1,4 @@
-import { memo, useContext, useEffect, useMemo } from 'react';
+import { memo, useContext, useMemo } from 'react';
 import { twMerge } from 'tailwind-merge';
 import './aside.less';
 import { CourseContext, CourseMonsters } from './config';
@@ -6,6 +6,7 @@ import { CourseContext, CourseMonsters } from './config';
 const Aside = memo(() => {
   const [state] = useContext(CourseContext);
   const { trigger, index } = state;
+
   const description = useMemo(() => {
     if (!trigger) {
       return (
@@ -31,7 +32,6 @@ const Aside = memo(() => {
     );
   }, [index, trigger]);
 
-  useEffect(() => {}, []);
   return (
     <aside className={twMerge('Aside', trigger ? 'z-20' : '', trigger ? 'fixed' : 'absolute')}>
       <div className={trigger ? 'on' : ''}>

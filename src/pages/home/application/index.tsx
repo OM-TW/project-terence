@@ -7,7 +7,7 @@ import Pattern from './pattern';
 const Application = memo(() => {
   useEffect(() => {}, []);
   return (
-    <section className='Application'>
+    <section id='application' className='Application'>
       <Grid />
       <Pattern />
       <ScrollDown />

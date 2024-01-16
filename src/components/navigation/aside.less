@@ -1,9 +1,16 @@
+@import url('../../settings/config.less');
 .Navigation {
   .Aside {
     @apply w-full relative h-full flex flex-col justify-between items-start;
 
     .grid {
       @apply relative w-52 h-52 bg-OM-gray-100 left-10;
+
+      @media only screen and (max-height: 1000px) and (max-width: @MD) {
+        & {
+          @apply scale-50;
+        }
+      }
 
       & > div {
         top: 60%;

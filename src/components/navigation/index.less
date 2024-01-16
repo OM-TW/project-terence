@@ -1,11 +1,11 @@
 .Navigation {
-  @apply w-24 h-full fixed right-0 top-0 bg-white justify-between flex-col-reverse hidden lg:flex;
+  @apply w-full lg:w-24 h-24 lg:h-full fixed left-0 lg:left-auto lg:right-0 top-0 bg-white justify-between flex-row-reverse lg:flex-col-reverse flex;
 
   .menu {
-    @apply w-full flex flex-col justify-start py-5;
+    @apply w-auto lg:w-full lg:h-auto h-full py-0 lg:py-5 px-5 lg:px-0;
 
     ul {
-      @apply w-full flex flex-col justify-start;
+      @apply w-auto lg:w-full h-full lg:h-auto flex flex-row lg:flex-col justify-start;
 
       li {
         @apply py-3 flex justify-center items-center;
@@ -47,12 +47,21 @@
           @img: './img/instagram.svg';
         }
       }
+
+      & > li:nth-child(1) {
+        @apply w-16 lg:w-auto;
+      }
+      & > li:nth-child(2) {
+        @apply w-10 lg:w-auto;
+      }
+      & > li:nth-child(3) {
+        @apply w-10 lg:w-auto;
+      }
     }
   }
 
   .shortcut {
-    right: 100%;
-    @apply w-24 h-24 absolute bg-black text-white top-0;
+    @apply w-24 h-24 absolute bg-black text-white top-24 lg:top-0 lg:right-full right-0;
 
     & > button {
       transition-duration: 0.2s;

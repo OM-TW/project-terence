@@ -1,10 +1,12 @@
+import { Context } from '@/settings/constant';
+import { ActionType } from '@/settings/type';
 import OnloadProvider from 'lesca-react-onload';
-import { Suspense, lazy, memo, useContext, useMemo, useState } from 'react';
+import { Suspense, lazy, memo, useContext, useEffect, useMemo, useState } from 'react';
 import { HomeContext, HomePages, HomeState, HomeStepType, THomeState } from './config';
 import './index.less';
 import Landing from './landing';
-import { Context } from '@/settings/constant';
-import { ActionType } from '@/settings/type';
+
+const hash: string = window.location.hash;
 
 const Home = memo(() => {
   const [, setContext] = useContext(Context);
@@ -22,6 +24,17 @@ const Home = memo(() => {
         );
       });
     } else return null;
+  }, [step]);
+
+  useEffect(() => {
+    if (step !== HomeStepType.unset) {
+      window.onload = function () {
+        window.location.hash = '';
+        setTimeout(() => {
+          window.location.hash = hash;
+        }, 400);
+      };
+    } else window.location.hash = '';
   }, [step]);
 
   return (

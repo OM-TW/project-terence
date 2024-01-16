@@ -1,0 +1,42 @@
+.About {
+  .Quotes {
+    min-height: 100vh;
+    @apply w-full;
+
+    &::before {
+      width: image-width(@img) * @scale;
+      height: image-height(@img) * @scale;
+      background-image: url(@img);
+      background-size: 100%;
+      content: '';
+
+      @scale: 1;
+      @img: './img/symbol.svg';
+      @apply absolute top-20 left-20 lg:left-64;
+    }
+
+    .ctx {
+      @apply w-full flex justify-center;
+
+      & > div {
+        @apply w-full lg:w-7/12 ml-0 lg:ml-32 mt-16 py-12 lg:py-32 p-5 space-y-10 relative;
+
+        .row {
+          @apply w-full flex flex-col justify-center items-start space-y-4 pb-10;
+
+          h1 {
+            @apply text-xl font-noto-bold font-bold;
+          }
+
+          ol {
+            @apply list-disc pl-5 leading-loose font-noto-medium font-medium text-sm;
+          }
+        }
+
+        .row:not(:last-child) {
+          @apply border-b border-gray-300;
+        }
+      }
+    }
+  }
+}

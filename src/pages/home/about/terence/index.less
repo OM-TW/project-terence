@@ -1,0 +1,22 @@
+.About {
+  .Terence {
+    @apply w-full min-h-screen relative flex flex-col justify-start items-start;
+
+    &::before {
+      width: image-width(@img) * @scale;
+      height: image-height(@img) * @scale;
+      background-image: url(@img);
+      background-size: 100%;
+      content: '';
+
+      @scale: 0.8;
+      @img: './img/symbols.svg';
+
+      @apply absolute left-20 top-20;
+    }
+
+    & > div {
+      @apply relative;
+    }
+  }
+}

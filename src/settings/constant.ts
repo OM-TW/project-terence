@@ -15,9 +15,14 @@ export const LoadingProcessState: TLoadingProcessState = {
   body: '',
 };
 
+export const ScrollbarState = {
+  enabled: true,
+};
+
 export const InitialState: IState = {
   [ActionType.Page]: PAGE.home,
   [ActionType.LoadingProcess]: LoadingProcessState,
+  [ActionType.Scrollbar]: ScrollbarState,
 };
 
 export const Context = createContext<TContext>([InitialState, () => {}]);

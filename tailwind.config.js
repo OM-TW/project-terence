@@ -18,6 +18,7 @@ export default {
     fontFamily: {
       'noto-black': ['Noto Serif TC', 'serif'],
       'noto-semiBold': ['Noto Serif TC', 'serif'],
+      'noto-bold': ['Noto Serif TC', 'serif'],
       'noto-medium': ['Noto Serif TC', 'serif'],
       'noto-regular': ['Noto Serif TC', 'serif'],
     },

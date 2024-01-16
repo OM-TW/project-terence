@@ -3,6 +3,7 @@ import { Dispatch, ReactNode } from 'react';
 export enum ActionType {
   Page = 'page',
   LoadingProcess = 'loadingProcess',
+  Scrollbar = 'scrollbar',
 }
 
 export enum LoadingProcessType {
@@ -32,9 +33,14 @@ export type TLoadingProcessState = {
   body?: '';
 };
 
+export type TScrollbarState = {
+  enabled?: boolean;
+};
+
 export interface IState {
   page?: string;
   loadingProcess?: TLoadingProcessState;
+  scrollbar?: TScrollbarState;
 }
 
 export interface IAction {

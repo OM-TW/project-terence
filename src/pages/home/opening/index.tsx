@@ -10,7 +10,7 @@ const Opening = memo(() => {
   const value = useState(OpeningState);
   useEffect(() => {}, []);
   return (
-    <section className='Opening'>
+    <section id='opening' className='Opening'>
       <OpeningContext.Provider value={value}>
         <Aside />
         <Summary />

@@ -1,0 +1,45 @@
+.Share {
+  .Header {
+    @apply relative pt-24 pl-10 lg:pl-44 flex flex-col lg:flex-row justify-start items-center;
+
+    & > div:nth-child(1) {
+      width: 30rem;
+      @apply relative;
+
+      .title {
+        @apply relative -indent-20 ml-12 text-5xl leading-relaxed text-white tracking-wider font-noto-medium;
+      }
+
+      .sub {
+        @apply relative text-xl tracking-widest text-white mt-8 flex flex-row items-center font-noto-medium;
+
+        &::before {
+          height: 1px;
+          content: '';
+          @apply w-10 bg-white relative mr-5;
+        }
+      }
+
+      .select {
+        @apply mt-5;
+      }
+
+      &::before {
+        top: -24px;
+        left: -75px;
+        content: '';
+
+        mask-image: url('../landing/img/slash-lg.svg');
+        mask-repeat: repeat-x;
+        mask-size: auto 124%;
+        mask-position: 50% center;
+
+        @apply absolute w-32 h-32 bg-secondary rounded-full;
+      }
+    }
+    & > div:nth-child(2) {
+      max-width: 38rem;
+      @apply flex-1 pl-16 pt-10 lg:pt-0 lg:pl-0 pr-20 font-noto-medium text-white text-sm leading-loose;
+    }
+  }
+}

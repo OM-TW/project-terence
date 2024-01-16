@@ -20,9 +20,9 @@ const Navigation = memo(() => {
       <div className='shortcut'>
         <button>News</button>
       </div>
-      <Drawer status={status} />
+      <Drawer status={status} setStatus={setStatus} />
       <Button
-        className='relative'
+        className='relative w-24 h-24'
         onClick={() => {
           setStatus((S) => !S);
         }}

@@ -4,10 +4,13 @@ import { Pad } from 'lesca-number';
 import { memo, useContext } from 'react';
 import { CourseContext, CourseMonsters } from './config';
 import './detail.less';
+import { twMerge } from 'tailwind-merge';
 
 const Detail = memo(() => {
   const [state, setState] = useContext(CourseContext);
   const { index } = state;
+  console.log(index);
+
   return (
     <Dialog>
       <div className='Detail'>
@@ -16,7 +19,7 @@ const Detail = memo(() => {
             <span className='current'>{Pad(index + 1, 2)}</span>
             <span className='total'>{Pad(CourseMonsters.length, 2)}</span>
           </div>
-          <div className='temp' />
+          <div className={twMerge('char', `char${index}`)} />
         </div>
         <div className='controller'>
           <Button

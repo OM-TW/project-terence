@@ -6,10 +6,10 @@ import { Context, InitialState, Reducer } from '@/settings/constant';
 import '@/settings/global.less';
 import { ActionType, TContext } from '@/settings/type';
 import Fetcher, { contentType, formatType } from 'lesca-fetcher';
-import { MacScrollbar } from 'mac-scrollbar';
 import 'mac-scrollbar/dist/mac-scrollbar.css';
 import { Suspense, lazy, memo, useContext, useMemo, useReducer } from 'react';
 import ReactDOM from 'react-dom/client';
+import { GlobalScrollbar } from 'mac-scrollbar';
 
 Fetcher.install({
   hostUrl: import.meta.env.VITE_API_PATH || './api',
@@ -48,14 +48,13 @@ const App = () => {
   const value: TContext = useMemo(() => [state, setState], [state]);
   return (
     <div className='App'>
-      <MacScrollbar>
-        <Context.Provider {...{ value }}>
-          <Pages />
-          <Navigation />
-          <OgilvyLogo />
-          {state[ActionType.LoadingProcess]?.enabled && <LoadingProcess />}
-        </Context.Provider>
-      </MacScrollbar>
+      <Context.Provider {...{ value }}>
+        <Pages />
+        <Navigation />
+        <OgilvyLogo />
+        {state[ActionType.LoadingProcess]?.enabled && <LoadingProcess />}
+      </Context.Provider>
+      {state[ActionType.Scrollbar]?.enabled && <GlobalScrollbar />}
     </div>
   );
 };

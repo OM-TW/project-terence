@@ -10,7 +10,7 @@ const Course = memo(() => {
   const { trigger } = value[0];
 
   return (
-    <section className='Course'>
+    <section id='course' className='Course'>
       <CourseContext.Provider {...{ value }}>
         <Aside />
         <Carousel />
