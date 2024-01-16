@@ -1,0 +1,1 @@
+import{b as e,C as a,A as o,j as r}from"./index-zInRszsf.js";const n=e.memo(({children:s})=>{const[,t]=e.useContext(a);return e.useEffect(()=>(document.body.style.overflow="hidden",t({type:o.Scrollbar,state:{enabled:!1}}),()=>{document.body.style.overflow="auto",t({type:o.Scrollbar,state:{enabled:!0}})}),[]),r.jsx("div",{className:"Dialog",children:s})});export{n as D};
