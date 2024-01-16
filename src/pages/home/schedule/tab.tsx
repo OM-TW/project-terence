@@ -5,13 +5,11 @@ import './tab.less';
 
 type P = IReactProps & { active: boolean; onClick?: MouseEventHandler };
 
-const Button = memo(({ children, active, onClick }: P) => {
-  return (
-    <button className={`btn ${active ? 'on' : ''}`} onClick={onClick}>
-      {children}
-    </button>
-  );
-});
+const Button = memo(({ children, active, onClick }: P) => (
+  <button className={`btn ${active ? 'on' : ''}`} onClick={onClick}>
+    {children}
+  </button>
+));
 
 const Tab = memo(() => {
   const [state, setState] = useContext(ScheduleContext);

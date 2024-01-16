@@ -1,36 +1,30 @@
-import { memo, useEffect, useState } from 'react';
-import './index.less';
-import { ScheduleContext, SchedulePageType, ScheduleState } from './config';
-import Tab from './tab';
-import Steps from './steps';
-import Details from './details';
-import Timeline from './timeline';
 import QuickApply from '@/components/quickApply';
+import { memo, useState } from 'react';
 import Accordion from './accordion';
+import { ScheduleContext, SchedulePageType, ScheduleState } from './config';
+import Details from './details';
+import './index.less';
+import Steps from './steps';
+import Tab from './tab';
+import Timeline from './timeline';
 
-const Flow = memo(() => {
-  return (
-    <>
-      <Steps />
-      <Details />
-      <Timeline />
-    </>
-  );
-});
+const Flow = memo(() => (
+  <>
+    <Steps />
+    <Details />
+    <Timeline />
+  </>
+));
 
-const FAQ = memo(() => {
-  return (
-    <>
-      <Accordion />
-    </>
-  );
-});
+const FAQ = memo(() => (
+  <>
+    <Accordion />
+  </>
+));
 
 const Schedule = memo(() => {
   const value = useState(ScheduleState);
   const { page } = value[0];
-
-  useEffect(() => {}, []);
   return (
     <section className='Schedule'>
       <ScheduleContext.Provider value={value}>

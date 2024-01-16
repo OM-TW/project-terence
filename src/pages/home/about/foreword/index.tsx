@@ -8,7 +8,6 @@ import { ScrollbarElement } from '@/settings/type';
 const Foreword = memo(() => {
   const scrollRef = useRef<ScrollbarElement>(null);
   const value = useState(ForewordState);
-
   const onWheel = (event: WheelEvent | { deltaX: number }) => {
     if (scrollRef.current) scrollRef.current.set(event.deltaX);
   };

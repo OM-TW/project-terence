@@ -34,7 +34,6 @@ const Carousel = memo(() => {
   const scrollRef = useRef<ScrollbarElement>(null);
   const totalWidth = ExperienceList.length * 272;
   const [offset, getOffset] = useState<number>(0);
-
   const touchProperty = useRef({ x: 0, enabled: false });
 
   useEffect(() => {

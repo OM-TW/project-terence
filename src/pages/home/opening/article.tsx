@@ -22,7 +22,6 @@ const Article = memo(() => {
   const [state] = useContext(OpeningContext);
   const { index } = state;
   const currentArticle = useMemo(() => OpenArticleList[index], [index]);
-
   return (
     <article className='Article'>
       <div>

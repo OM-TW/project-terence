@@ -1,17 +1,14 @@
-import { memo, useEffect } from 'react';
-import Head from './head';
-import './index.less';
+import { memo } from 'react';
 import Body from './body';
 import Footer from './footer';
+import Head from './head';
+import './index.less';
 
-const Terence = memo(() => {
-  useEffect(() => {}, []);
-  return (
-    <div className='Terence'>
-      <Head />
-      <Body />
-      <Footer />
-    </div>
-  );
-});
+const Terence = memo(() => (
+  <div className='Terence'>
+    <Head />
+    <Body />
+    <Footer />
+  </div>
+));
 export default Terence;

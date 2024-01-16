@@ -7,7 +7,6 @@ import './index.less';
 const About = memo(() => {
   const value = useState(TerenceState);
   const [state, setState] = value;
-
   return (
     <section id='about' className='About'>
       <TerenceContext.Provider value={value}>

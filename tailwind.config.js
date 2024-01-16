@@ -27,7 +27,6 @@ export default {
       primary: '#000',
       secondary: '#ff5454',
       tertiary: '#FF7474',
-      // quaternary: '#00ff00',
       backgroundColor: '#EB3F43',
       textColor: '#000',
       'OM-red-300': '#EB3F43',

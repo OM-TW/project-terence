@@ -16,13 +16,11 @@ type T = ReadyOnly<{
   style?: React.CSSProperties;
 }>;
 
-const Button = ({ children, onClick, className, style }: IReactProps & T) => {
-  return (
-    <button className={twMerge(className)} style={style} onClick={onClick}>
-      {children}
-    </button>
-  );
-};
+const Button = ({ children, onClick, className, style }: IReactProps & T) => (
+  <button className={twMerge(className)} style={style} onClick={onClick}>
+    {children}
+  </button>
+);
 
 Button.Regular = Regular;
 Button.Apply = Apply;

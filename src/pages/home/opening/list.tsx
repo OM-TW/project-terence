@@ -1,11 +1,9 @@
-import { memo, useContext, useEffect } from 'react';
-import './list.less';
+import { memo, useContext } from 'react';
 import { OpeningContext } from './config';
+import './list.less';
 
 const List = memo(() => {
   const [state, setState] = useContext(OpeningContext);
-
-  useEffect(() => {}, []);
   return (
     <div className='List'>
       <div>

@@ -1,12 +1,9 @@
-import { memo, useEffect } from 'react';
+import { memo } from 'react';
 import './index.less';
 
-const Tie = memo(() => {
-  useEffect(() => {}, []);
-  return (
-    <section className='Tie'>
-      <div />
-    </section>
-  );
-});
+const Tie = memo(() => (
+  <section className='Tie'>
+    <div />
+  </section>
+));
 export default Tie;

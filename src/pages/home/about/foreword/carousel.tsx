@@ -8,22 +8,20 @@ type T = {
   width: number;
 };
 
-const Slide = memo(({ data, width }: T) => {
-  return (
-    <div className='slide' style={{ width: `${width}px` }}>
-      <div></div>
+const Slide = memo(({ data, width }: T) => (
+  <div className='slide' style={{ width: `${width}px` }}>
+    <div></div>
+    <div>
+      <h1>{data.englishName}</h1>
+      <h2>{data.name}</h2>
       <div>
-        <h1>{data.englishName}</h1>
-        <h2>{data.name}</h2>
-        <div>
-          {data.position}
-          <span>{data.positionEnglish}</span>
-        </div>
-        <p>{data.description}</p>
+        {data.position}
+        <span>{data.positionEnglish}</span>
       </div>
+      <p>{data.description}</p>
     </div>
-  );
-});
+  </div>
+));
 
 type D = { deltaX: number };
 type K = {
@@ -46,7 +44,6 @@ const Carousel = memo(({ onWheel, wheel }: K) => {
 
   useEffect(() => {
     const resize = () => {
-      // ... script here
       const currentWidth = window.innerWidth > 1024 ? SlideSize.max : SlideSize.min;
       setWidth(currentWidth);
       if (slickRef.current) {

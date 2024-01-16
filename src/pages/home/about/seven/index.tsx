@@ -1,6 +1,6 @@
-import { memo, useEffect } from 'react';
-import './index.less';
+import { memo } from 'react';
 import { TerenceSevenList } from '../config';
+import './index.less';
 
 type T = {
   data: (typeof TerenceSevenList)[0];
@@ -17,18 +17,15 @@ const Row = memo(({ data }: T) => {
   );
 });
 
-const Seven = memo(() => {
-  useEffect(() => {}, []);
-  return (
-    <div className='Seven'>
-      <div className='ctx'>
-        <div>
-          {TerenceSevenList.map((data) => (
-            <Row key={JSON.stringify(data)} data={data} />
-          ))}
-        </div>
+const Seven = memo(() => (
+  <div className='Seven'>
+    <div className='ctx'>
+      <div>
+        {TerenceSevenList.map((data) => (
+          <Row key={JSON.stringify(data)} data={data} />
+        ))}
       </div>
     </div>
-  );
-});
+  </div>
+));
 export default Seven;

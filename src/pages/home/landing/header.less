@@ -7,7 +7,7 @@
 
       & > div:first-child {
         font-size: 7rem;
-        @apply font-noto-semiBold tracking-tighter flex flex-row justify-start items-baseline;
+        @apply font-noto-semiBold font-semibold tracking-tighter flex flex-row justify-start items-baseline;
 
         &::after {
           content: 'th';
@@ -17,7 +17,7 @@
 
       & > div:nth-child(2) {
         margin-top: -2.5rem;
-        @apply relative flex flex-row justify-start items-center pl-16 font-noto-medium text-2xl tracking-wider;
+        @apply relative flex flex-row justify-start items-center pl-16 font-noto-medium font-medium text-2xl tracking-wider;
 
         &::before {
           border-width: 0.5px;
@@ -27,10 +27,10 @@
       }
 
       & > div:nth-child(3) {
-        @apply relative flex flex-col justify-start items-start font-noto-medium text-6xl tracking-widest mt-9;
+        @apply relative flex flex-col justify-start items-start font-noto-medium font-medium text-6xl tracking-widest mt-9;
 
         & > span {
-          @apply font-noto-regular tracking-normal text-2xl mt-3;
+          @apply font-noto-regular font-normal tracking-normal text-2xl mt-3;
         }
       }
     }

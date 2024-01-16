@@ -1,12 +1,11 @@
 import Button from '@/components/button';
 import Dialog from '@/components/dialog';
-import { memo, useContext, useEffect } from 'react';
+import { memo, useContext } from 'react';
 import { ExperienceContext } from './config';
 import './detail.less';
 
 const Detail = memo(() => {
   const [, setState] = useContext(ExperienceContext);
-  useEffect(() => {}, []);
   return (
     <div className='Detail'>
       <Dialog>

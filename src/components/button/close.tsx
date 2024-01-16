@@ -1,8 +1,5 @@
-import { memo, useEffect } from 'react';
+import { memo } from 'react';
 import './close.less';
 
-const Close = memo(() => {
-  useEffect(() => {}, []);
-  return <div className='Button-close' />;
-});
+const Close = memo(() => <div className='Button-close' />);
 export default Close;

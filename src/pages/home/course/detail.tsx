@@ -9,8 +9,6 @@ import { twMerge } from 'tailwind-merge';
 const Detail = memo(() => {
   const [state, setState] = useContext(CourseContext);
   const { index } = state;
-  console.log(index);
-
   return (
     <Dialog>
       <div className='Detail'>

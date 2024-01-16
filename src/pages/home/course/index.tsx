@@ -8,7 +8,6 @@ import './index.less';
 const Course = memo(() => {
   const value = useState(CourseState);
   const { trigger } = value[0];
-
   return (
     <section id='course' className='Course'>
       <CourseContext.Provider {...{ value }}>

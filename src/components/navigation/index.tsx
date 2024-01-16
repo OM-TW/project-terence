@@ -5,7 +5,6 @@ import './index.less';
 
 const Navigation = memo(() => {
   const [status, setStatus] = useState(false);
-
   return (
     <nav className='Navigation'>
       <div className='menu'>

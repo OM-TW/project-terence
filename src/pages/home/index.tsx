@@ -6,7 +6,7 @@ import { HomeContext, HomePages, HomeState, HomeStepType, THomeState } from './c
 import './index.less';
 import Landing from './landing';
 
-const hash: string = window.location.hash;
+const hash = window.location.hash;
 
 const Home = memo(() => {
   const [, setContext] = useContext(Context);
@@ -27,7 +27,7 @@ const Home = memo(() => {
   }, [step]);
 
   useEffect(() => {
-    if (step !== HomeStepType.unset) {
+    if (step === HomeStepType.fontLoaded) {
       window.onload = function () {
         window.location.hash = '';
         setTimeout(() => {
@@ -42,6 +42,9 @@ const Home = memo(() => {
       onload={() => {
         setState((S) => ({ ...S, step: HomeStepType.loaded }));
         setContext({ type: ActionType.LoadingProcess, state: { enabled: false } });
+        document.fonts.ready.then(() => {
+          setState((S) => ({ ...S, step: HomeStepType.fontLoaded }));
+        });
       }}
     >
       <div className='Home'>

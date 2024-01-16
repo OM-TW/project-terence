@@ -1,8 +1,5 @@
-import { memo, useEffect } from 'react';
+import { memo } from 'react';
 import './index.less';
 
-const ScrollDown = memo(() => {
-  useEffect(() => {}, []);
-  return <div className='ScrollDown'>scroll down</div>;
-});
+const ScrollDown = memo(() => <div className='ScrollDown'>scroll down</div>);
 export default ScrollDown;

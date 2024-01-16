@@ -15,6 +15,7 @@ export const HomePages = [
 export enum HomeStepType {
   unset,
   loaded,
+  fontLoaded,
 }
 export type THomeState = { step: HomeStepType };
 export type THomeContext = [THomeState, Dispatch<SetStateAction<THomeState>>];

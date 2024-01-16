@@ -7,7 +7,6 @@ import './index.less';
 
 const Experience = memo(() => {
   const value = useState(ExperienceState);
-
   return (
     <ExperienceContext.Provider value={value}>
       <section id='share' className='Share'>

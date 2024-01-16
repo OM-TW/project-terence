@@ -4,7 +4,7 @@
     @apply relative w-full pointer-events-none flex flex-col justify-start items-center;
 
     .action {
-      @apply w-32 h-32 bg-OM-red-300 rounded-full flex justify-center items-center text-center flex-col text-white text-base font-noto-medium;
+      @apply w-32 h-32 bg-OM-red-300 rounded-full flex justify-center items-center text-center flex-col text-white text-base font-noto-medium font-medium;
 
       &::after {
         width: image-width(@img) * @scale;
@@ -42,15 +42,15 @@
       @apply w-full flex flex-col justify-start items-center my-10;
 
       h2 {
-        @apply text-xl font-noto-semiBold tracking-widest;
+        @apply text-xl font-noto-semiBold tracking-widest font-semibold;
       }
 
       h1 {
-        @apply text-3xl font-noto-medium my-5 tracking-widest;
+        @apply text-3xl font-noto-medium my-5 tracking-widest font-medium;
       }
 
       p {
-        @apply max-w-2xl font-noto-medium text-center text-lg leading-loose tracking-wider p-2;
+        @apply max-w-2xl font-noto-medium text-center text-lg leading-loose tracking-wider p-2 font-medium;
       }
     }
 
@@ -61,11 +61,11 @@
         @apply w-1/3 bg-red-500 py-10 lg:py-20 flex flex-col items-center justify-center space-y-5 px-8;
 
         h1 {
-          @apply text-white font-noto-semiBold text-xl text-left w-full;
+          @apply text-white font-noto-semiBold text-xl text-left w-full font-semibold;
         }
 
         p {
-          @apply text-white font-noto-medium text-sm text-justify;
+          @apply text-white font-noto-medium text-sm text-justify font-medium;
         }
       }
 

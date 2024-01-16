@@ -9,16 +9,14 @@ type T = {
   onClick?: () => void;
 };
 
-const Button = memo(({ data, onClick = () => {} }: T) => {
-  return (
-    <li>
-      <button onClick={onClick}>
-        <h1>{data.cht}</h1>
-        <span>{data.eng}</span>
-      </button>
-    </li>
-  );
-});
+const Button = memo(({ data, onClick = () => {} }: T) => (
+  <li>
+    <button onClick={onClick}>
+      <h1>{data.cht}</h1>
+      <span>{data.eng}</span>
+    </button>
+  </li>
+));
 
 const Drawer = memo(
   ({ status, setStatus }: { status: boolean; setStatus: Dispatch<SetStateAction<boolean>> }) => {
