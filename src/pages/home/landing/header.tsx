@@ -1,16 +1,20 @@
 import { memo } from 'react';
 import './header.less';
 
-const Header = memo(() => (
-  <header className='Header'>
-    <div>
-      <div>16</div>
-      <div>2024</div>
+const Header = memo(() => {
+  const fullYear = new Date().getFullYear();
+  const th = fullYear - 2008;
+  return (
+    <header className='Header'>
       <div>
-        奧美紅領帶計畫
-        <span>Project T</span>
+        <div>{th}</div>
+        <div>{fullYear}</div>
+        <div>
+          奧美紅領帶計畫
+          <span>Project T</span>
+        </div>
       </div>
-    </div>
-  </header>
-));
+    </header>
+  );
+});
 export default Header;

@@ -1,11 +1,11 @@
 import Button from '@/components/button';
 import Dialog from '@/components/dialog';
 import { memo, useContext } from 'react';
-import { ExperienceContext } from './config';
+import { ShareContext } from './config';
 import './detail.less';
 
 const Detail = memo(() => {
-  const [, setState] = useContext(ExperienceContext);
+  const [, setState] = useContext(ShareContext);
   return (
     <div className='Detail'>
       <Dialog>

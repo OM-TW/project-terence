@@ -2,13 +2,13 @@ import Button from '@/components/button';
 import { ScrollbarElement } from '@/settings/type';
 import { WheelEvent, memo, useContext, useEffect, useMemo, useRef, useState } from 'react';
 import './carousel.less';
-import { ExperienceContext, ExperienceList } from './config';
+import { ShareContext, ShareList } from './config';
 import ScrollBar from './scrollbar';
 
-type T = { data: (typeof ExperienceList)[0]; index: number };
+type T = { data: (typeof ShareList)[0]; index: number };
 
 const Slide = memo(({ data, index }: T) => {
-  const [, setState] = useContext(ExperienceContext);
+  const [, setState] = useContext(ShareContext);
   return (
     <div className='slide'>
       <div className='title'>
@@ -27,12 +27,12 @@ const Slide = memo(({ data, index }: T) => {
 });
 
 const Carousel = memo(() => {
-  const [state] = useContext(ExperienceContext);
+  const [state] = useContext(ShareContext);
   const { percent } = state;
 
   const slickRef = useRef<HTMLDivElement>(null);
   const scrollRef = useRef<ScrollbarElement>(null);
-  const totalWidth = ExperienceList.length * 272;
+  const totalWidth = ShareList.length * 272;
   const [offset, getOffset] = useState<number>(0);
   const touchProperty = useRef({ x: 0, enabled: false });
 
@@ -80,7 +80,7 @@ const Carousel = memo(() => {
             touchProperty.current.enabled = false;
           }}
         >
-          {ExperienceList.map((data, index) => {
+          {ShareList.map((data, index) => {
             return <Slide key={JSON.stringify(data)} data={data} index={index} />;
           })}
         </div>

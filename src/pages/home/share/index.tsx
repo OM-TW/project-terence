@@ -1,20 +1,25 @@
 import { memo, useState } from 'react';
 import Carousel from './carousel';
-import { ExperienceContext, ExperienceState } from './config';
+import { ShareContext, ShareState } from './config';
 import Detail from './detail';
 import Header from './header';
 import './index.less';
 
 const Experience = memo(() => {
-  const value = useState(ExperienceState);
+  const value = useState({ ...ShareState, th: new Date().getFullYear() - 2008 });
+
   return (
-    <ExperienceContext.Provider value={value}>
+    <ShareContext.Provider value={value}>
       <section id='share' className='Share'>
-        <Header />
+        <Header
+          onChange={(e) => {
+            console.log(e.target.value);
+          }}
+        />
         <Carousel />
         {value[0].trigger && <Detail />}
       </section>
-    </ExperienceContext.Provider>
+    </ShareContext.Provider>
   );
 });
 export default Experience;

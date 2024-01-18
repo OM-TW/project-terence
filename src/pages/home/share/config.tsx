@@ -1,12 +1,12 @@
 import { createContext, Dispatch, SetStateAction } from 'react';
 
-export type TExperienceState = { trigger: boolean; index: number; percent: number };
-export type TExperienceContext = [TExperienceState, Dispatch<SetStateAction<TExperienceState>>];
+export type TShareState = { trigger: boolean; index: number; percent: number; th: number };
+export type TShareContext = [TShareState, Dispatch<SetStateAction<TShareState>>];
 
-export const ExperienceState: TExperienceState = { trigger: false, index: 0, percent: 0 };
-export const ExperienceContext = createContext<TExperienceContext>([ExperienceState, () => {}]);
+export const ShareState: TShareState = { trigger: false, index: 0, percent: 0, th: 0 };
+export const ShareContext = createContext<TShareContext>([ShareState, () => {}]);
 
-export const ExperienceList = [
+export const ShareList = [
   {
     name: '卓宜蓁',
     engName: 'Verna Cho',

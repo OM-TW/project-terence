@@ -1,11 +1,11 @@
 import { forwardRef, useContext, useEffect, useImperativeHandle, useRef, useState } from 'react';
 import Draggable, { DraggableEventHandler } from 'react-draggable';
-import { ExperienceContext } from './config';
+import { ShareContext } from './config';
 
 const ScrollBar = forwardRef((_, ref) => {
   const DraggableRef = useRef<Draggable>(null);
 
-  const [, setState] = useContext(ExperienceContext);
+  const [, setState] = useContext(ShareContext);
   const scrollRef = useRef<HTMLDivElement>(null);
   const [right, setRight] = useState<number>(0);
 
