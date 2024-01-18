@@ -1,3 +1,4 @@
+import { LINKS } from '@/settings/config';
 import { memo, useState } from 'react';
 import Button from '../button';
 import Drawer from './drawer';
@@ -9,11 +10,19 @@ const Navigation = memo(() => {
     <nav className='Navigation'>
       <div className='menu'>
         <ul>
-          {['messenger', 'facebook', 'instagram'].map((e) => (
-            <li key={e}>
-              <button className={e} />
-            </li>
-          ))}
+          {Object.keys(LINKS).map((e) => {
+            type T = keyof typeof LINKS;
+            return (
+              <li key={e}>
+                <button
+                  className={e}
+                  onClick={() => {
+                    window.open(LINKS[e as T] || '#', '_blank');
+                  }}
+                />
+              </li>
+            );
+          })}
         </ul>
       </div>
       <div className='shortcut'>

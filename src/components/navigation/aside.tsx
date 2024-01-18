@@ -1,5 +1,6 @@
 import { memo } from 'react';
 import './aside.less';
+import { LINKS } from '@/settings/config';
 
 const Aside = memo(() => (
   <div className='Aside'>
@@ -8,28 +9,38 @@ const Aside = memo(() => (
     </div>
     <div className='contact'>
       <div>
-        <button className='fb'></button>
-        <button className='ig'></button>
+        <button
+          onClick={() => {
+            window.open(LINKS.facebook, '_blank');
+          }}
+          className='fb'
+        ></button>
+        <button
+          className='ig'
+          onClick={() => {
+            window.open(LINKS.instagram, '_blank');
+          }}
+        ></button>
       </div>
       <div>
         <span>Contact us</span>
         <br />
-        <a target='_blank' href='#'>
+        <a target='_blank' href='mailto:robertcl.kung@ogilvy.com'>
           Robert Kung
         </a>
         <br />
-        <a target='_blank' href='#'>
+        <a target='_blank' href='mailto:amity.chen@Ogilvy.com'>
           Amy Chen
         </a>
         <br />
-        <a target='_blank' href='#'>
+        <a target='_blank' href='tel:0277451688'>
           +886 2 77451688
         </a>
       </div>
       <div>
         <span>Ogilvy Taiwan</span>
         <br />
-        <a target='_blank' href='#'>
+        <a target='_blank' href='https://maps.app.goo.gl/4qyPLyeNVAjjRxox8'>
           3F 89 Song Ren Rd
           <br />
           Taipei 110, Taiwan

@@ -14,3 +14,11 @@ export const MENU = [
   { cht: '如何申請', eng: 'Application', hash: 'application' },
   { cht: '認識林宗緯', eng: 'About Terence', hash: 'about' },
 ];
+
+export const LINKS = {
+  messenger: 'https://www.facebook.com/messages/t/194266073179',
+  facebook: 'https://www.facebook.com/OgilvyTaiwan/',
+  instagram: 'https://www.instagram.com/ogilvytaiwan/',
+};
+
+export const GOOGLE_FORM_URL = 'https://www.google.com.tw/intl/zh-TW/forms/about/';
