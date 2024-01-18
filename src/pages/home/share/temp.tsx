@@ -14,7 +14,12 @@ import { 何伯濤, 施又寧, 林叡志, 林峻毅 } from './data/7th/data';
 import { 林亞駿, 蘇怡心 } from './data/8th/data';
 import { 嚴德鈞, 張容瑄, 彭亭翊, 王薇涵 } from './data/9th/data';
 
-export const DefaultInternshipExperience = {
+type ShareData = {
+  name: { cht: string; eng: string };
+  html: () => JSX.Element;
+};
+
+export const DefaultInternshipExperience: Record<string, ShareData[]> = {
   '2009 第一屆紅領帶': [
     { name: { cht: '詹曜維', eng: 'Tony Chan' }, html: 詹曜維 },
     { name: { cht: '周于鈴', eng: 'Kilin Chou' }, html: 周于鈴 },
@@ -114,5 +119,6 @@ export const DefaultInternshipExperience = {
     { name: { cht: '龐舒勻', eng: 'Michelle Pang' }, html: 龐舒勻 },
     { name: { cht: '陳昱霈', eng: 'Yupei Chen' }, html: 陳昱霈 },
   ],
+  '2024 第十六屆紅領帶': [],
 };
 export default {};

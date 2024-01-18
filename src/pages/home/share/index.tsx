@@ -6,16 +6,12 @@ import Header from './header';
 import './index.less';
 
 const Experience = memo(() => {
-  const value = useState({ ...ShareState, th: new Date().getFullYear() - 2008 });
+  const value = useState(ShareState);
 
   return (
     <ShareContext.Provider value={value}>
       <section id='share' className='Share'>
-        <Header
-          onChange={(e) => {
-            console.log(e.target.value);
-          }}
-        />
+        <Header />
         <Carousel />
         {value[0].trigger && <Detail />}
       </section>

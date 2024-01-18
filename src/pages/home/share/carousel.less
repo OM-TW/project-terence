@@ -14,7 +14,7 @@
         @apply flex flex-row justify-start font-noto-medium font-medium;
 
         h2 {
-          @apply text-xl px-2 tracking-widest;
+          @apply text-xl px-2 tracking-widest whitespace-nowrap;
         }
 
         & > div {
@@ -24,7 +24,7 @@
         }
 
         span {
-          @apply pt-5 px-2 text-base tracking-wider;
+          @apply pt-5 px-2 text-base tracking-wider whitespace-nowrap;
         }
       }
 
@@ -37,6 +37,10 @@
 
         -webkit-line-clamp: 4;
         @apply leading-relaxed;
+
+        & > img {
+          @apply hidden;
+        }
       }
     }
 

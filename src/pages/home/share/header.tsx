@@ -4,12 +4,8 @@ import { memo, useContext } from 'react';
 import './header.less';
 import { ShareContext } from './config';
 
-type T = {
-  onChange: (event: React.ChangeEvent<HTMLSelectElement>) => void;
-};
-
-const Header = memo(({ onChange }: T) => {
-  const [state] = useContext(ShareContext);
+const Header = memo(() => {
+  const [state, setState] = useContext(ShareContext);
   const fullYear = new Date().getFullYear();
   const th = fullYear - 2008;
 
@@ -23,7 +19,12 @@ const Header = memo(({ onChange }: T) => {
         </div>
         <div className='sub'>紅領帶都在幹嘛？看看他們怎麼說。</div>
         <div className='select'>
-          <Select onChange={onChange} defaultValue={state.th}>
+          <Select
+            onChange={(e) => {
+              setState((S) => ({ ...S, th: Number(e.target.value) }));
+            }}
+            defaultValue={state.th}
+          >
             {[...new Array(th).keys()].map((index) => {
               return (
                 <option key={`option-${index}`} value={th - index}>

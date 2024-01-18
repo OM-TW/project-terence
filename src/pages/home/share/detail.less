@@ -36,7 +36,66 @@
       @apply w-full py-10 font-noto-medium text-base font-medium;
 
       p {
-        @apply py-4;
+        text-align: justify;
+
+        margin-block-start: 3rem;
+        margin-block-end: 3rem;
+      }
+
+      a:visited,
+      a {
+        @apply text-OM-red-300;
+      }
+
+      h3 {
+        border-left: solid 5px #333;
+        text-indent: 10px;
+        font-size: 18px;
+
+        span {
+          font-size: smaller;
+        }
+      }
+
+      img {
+        max-width: 626px;
+      }
+
+      ol,
+      ul {
+        margin: 3rem 0;
+        & > div,
+        i {
+          font-size: smaller;
+        }
+        & > li {
+          margin: 0 0 10px 0;
+        }
+        & > img {
+          max-width: 575px;
+        }
+      }
+
+      figure {
+        position: relative;
+        box-sizing: border-box;
+        margin: 20px 0;
+        margin-bottom: 35px;
+        padding: 10px 20px;
+        background-color: #e5e5e5;
+
+        figcaption {
+          text-align: right;
+        }
+      }
+
+      h2 {
+        margin-block-end: -2rem;
+      }
+
+      & > figcaption {
+        margin-bottom: 3rem;
+        font-size: smaller;
       }
     }
   }
