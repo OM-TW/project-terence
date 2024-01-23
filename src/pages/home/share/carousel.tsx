@@ -1,6 +1,7 @@
 import Button from '@/components/button';
 import { ScrollbarElement } from '@/settings/type';
 import { WheelEvent, memo, useContext, useEffect, useMemo, useRef, useState } from 'react';
+import { renderToString } from 'react-dom/server';
 import './carousel.less';
 import { ShareContext } from './config';
 import ScrollBar from './scrollbar';
@@ -21,7 +22,9 @@ const Slide = memo(({ data, index }: T) => {
         <span>{data.name.eng}</span>
       </div>
       <div className='content'>
-        <data.html />
+        {renderToString(data.html())
+          .replace(/(<([^>]+)>)/gi, '')
+          .slice(0, 48)}
       </div>
       <div className='w-full flex justify-end'>
         <Button onClick={() => setState((S) => ({ ...S, index, trigger: true }))}>

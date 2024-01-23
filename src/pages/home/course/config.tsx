@@ -13,9 +13,9 @@ export const CourseMonsters = [
     position: '集團董事總經理',
     description: (
       <>
-        廣告是物理的科學，心理的藝術。
+        他深信好的廣告具有無比的影響力
         <br />
-        我們理性說服，感性影響。
+        而且會讓世界變得更好。
       </>
     ),
   },
@@ -35,13 +35,7 @@ export const CourseMonsters = [
     className: 'Communication Design',
     name: '莊若芸 Zoe Chuang',
     position: '董事總經理',
-    description: (
-      <>
-        廣告是物理的科學，心理的藝術。
-        <br />
-        我們理性說服，感性影響。
-      </>
-    ),
+    description: <>你的人生有兩個選擇，來過或沒來過。</>,
   },
   {
     className: 'Big Idea',
@@ -49,9 +43,9 @@ export const CourseMonsters = [
     position: '集團創意長',
     description: (
       <>
-        廣告是物理的科學，心理的藝術。
+        在未竟的天空之城，我們說的都是那些非常 old
         <br />
-        我們理性說服，感性影響。
+        fashioned 的故事。
       </>
     ),
   },

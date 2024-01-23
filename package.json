@@ -24,6 +24,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-draggable": "^4.4.6",
+    "react-lines-ellipsis": "^0.15.4",
     "react-loading": "^2.0.3",
     "react-router-dom": "^6.21.3",
     "react-scroll-parallax": "^3.4.5"
@@ -31,6 +32,7 @@
   "devDependencies": {
     "@types/react": "^18.2.48",
     "@types/react-dom": "^18.2.18",
+    "@types/react-lines-ellipsis": "^0.15.5",
     "@typescript-eslint/eslint-plugin": "^6.19.1",
     "@typescript-eslint/parser": "^6.19.1",
     "@vitejs/plugin-react": "^4.2.1",
