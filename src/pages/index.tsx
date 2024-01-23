@@ -11,6 +11,9 @@ import { Suspense, lazy, memo, useContext, useMemo, useReducer } from 'react';
 import ReactDOM from 'react-dom/client';
 import { GlobalScrollbar } from 'mac-scrollbar';
 import Landscape from 'lesca-react-landscape';
+import Click from 'lesca-click';
+
+Click.install();
 
 Fetcher.install({
   hostUrl: import.meta.env.VITE_API_PATH || './api',
