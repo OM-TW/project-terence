@@ -10,6 +10,7 @@ import 'mac-scrollbar/dist/mac-scrollbar.css';
 import { Suspense, lazy, memo, useContext, useMemo, useReducer } from 'react';
 import ReactDOM from 'react-dom/client';
 import { GlobalScrollbar } from 'mac-scrollbar';
+import Landscape from 'lesca-react-landscape';
 
 Fetcher.install({
   hostUrl: import.meta.env.VITE_API_PATH || './api',
@@ -55,6 +56,7 @@ const App = () => {
         {state[ActionType.LoadingProcess]?.enabled && <LoadingProcess />}
       </Context.Provider>
       {state[ActionType.Scrollbar]?.enabled && <GlobalScrollbar />}
+      <Landscape />
     </div>
   );
 };
