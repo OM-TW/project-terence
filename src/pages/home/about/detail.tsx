@@ -17,15 +17,14 @@ const Detail = memo(() => {
   }, [index]);
 
   return (
-    <Dialog>
-      <div className='Detail'>
-        {Page}
-        <div className='close'>
-          <Button onClick={() => setState((S) => ({ ...S, trigger: false }))}>
-            <Button.Close />
-          </Button>
-        </div>
-      </div>
+    <Dialog
+      closeButton={
+        <Button onClick={() => setState((S) => ({ ...S, trigger: false }))}>
+          <Button.Close />
+        </Button>
+      }
+    >
+      <div className='Detail'>{Page}</div>
     </Dialog>
   );
 });

@@ -1,8 +1,8 @@
 import { memo } from 'react';
-import { TerenceQuotesList } from '../config';
+import { AboutQuotesList } from '../config';
 import './index.less';
 
-type T = { data: (typeof TerenceQuotesList)[number] };
+type T = { data: (typeof AboutQuotesList)[number] };
 
 const Row = memo(({ data }: T) => (
   <div className='row'>
@@ -15,7 +15,7 @@ const Quotes = memo(() => (
   <div className='Quotes'>
     <div className='ctx'>
       <div>
-        {TerenceQuotesList.map((data) => {
+        {AboutQuotesList.map((data) => {
           return <Row key={JSON.stringify(data)} data={data} />;
         })}
       </div>

@@ -10,7 +10,13 @@ const Detail = memo(() => {
   const [state, setState] = useContext(CourseContext);
   const { index } = state;
   return (
-    <Dialog>
+    <Dialog
+      closeButton={
+        <Button onClick={() => setState((S) => ({ ...S, trigger: false }))}>
+          <Button.Close />
+        </Button>
+      }
+    >
       <div className='Detail'>
         <div className='pagination'>
           <div>
@@ -39,11 +45,6 @@ const Detail = memo(() => {
             }
           >
             <Button.Course active>next</Button.Course>
-          </Button>
-        </div>
-        <div className='close'>
-          <Button onClick={() => setState((S) => ({ ...S, trigger: false }))}>
-            <Button.Close />
           </Button>
         </div>
       </div>

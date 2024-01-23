@@ -1,19 +1,19 @@
 import { createContext, Dispatch, SetStateAction } from 'react';
 
-export type TTerenceState = { trigger: boolean; index: number };
-export type TTerenceContext = [TTerenceState, Dispatch<SetStateAction<TTerenceState>>];
+export type TAboutState = { trigger: boolean; index: number };
+export type TAboutContext = [TAboutState, Dispatch<SetStateAction<TAboutState>>];
 
-export const TerenceState: TTerenceState = { trigger: false, index: 0 };
-export const TerenceContext = createContext<TTerenceContext>([TerenceState, () => {}]);
+export const TerenceState: TAboutState = { trigger: false, index: 0 };
+export const TerenceContext = createContext<TAboutContext>([TerenceState, () => {}]);
 
-export const TerenceMenu = [
+export const AboutMenu = [
   { title: '認識林宗緯', subTitle: 'About Terence' },
   { title: '我眼中的林宗緯', subTitle: 'Foreword' },
   { title: '林宗緯的七種特質', subTitle: '7 The Seven Attributes of Terence' },
   { title: '林宗緯語錄', subTitle: 'Quotes' },
 ];
 
-export const TerenceForewordList = [
+export const AboutForewordList = [
   {
     name: '楊明皓',
     englishName: 'Miles Young',
@@ -129,7 +129,7 @@ export const TerenceForewordList = [
   },
 ];
 
-export const TerenceSevenList = [
+export const AboutSevenList = [
   {
     english: 'TALENT',
     chinese: '才華',
@@ -174,7 +174,7 @@ export const TerenceSevenList = [
   },
 ];
 
-export const TerenceQuotesList = [
+export const AboutQuotesList = [
   {
     title: '關於AE要知道的事',
     list: [

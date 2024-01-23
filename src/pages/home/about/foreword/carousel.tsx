@@ -1,10 +1,10 @@
 import { WheelEventHandler, memo, useContext, useEffect, useMemo, useRef, useState } from 'react';
-import { TerenceForewordList } from '../config';
+import { AboutForewordList } from '../config';
 import './carousel.less';
 import { ForewordContext, SlideSize } from './config';
 
 type T = {
-  data: (typeof TerenceForewordList)[0];
+  data: (typeof AboutForewordList)[0];
   width: number;
 };
 
@@ -40,7 +40,7 @@ const Carousel = memo(({ onWheel, wheel }: K) => {
     window.innerWidth > 1024 ? SlideSize.max : SlideSize.min,
   );
   const [width, setWidth] = useState(window.innerWidth > 1024 ? SlideSize.max : SlideSize.min);
-  const totalWidth = TerenceForewordList.length * width;
+  const totalWidth = AboutForewordList.length * width;
 
   useEffect(() => {
     const resize = () => {
@@ -48,7 +48,7 @@ const Carousel = memo(({ onWheel, wheel }: K) => {
       setWidth(currentWidth);
       if (slickRef.current) {
         const { width: w } = slickRef.current.getBoundingClientRect();
-        getOffset(TerenceForewordList.length * currentWidth - w);
+        getOffset(AboutForewordList.length * currentWidth - w);
       }
     };
     resize();
@@ -86,7 +86,7 @@ const Carousel = memo(({ onWheel, wheel }: K) => {
           className='whitespace-nowrap flex flex-row pl-0 lg:pl-64'
           style={{ width: `${totalWidth}px`, transform: `translateX(${x}px)` }}
         >
-          {TerenceForewordList.map((data) => (
+          {AboutForewordList.map((data) => (
             <Slide width={width} key={JSON.stringify(data)} data={data} />
           ))}
         </div>

@@ -1,6 +1,6 @@
 import Button from '@/components/button';
 import { memo, useState } from 'react';
-import { TerenceContext, TerenceMenu, TerenceState } from './config';
+import { TerenceContext, AboutMenu, TerenceState } from './config';
 import Detail from './detail';
 import './index.less';
 
@@ -15,7 +15,7 @@ const About = memo(() => {
             <div className='symbols' />
           </div>
           <div>
-            {TerenceMenu.map((data, index) => (
+            {AboutMenu.map((data, index) => (
               <Button
                 key={JSON.stringify(data)}
                 className='w-full max-w-lg'

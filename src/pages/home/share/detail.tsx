@@ -21,7 +21,13 @@ const Detail = memo(() => {
 
   return (
     <div className='Detail'>
-      <Dialog>
+      <Dialog
+        closeButton={
+          <Button onClick={() => setState((S) => ({ ...S, trigger: false }))}>
+            <Button.Close />
+          </Button>
+        }
+      >
         <div className='w-full p-20'>
           <div className='header'>
             <h2>
@@ -38,12 +44,6 @@ const Detail = memo(() => {
             </div>
           </div>
           <div className='body'>{data.html()}</div>
-        </div>
-
-        <div className='close'>
-          <Button onClick={() => setState((S) => ({ ...S, trigger: false }))}>
-            <Button.Close />
-          </Button>
         </div>
       </Dialog>
     </div>
