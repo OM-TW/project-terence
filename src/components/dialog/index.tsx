@@ -11,13 +11,11 @@ type TBox = T & { status: TransitionType };
 const Box = ({ children, status, closeButton = null }: TBox) => {
   const [style, setStyle] = useTween({ y: window.innerHeight });
   useEffect(() => {
-    if (status === TransitionType.DidFadeIn) {
-      setStyle({ y: 0 }, 300);
-    }
+    if (status === TransitionType.DidFadeIn) setStyle({ y: 0 }, 300);
   }, [status]);
   return (
     <div className='Dialog'>
-      <div style={style} className='w-full'>
+      <div style={style} className='w-full h-full'>
         {children}
       </div>
       <div className='fixed top-0 right-0'>{closeButton}</div>

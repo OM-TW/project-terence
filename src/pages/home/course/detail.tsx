@@ -5,6 +5,7 @@ import { memo, useContext } from 'react';
 import { CourseContext, CourseMonsters } from './config';
 import './detail.less';
 import { twMerge } from 'tailwind-merge';
+import { TweenProvider } from 'lesca-use-tween';
 
 const Detail = memo(() => {
   const [state, setState] = useContext(CourseContext);
@@ -23,7 +24,13 @@ const Detail = memo(() => {
             <span className='current'>{Pad(index + 1, 2)}</span>
             <span className='total'>{Pad(CourseMonsters.length, 2)}</span>
           </div>
-          <div className={twMerge('char', `char${index}`)} />
+          <TweenProvider
+            initStyle={{ opacity: 0, x: 100 }}
+            tweenStyle={{ opacity: 1, x: 0 }}
+            key={index}
+          >
+            <div className={twMerge('char', `char${index}`)} />
+          </TweenProvider>
         </div>
         <div className='controller'>
           <Button

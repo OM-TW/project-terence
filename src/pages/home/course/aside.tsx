@@ -2,6 +2,7 @@ import { memo, useContext, useMemo } from 'react';
 import { twMerge } from 'tailwind-merge';
 import './aside.less';
 import { CourseContext, CourseMonsters } from './config';
+import { TweenProvider } from 'lesca-use-tween';
 
 const Aside = memo(() => {
   const [state] = useContext(CourseContext);
@@ -21,13 +22,34 @@ const Aside = memo(() => {
     }
     return (
       <>
-        <h2>{CourseMonsters[index].className}</h2>
-        <p>
-          {CourseMonsters[index].name}
-          <br />
-          {CourseMonsters[index].position}
-        </p>
-        <p>{CourseMonsters[index].description}</p>
+        <TweenProvider
+          key={`h1${index}`}
+          initStyle={{ opacity: 0, y: 100 }}
+          tweenStyle={{ opacity: 1, y: 0 }}
+          options={{ delay: 0, duration: 500 }}
+        >
+          <h2>{CourseMonsters[index].className}</h2>
+        </TweenProvider>
+        <TweenProvider
+          key={`h2${index}`}
+          initStyle={{ opacity: 0, y: 100 }}
+          tweenStyle={{ opacity: 1, y: 0 }}
+          options={{ delay: 100, duration: 500 }}
+        >
+          <p>
+            {CourseMonsters[index].name}
+            <br />
+            {CourseMonsters[index].position}
+          </p>
+        </TweenProvider>
+        <TweenProvider
+          key={`h3${index}`}
+          initStyle={{ opacity: 0, y: 100 }}
+          tweenStyle={{ opacity: 1, y: 0 }}
+          options={{ delay: 200, duration: 500 }}
+        >
+          <p>{CourseMonsters[index].description}</p>
+        </TweenProvider>
       </>
     );
   }, [index, trigger]);

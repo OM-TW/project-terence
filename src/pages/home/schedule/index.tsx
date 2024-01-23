@@ -26,7 +26,7 @@ const Schedule = memo(() => {
   const value = useState(ScheduleState);
   const { page } = value[0];
   return (
-    <section className='Schedule'>
+    <section id='application' className='Schedule'>
       <ScheduleContext.Provider value={value}>
         <div className='w-full pb-56 max-w-5xl flex flex-col justify-start items-center pt-10'>
           <Tab />

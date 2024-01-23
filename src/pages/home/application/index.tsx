@@ -5,7 +5,7 @@ import './index.less';
 import Pattern from './pattern';
 
 const Application = memo(() => (
-  <section id='application' className='Application'>
+  <section className='Application'>
     <Grid />
     <Pattern />
     <ScrollDown />
