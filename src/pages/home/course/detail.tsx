@@ -1,11 +1,11 @@
 import Button from '@/components/button';
 import Dialog from '@/components/dialog';
 import { Pad } from 'lesca-number';
+import { TweenProvider } from 'lesca-use-tween';
 import { memo, useContext } from 'react';
+import { twMerge } from 'tailwind-merge';
 import { CourseContext, CourseMonsters } from './config';
 import './detail.less';
-import { twMerge } from 'tailwind-merge';
-import { TweenProvider } from 'lesca-use-tween';
 
 const Detail = memo(() => {
   const [state, setState] = useContext(CourseContext);
