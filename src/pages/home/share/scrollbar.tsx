@@ -9,10 +9,15 @@ const ScrollBar = forwardRef((_, ref) => {
   const scrollRef = useRef<HTMLDivElement>(null);
   const [right, setRight] = useState<number>(0);
 
+  const clientWidthRef = useRef(window.innerHeight);
+
   useEffect(() => {
     const resize = () => {
       if (scrollRef.current) setRight(scrollRef.current?.getBoundingClientRect().width - 20 || 0);
-      setState((S) => ({ ...S, percent: 0 }));
+      if (clientWidthRef.current !== window.innerWidth) {
+        setState((S) => ({ ...S, percent: 0 }));
+        clientWidthRef.current = window.innerWidth;
+      }
       if (DraggableRef.current) {
         DraggableRef.current.setState((S) => ({ ...S, x: 0 }));
       }

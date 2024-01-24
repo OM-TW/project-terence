@@ -5,11 +5,8 @@ import { Suspense, lazy, memo, useContext, useEffect, useMemo, useState } from '
 import { HomeContext, HomePages, HomeState, HomeStepType, THomeState } from './config';
 import './index.less';
 import Landing from './landing';
-import Click from 'lesca-click';
 
 const hash = window.location.hash;
-
-Click.addPreventExcept('.Home');
 
 const Home = memo(() => {
   const [, setContext] = useContext(Context);

@@ -8,7 +8,6 @@ import ScrollBar from './scrollbar';
 import { DefaultInternshipExperience } from './temp';
 
 const data = DefaultInternshipExperience['2009 第一屆紅領帶'];
-
 type T = { data: (typeof data)[number]; index: number };
 
 const Slide = memo(({ data, index }: T) => {
@@ -38,7 +37,6 @@ const Slide = memo(({ data, index }: T) => {
 const Carousel = memo(() => {
   const [state] = useContext(ShareContext);
   const { percent, th } = state;
-
   const list = useMemo<typeof data>(() => {
     return Object.values(DefaultInternshipExperience)[th - 1];
   }, [th]);
@@ -92,11 +90,12 @@ const Carousel = memo(() => {
           onWheel={onWheel}
           onTouchStart={(e) => {
             touchProperty.current.enabled = true;
-            touchProperty.current.x = e.touches[0].clientX;
+            touchProperty.current.x = e.touches[0].pageX;
           }}
           onTouchMove={(e) => {
-            const currentX = e.touches[0].clientX;
+            const currentX = e.touches[0].pageX;
             const delta = Math.floor(touchProperty.current.x - currentX);
+
             scrollRef.current?.set(delta);
             touchProperty.current.x = currentX;
           }}

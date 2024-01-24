@@ -4,12 +4,9 @@ import OnloadProvider from 'lesca-react-onload';
 import useTween from 'lesca-use-tween';
 import { ReactNode, memo, useContext, useEffect, useState } from 'react';
 import './index.less';
-import Click from 'lesca-click';
 
 type T = IReactProps & { closeButton?: ReactNode };
 type TBox = T & { status: TransitionType };
-
-Click.addPreventExcept('.Dialog');
 
 const Box = ({ children, status, closeButton = null }: TBox) => {
   const [style, setStyle] = useTween({ y: window.innerHeight });

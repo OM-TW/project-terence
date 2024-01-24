@@ -1,11 +1,26 @@
 import Button from '@/components/button';
 import Dialog from '@/components/dialog';
+import { TransitionType } from '@/settings/type';
 import { Pad } from 'lesca-number';
-import { TweenProvider } from 'lesca-use-tween';
-import { memo, useContext } from 'react';
+import OnloadProvider from 'lesca-react-onload';
+import useTween from 'lesca-use-tween';
+import { memo, useContext, useEffect, useState } from 'react';
 import { twMerge } from 'tailwind-merge';
 import { CourseContext, CourseMonsters } from './config';
 import './detail.less';
+
+const Mentor = ({ index }: { index: number }) => {
+  const [style, setStyle] = useTween({ opacity: 0, x: 100 });
+  const [transition, setTransition] = useState(TransitionType.Unset);
+  useEffect(() => {
+    if (transition === TransitionType.FadeIn) setStyle({ opacity: 1, x: 0 });
+  }, [transition]);
+  return (
+    <OnloadProvider hideBeforeLoaded={false} onload={() => setTransition(TransitionType.FadeIn)}>
+      <div style={style} className={twMerge('char', `char${index}`)} />
+    </OnloadProvider>
+  );
+};
 
 const Detail = memo(() => {
   const [state, setState] = useContext(CourseContext);
@@ -24,13 +39,7 @@ const Detail = memo(() => {
             <span className='current'>{Pad(index + 1, 2)}</span>
             <span className='total'>{Pad(CourseMonsters.length, 2)}</span>
           </div>
-          <TweenProvider
-            initStyle={{ opacity: 0, x: 100 }}
-            tweenStyle={{ opacity: 1, x: 0 }}
-            key={index}
-          >
-            <div className={twMerge('char', `char${index}`)} />
-          </TweenProvider>
+          <Mentor index={index} key={index} />
         </div>
         <div className='controller'>
           <Button

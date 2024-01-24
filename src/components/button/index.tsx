@@ -17,7 +17,7 @@ type T = ReadyOnly<{
 }>;
 
 const Button = ({ children, onClick, className, style }: IReactProps & T) => (
-  <button className={twMerge(className)} style={style} onClick={onClick}>
+  <button className={twMerge('pointer-events-auto', className)} style={style} onClick={onClick}>
     {children}
   </button>
 );
