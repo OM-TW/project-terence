@@ -24,14 +24,14 @@ export const ScheduleState = { step: ScheduleStepType.Unset, page: SchedulePageT
 export const ScheduleContext = createContext<TScheduleContext>([ScheduleState, () => {}]);
 
 export const ScheduleTimeline = [
-  { date: '2024-2-15', name: '開始收件' },
-  { date: '2024-3-14', name: '紅領帶說明會' },
-  { date: '2024-3-26', name: '截止收件' },
-  { date: '2024-3-29', name: '舉行筆試' },
-  { date: '2024-4-13', name: '公布入圍名單' },
-  { date: '2024-4-22', name: '舉行口試' },
-  { date: '2024-4-26', name: '公布培訓名單' },
-  { date: '2024-5-1', name: '培訓開始' },
+  { date: '2024-2-22', name: '開始收件' },
+  { date: '2024-3-16', name: '紅領帶說明會' },
+  { date: '2024-3-31', name: '截止收件' },
+  { date: '2024-4-9', name: '舉行筆試' },
+  { date: '2024-4-26', name: '公布入圍名單' },
+  { date: '2024-5-4', name: '舉行口試' },
+  { date: '2024-5-8', name: '公布培訓名單' },
+  { date: '2024-7-1', name: '培訓開始' },
 ];
 
 export const ScheduleFAQ = [
