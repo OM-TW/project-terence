@@ -56,7 +56,7 @@ const App = () => {
         {state[ActionType.LoadingProcess]?.enabled && <LoadingProcess />}
       </Context.Provider>
       {state[ActionType.Scrollbar]?.enabled && <GlobalScrollbar />}
-      <Landscape />
+      <Landscape style={{ backgroundColor: '#EB3F43' }} />
     </div>
   );
 };
