@@ -1,16 +1,40 @@
 import { memo, useContext, useMemo } from 'react';
 import './article.less';
 import { OpenArticleList, OpeningContext, TOpenArticle } from './config';
+import { TweenProvider } from 'lesca-use-tween';
 
-const Quote = ({ data }: { data: TOpenArticle }) => {
+const Quote = ({ data, index }: { data: TOpenArticle; index: number }) => {
   return (
     <div className='quote'>
-      <h3>{data.traits}</h3>
-      <h1>{data.title}</h1>
+      <TweenProvider
+        initStyle={{ opacity: 0 }}
+        tweenStyle={{ opacity: 1 }}
+        options={{ delay: 100 * index }}
+      >
+        <h3>{data.traits}</h3>
+      </TweenProvider>
+      <TweenProvider
+        initStyle={{ opacity: 0 }}
+        tweenStyle={{ opacity: 1 }}
+        options={{ delay: 100 * index + 100 }}
+      >
+        <h1>{data.title}</h1>
+      </TweenProvider>
       <div className='w-full'>
         <ol>
-          {data.items.map((text) => {
-            return <li key={text}>{text}</li>;
+          {data.items.map((text, i) => {
+            return (
+              <TweenProvider
+                key={text}
+                initStyle={{ opacity: 0 }}
+                tweenStyle={{ opacity: 1 }}
+                options={{
+                  delay: 100 * index + 100 + 100 + i * 50,
+                }}
+              >
+                <li>{text}</li>
+              </TweenProvider>
+            );
           })}
         </ol>
       </div>
@@ -25,8 +49,8 @@ const Article = memo(() => {
   return (
     <article className='Article'>
       <div>
-        {currentArticle.map((e) => (
-          <Quote key={JSON.stringify(e)} data={e} />
+        {currentArticle.map((e, index) => (
+          <Quote key={JSON.stringify(e)} data={e} index={index} />
         ))}
       </div>
     </article>
