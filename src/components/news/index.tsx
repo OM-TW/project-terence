@@ -6,14 +6,19 @@ import { memo, useContext, useEffect, useState } from 'react';
 import NewsDialog from './dialog';
 import './index.less';
 
-const BG = memo(({ transition }: { transition: TransitionType }) => {
+type T = {
+  transition: TransitionType;
+  onClose: () => void;
+};
+
+const BG = memo(({ transition, onClose }: T) => {
   const [style, setStyle] = useTween({ opacity: 0 });
   useEffect(() => {
     if (transition === TransitionType.FadeIn) {
       setStyle({ opacity: 0.9 }, 200);
     }
   }, [transition]);
-  return <div style={style} />;
+  return <div style={style} onClick={onClose} />;
 });
 
 const News = memo(() => {
@@ -32,7 +37,12 @@ const News = memo(() => {
   return (
     <OnloadProvider onload={() => setTransition(TransitionType.FadeIn)}>
       <div className='News'>
-        <BG transition={transition} />
+        <BG
+          transition={transition}
+          onClose={() => {
+            setContext({ type: ActionType.News, state: { enabled: false } });
+          }}
+        />
         <div className='ctx'>
           <NewsDialog
             transition={transition}
