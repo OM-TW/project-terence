@@ -1,26 +1,25 @@
+import { ActionType } from '@/settings/type';
 import Fetcher from 'lesca-fetcher';
-import { useContext, useEffect, useState } from 'react';
+import { useContext, useState } from 'react';
 import { REST_PATH } from '../settings/config';
 import { Context } from '../settings/constant';
-import { ActionType } from '@/settings/type';
+import { THomeSchedule } from '@/pages/home/config';
 
-export type TResult = { userID: string; id: number; title: string; completed: boolean } | undefined;
+export type TResult =
+  | { schedule: { res: boolean; msg: string; data: THomeSchedule[] } }
+  | undefined;
 
-const useSchedule = () => {
+const useInit = () => {
   const [, setContext] = useContext(Context);
   const [state, setState] = useState<TResult>();
 
   const fetch = async () => {
     setContext({ type: ActionType.LoadingProcess, state: { enabled: true } });
-    const respond = (await Fetcher.get(REST_PATH.schedule)) as TResult;
+    const respond = (await Fetcher.get(REST_PATH.init)) as TResult;
     setState(respond);
     setContext({ type: ActionType.LoadingProcess, state: { enabled: false } });
   };
 
-  useEffect(() => {
-    fetch();
-  }, []);
-
   return [state, fetch] as const;
 };
-export default useSchedule;
+export default useInit;

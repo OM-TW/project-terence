@@ -3,7 +3,7 @@ export const PAGE = {
 };
 
 export const REST_PATH = {
-  schedule: 'schedule',
+  init: 'init',
 };
 
 export const MENU = [

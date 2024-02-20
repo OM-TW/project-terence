@@ -1,9 +1,16 @@
-import { Fragment, memo } from 'react';
+import { CommaStringToList } from 'lesca-comma-string';
+import { Fragment, memo, useContext, useMemo } from 'react';
 import { twMerge } from 'tailwind-merge';
-import { ScheduleTimeline } from './config';
+import { HomeContext } from '../config';
 import './timeline.less';
 
 const Timeline = memo(() => {
+  const [state] = useContext(HomeContext);
+
+  const ScheduleTimeline = useMemo(() => {
+    return CommaStringToList(state.schedule.schedule, ['date', 'name']) || [];
+  }, [state.schedule]);
+
   const now = new Date().getTime();
   // const now = new Date('2024-4-16').getTime();
   const checked = ScheduleTimeline.reduce(

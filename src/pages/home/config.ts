@@ -12,13 +12,34 @@ export const HomePages = [
   { page: 'about', name: '他是林宗緯' },
 ];
 
+export type THomeSchedule = {
+  contacts: string;
+  general: string;
+  written: string;
+  oral: string;
+  target: string;
+  schedule: string;
+  timestamp: number;
+};
+
 export enum HomeStepType {
   unset,
   loaded,
   fontLoaded,
 }
-export type THomeState = { step: HomeStepType };
+export type THomeState = { step: HomeStepType; schedule: THomeSchedule };
 export type THomeContext = [THomeState, Dispatch<SetStateAction<THomeState>>];
 
-export const HomeState = { step: HomeStepType.unset };
+export const HomeState: THomeState = {
+  step: HomeStepType.unset,
+  schedule: {
+    contacts: '',
+    general: '',
+    written: '',
+    oral: '',
+    target: '升大四至研究所學生(2024.07-08需有在學身分)',
+    schedule: '',
+    timestamp: 0,
+  },
+};
 export const HomeContext = createContext<THomeContext>([HomeState, () => {}]);

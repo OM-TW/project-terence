@@ -14,6 +14,7 @@
   "dependencies": {
     "@faker-js/faker": "^8.4.1",
     "lesca-click": "^4.3.5",
+    "lesca-comma-string": "^1.0.1",
     "lesca-fetcher": "^1.1.7",
     "lesca-number": "^1.5.5",
     "lesca-react-landscape": "^3.0.7",

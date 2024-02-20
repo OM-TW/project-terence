@@ -10,7 +10,6 @@ type T = {
 
 const Slide = memo(({ data, width }: T) => (
   <div className='slide' style={{ width: `${width}px` }}>
-    <div></div>
     <div>
       <h1>{data.englishName}</h1>
       <h2>{data.name}</h2>

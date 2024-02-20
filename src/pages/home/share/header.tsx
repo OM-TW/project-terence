@@ -24,7 +24,7 @@ const Header = memo(() => {
     <div className='Header'>
       <div>
         <div className='title'>而紅領帶相信……</div>
-        <div className='sub'>紅領帶都在幹嘛？看看他們怎麼說。</div>
+        {/* <div className='sub'>紅領帶都在幹嘛？看看他們怎麼說。</div> */}
         <div className='select'>
           <Select
             onChange={(e) => {

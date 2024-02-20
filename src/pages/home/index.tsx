@@ -5,6 +5,7 @@ import { Suspense, lazy, memo, useContext, useEffect, useMemo, useState } from '
 import { HomeContext, HomePages, HomeState, HomeStepType, THomeState } from './config';
 import './index.less';
 import Landing from './landing';
+import useInit from '@/hooks/useInit';
 
 const hash = window.location.hash;
 
@@ -12,6 +13,8 @@ const Home = memo(() => {
   const [, setContext] = useContext(Context);
   const [state, setState] = useState<THomeState>(HomeState);
   const { step } = state;
+
+  const [data, getData] = useInit();
 
   const pages = useMemo(() => {
     if (step !== HomeStepType.unset) {
@@ -34,9 +37,18 @@ const Home = memo(() => {
           window.location.hash = hash;
         }, 400);
       };
-      setContext({ type: ActionType.Ready, state: { enabled: true } });
+
+      getData();
     } else window.location.hash = '';
   }, [step]);
+
+  useEffect(() => {
+    if (data) {
+      const [schedule] = data.schedule.data;
+      setContext({ type: ActionType.Ready, state: { enabled: true } });
+      setState((S) => ({ ...S, schedule }));
+    }
+  }, [data]);
 
   return (
     <OnloadProvider
