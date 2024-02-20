@@ -23,11 +23,7 @@ const Header = memo(() => {
   return (
     <div className='Header'>
       <div>
-        <div className='title'>
-          就是相信自己
-          <br />
-          永遠可以更棒。
-        </div>
+        <div className='title'>而紅領帶相信……</div>
         <div className='sub'>紅領帶都在幹嘛？看看他們怎麼說。</div>
         <div className='select'>
           <Select
@@ -51,9 +47,7 @@ const Header = memo(() => {
         </div>
       </div>
       <div>
-        一身筆挺的西裝不是帥而已，那是因為尊重…尊重工作、專業、細節和正確的價值，尊重每一位獨一無二的夥伴、部屬及老闆，尊重自己，最後贏得別人的尊重。
-        <br />
-        一身筆挺的西裝不是帥而已，那是因為尊重…尊重工作、專業、細節和正確的價值，尊重每一位獨一無二的夥伴、部屬及老闆，尊重自己，最後贏得別人的尊重。
+        每一屆的紅領帶，都在這裡封存了他們的身為紅領帶的心情與學習。探探學長姐的腦袋，看看他們在紅領帶的兩個月後得到什麼、失去什麼、擁有什麼又拋下了什麼。
       </div>
     </div>
   );

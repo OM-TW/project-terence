@@ -1,10 +1,13 @@
 import { LINKS } from '@/settings/config';
-import { memo, useState } from 'react';
+import { memo, useContext, useState } from 'react';
 import Button from '../button';
 import Drawer from './drawer';
 import './index.less';
+import { Context } from '@/settings/constant';
+import { ActionType } from '@/settings/type';
 
 const Navigation = memo(() => {
+  const [, setContext] = useContext(Context);
   const [status, setStatus] = useState(false);
   return (
     <nav className='Navigation'>
@@ -26,7 +29,9 @@ const Navigation = memo(() => {
         </ul>
       </div>
       <div className='shortcut'>
-        <button>News</button>
+        <Button onClick={() => setContext({ type: ActionType.News, state: { enabled: true } })}>
+          News
+        </Button>
       </div>
       <Drawer status={status} setStatus={setStatus} />
       <Button

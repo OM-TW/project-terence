@@ -21,4 +21,5 @@ export const LINKS = {
   instagram: 'https://www.instagram.com/ogilvytaiwan/',
 };
 
-export const GOOGLE_FORM_URL = 'https://www.google.com.tw/intl/zh-TW/forms/about/';
+export const GOOGLE_FORM_URL =
+  'https://docs.google.com/forms/d/e/1FAIpQLSdUru3jZf_iQWlqeW18GzP1cOXz0QQUlC3PAcSxh3y3XoOa6w/viewform';

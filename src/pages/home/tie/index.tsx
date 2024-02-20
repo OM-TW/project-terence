@@ -3,7 +3,7 @@ import './index.less';
 
 const Tie = memo(() => (
   <section className='Tie'>
-    <div />
+    <div className='cover' />
   </section>
 ));
 export default Tie;

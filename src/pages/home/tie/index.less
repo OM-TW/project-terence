@@ -1,7 +1,12 @@
 .Tie {
-  @apply flex justify-center items-center;
+  @apply w-full h-screen;
 
-  & > div {
+  .cover {
+    background-image: url('./img/cover.jpg');
+    @apply relative w-full h-full bg-cover bg-blue-400 bg-center;
+  }
+
+  .tie {
     width: image-width(@img) * @scale;
     height: image-height(@img) * @scale;
     background-image: url(@img);
@@ -9,5 +14,7 @@
 
     @scale: 0.5;
     @img: './img/tie.svg';
+
+    @apply hidden;
   }
 }

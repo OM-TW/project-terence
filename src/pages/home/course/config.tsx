@@ -43,7 +43,9 @@ export const CourseMonsters = [
     position: '集團創意長',
     description: (
       <>
-        在未竟的天空之城，我們說的都是那些非常 old
+        在未竟的天空之城，
+        <br />
+        我們說的都是那些非常 old
         <br />
         fashioned 的故事。
       </>
@@ -74,14 +76,14 @@ export const CourseMonsters = [
     ),
   },
   {
-    className: '策略原理',
-    name: '葉明桂 Mingguay Yeh',
-    position: '集團首席策略顧問',
+    className: '永續入門',
+    name: '許愈珮 Yuh-Pey Hsu',
+    position: '策略總監',
     description: (
       <>
-        對創意不夠熱情的，在我們這行待不久。
+        發揮廣告的魔法，
         <br />
-        但在這行卻可以學到很多。
+        讓品牌能為世界的永續帶來正面的影響力。
       </>
     ),
   },

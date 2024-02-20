@@ -19,10 +19,20 @@ export const ScrollbarState = {
   enabled: true,
 };
 
+export const NewsState = {
+  enabled: true,
+};
+
+export const ReadyState = {
+  enabled: false,
+};
+
 export const InitialState: IState = {
   [ActionType.Page]: PAGE.home,
   [ActionType.LoadingProcess]: LoadingProcessState,
   [ActionType.Scrollbar]: ScrollbarState,
+  [ActionType.News]: NewsState,
+  [ActionType.Ready]: ReadyState,
 };
 
 export const Context = createContext<TContext>([InitialState, () => {}]);

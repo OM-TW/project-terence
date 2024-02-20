@@ -11,6 +11,7 @@ import { Suspense, lazy, memo, useContext, useMemo, useReducer } from 'react';
 import ReactDOM from 'react-dom/client';
 import { GlobalScrollbar } from 'mac-scrollbar';
 import Landscape from 'lesca-react-landscape';
+import News from '@/components/news';
 
 Fetcher.install({
   hostUrl: import.meta.env.VITE_API_PATH || './api',
@@ -54,8 +55,9 @@ const App = () => {
         <Navigation />
         <OgilvyLogo />
         {state[ActionType.LoadingProcess]?.enabled && <LoadingProcess />}
+        {state[ActionType.Scrollbar]?.enabled && <GlobalScrollbar />}
+        {state[ActionType.Ready]?.enabled && state[ActionType.News]?.enabled && <News />}
       </Context.Provider>
-      {state[ActionType.Scrollbar]?.enabled && <GlobalScrollbar />}
       <Landscape style={{ backgroundColor: '#EB3F43' }} />
     </div>
   );

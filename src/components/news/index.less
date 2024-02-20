@@ -1,0 +1,36 @@
+.News {
+  @apply fixed w-full h-full top-0 left-0 flex justify-center items-center;
+
+  & > div:nth-child(1) {
+    content: '';
+    @apply fixed w-full h-full bg-black bg-opacity-90;
+  }
+
+  .ctx {
+    max-height: 100%;
+    @apply w-full bg-red-500 lg:w-10/12;
+
+    .dialog {
+      max-height: 100%;
+      @apply relative w-full bg-white text-center;
+
+      .content {
+        min-height: 300px;
+        max-height: 100vh;
+        @apply space-y-10 py-20 w-full overflow-y-scroll;
+
+        h1 {
+          @apply text-2xl font-noto-medium tracking-widest;
+        }
+
+        p {
+          @apply text-center font-noto-medium leading-loose;
+        }
+      }
+
+      .close {
+        @apply absolute top-0 right-0;
+      }
+    }
+  }
+}

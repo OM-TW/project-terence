@@ -4,6 +4,8 @@ export enum ActionType {
   Page = 'page',
   LoadingProcess = 'loadingProcess',
   Scrollbar = 'scrollbar',
+  News = 'news',
+  Ready = 'ready',
 }
 
 export enum LoadingProcessType {
@@ -41,6 +43,8 @@ export interface IState {
   page?: string;
   loadingProcess?: TLoadingProcessState;
   scrollbar?: TScrollbarState;
+  news?: { enabled?: boolean };
+  ready?: { enabled?: boolean };
 }
 
 export interface IAction {

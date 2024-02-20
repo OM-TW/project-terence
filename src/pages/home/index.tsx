@@ -34,6 +34,7 @@ const Home = memo(() => {
           window.location.hash = hash;
         }, 400);
       };
+      setContext({ type: ActionType.Ready, state: { enabled: true } });
     } else window.location.hash = '';
   }, [step]);
 
