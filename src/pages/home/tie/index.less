@@ -4,6 +4,12 @@
   .cover {
     background-image: url('./img/cover.jpg');
     @apply relative w-full h-full bg-cover bg-no-repeat bg-center;
+
+    @media only screen and (max-width: 768px) {
+      & {
+        background-image: url('./img/cover-md.jpg');
+      }
+    }
   }
 
   .tie {

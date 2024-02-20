@@ -12,6 +12,12 @@
       background-repeat: no-repeat;
       @apply w-1/2 pl-5 lg:pl-32 pt-52 overflow-visible;
 
+      @media only screen and (max-width: 768px) {
+        & {
+          background-position: center 12rem;
+        }
+      }
+
       .title {
         @apply font-noto-medium text-5xl text-black leading-normal relative font-medium;
 

@@ -1,5 +1,5 @@
 .News {
-  @apply fixed w-full h-full top-0 left-0 flex justify-center items-center;
+  @apply fixed w-full h-full top-0 left-0 flex justify-center items-center select-text;
 
   & > div:nth-child(1) {
     content: '';
@@ -20,11 +20,18 @@
         @apply space-y-10 py-20 w-full overflow-y-scroll;
 
         h1 {
-          @apply text-2xl font-noto-medium tracking-widest;
+          @apply text-2xl font-noto-medium;
         }
 
         p {
           @apply text-center font-noto-medium leading-loose;
+        }
+
+        a {
+          @apply text-OM-red-300;
+        }
+        a:hover {
+          @apply text-OM-red-200;
         }
       }
 
