@@ -3,7 +3,7 @@ export const PAGE = {
 };
 
 export const REST_PATH = {
-  test: 'todos/1',
+  schedule: 'schedule',
 };
 
 export const MENU = [
