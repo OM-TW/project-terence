@@ -14,6 +14,7 @@ const Slide = memo(({ data, width }: T) => (
       <h1>{data.englishName}</h1>
       <h2>{data.name}</h2>
       <div>
+        時任
         {data.position}
         <span>{data.positionEnglish}</span>
       </div>

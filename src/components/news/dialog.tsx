@@ -2,7 +2,6 @@ import { TransitionType } from '@/settings/type';
 import useTween from 'lesca-use-tween';
 import { memo, useEffect, useRef } from 'react';
 import Button from '../button';
-import { GOOGLE_FORM_URL } from '@/settings/config';
 
 type T = {
   transition: TransitionType;
@@ -30,7 +29,7 @@ const NewsDialog = memo(({ transition, onClose }: T) => {
         </p>
         <h1>【第十六屆 Project T奧美紅領帶計劃說明會】</h1>
         <p>
-          僅訂於2022/3/16 (六) 13:00-18:00 舉辦紅領帶說明會。
+          僅訂於2024/3/16 (六) 13:00-18:00 舉辦紅領帶說明會。
           <br />
           說明會除有紅領帶校友說明紅領帶計畫內容外，
           <br />
@@ -41,7 +40,7 @@ const NewsDialog = memo(({ transition, onClose }: T) => {
           讓你一探奧美、紅領帶究竟在做什麼？
         </p>
         <p>
-          <a className='font-noto-black' href={GOOGLE_FORM_URL} target='_blank'>
+          <a className='font-noto-black' href='https://forms.gle/eYRPT5RhGKTCxgq18' target='_blank'>
             *即刻報名*
           </a>
         </p>
