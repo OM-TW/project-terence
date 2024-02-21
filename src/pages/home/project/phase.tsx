@@ -14,7 +14,7 @@ const Group = memo(({ h2, h1, ps, children }: IReactProps & Props) => {
       <h2>{h2}</h2>
       <h1>{h1}</h1>
       <p>{children}</p>
-      <p className='text-OM-red-300' style={{ fontSize: '1rem' }}>
+      <p className='text-OM-red-300' style={{ fontSize: '0.85rem' }}>
         {ps}
       </p>
     </div>
@@ -34,19 +34,19 @@ const Phase = memo(() => (
     </Group>
     <div className='steps'>
       <div className='step'>
-        <h1>貼身培訓Ready</h1>
+        <h1>貼身培訓</h1>
         <p>
-          經本獎助計劃審核通過者，將由獎助委員安排至台灣奧美培訓。培訓期間，將可與正式員工接受相同訓練課程。培訓期為暑假兩個月。確切日期依每年時間表作適當調整。
+          經本獎助計畫審核通過者，將由獎助委員安排至台灣奧美培訓。培訓期間，將可與正式員工接受相同訓練課程。培訓期為暑假兩個月。確切日期依每年時間表作適當調整。
         </p>
       </div>
       <div className='step'>
         <h1>學長姐伴你同行</h1>
         <p>
-          培訓部門及內容將由本獎助計劃委員長指定，並指派台灣奧美員工作為學長，給予培訓期間的監督與協助。
+          培訓部門及內容將由本獎助計畫委員長指定，並指派台灣奧美員工作為學長，給予培訓期間的監督與協助。
         </p>
       </div>
       <div className='step'>
-        <h1>圓夢助力Ｇet</h1>
+        <h1>圓夢助力</h1>
         <p>培訓結束，經本計畫委員內部審核評估後，審核通過者於結業時發給兩萬元整獎助金。</p>
       </div>
     </div>

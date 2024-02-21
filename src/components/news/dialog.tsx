@@ -19,7 +19,7 @@ const NewsDialog = memo(({ transition, onClose }: T) => {
   return (
     <div className='dialog' style={style}>
       <div ref={ref} className='content'>
-        <h1>【第十六屆 奧美紅領帶計劃】 報名開始</h1>
+        <h1>【第十六屆 奧美紅領帶計畫】 報名開始</h1>
         <p>
           詳細申請流程請參考 [
           <a href='#application' onClick={onClose}>
@@ -27,8 +27,8 @@ const NewsDialog = memo(({ transition, onClose }: T) => {
           </a>
           ]
         </p>
-        <h1>【第十六屆 奧美紅領帶計劃說明會】</h1>
-        <p>2024/3/16 (六) 13:00-18:00 紅領帶說明會 @ 台灣奧美</p>
+        <h1>【第十六屆 奧美紅領帶計畫說明會】</h1>
+        <p style={{ fontWeight: 'bold' }}>2024/3/16 (六) 13:00-18:00 紅領帶說明會 @ 台灣奧美</p>
         <p>
           說明會除有紅領帶校友說明紅領帶計畫內容外，
           <br />
