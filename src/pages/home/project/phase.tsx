@@ -14,7 +14,9 @@ const Group = memo(({ h2, h1, ps, children }: IReactProps & Props) => {
       <h2>{h2}</h2>
       <h1>{h1}</h1>
       <p>{children}</p>
-      <p className='text-OM-red-300'>{ps}</p>
+      <p className='text-OM-red-300' style={{ fontSize: '1rem' }}>
+        {ps}
+      </p>
     </div>
   );
 });

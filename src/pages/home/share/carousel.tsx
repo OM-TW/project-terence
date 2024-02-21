@@ -23,7 +23,7 @@ const Slide = memo(({ data, index }: T) => {
       <div className='content'>
         {renderToString(data.html())
           .replace(/(<([^>]+)>)/gi, '')
-          .slice(0, 44) + '...'}
+          .slice(0, 63) + '...'}
       </div>
       <div className='w-full flex justify-end'>
         <Button onClick={() => setState((S) => ({ ...S, index, trigger: true }))}>
