@@ -51,7 +51,7 @@ const Phase = memo(() => (
       </div>
     </div>
     <div className='streak streak-after streak-before mt-5' />
-    <Group h2='Phase II' h1='分享與回饋' ps='註：本委員會保留視募款狀況修正獎助計劃內容之權利'>
+    <Group h2='Phase II' h1='分享與回饋' ps='註：本委員會保留視募款狀況修正獎助計畫內容之權利'>
       受獎助者經階段一結束後，必須對本獎助委員會進行成果分享。分享形式及內容將由獎助委員會與獎助者進一步討論。成果分享後，本獎助委員將進行授証儀式；結業者將可獲頒象徵林宗緯精神的紅領帶一條。
     </Group>
   </div>
