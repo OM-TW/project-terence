@@ -19,6 +19,7 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: ./dist/
           port: 990
+          timeout: 1200000
           exclude: |
             **/.html*
             **/.js*
