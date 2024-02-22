@@ -19,7 +19,7 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: ./dist/
           server-dir: ./site/wwwroot/
-          port: 21
+          port: 990
           exclude: |
             **/.html*
             **/.js*
