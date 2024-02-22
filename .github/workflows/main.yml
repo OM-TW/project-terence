@@ -18,10 +18,7 @@ jobs:
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: ./dist/
-          server-dir: ./site/wwwroot/
           port: 990
-          protocol: ftps
-          dry-run: true
           exclude: |
             **/.html*
             **/.js*
