@@ -20,7 +20,7 @@ jobs:
           local-dir: ./dist/
           server-dir: ./site/wwwroot/
           port: 990
-          protocol: ftp
+          protocol: ftps
           dry-run: true
           exclude: |
             **/.html*
