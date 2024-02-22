@@ -1,5 +1,5 @@
 import { Context } from '@/settings/constant';
-import { TransitionType } from '@/settings/type';
+import { ActionType, TransitionType } from '@/settings/type';
 import useTween from 'lesca-use-tween';
 import { memo, useContext, useEffect, useRef } from 'react';
 import Button from '../button';
@@ -11,12 +11,25 @@ type T = {
 };
 
 const Dialog = memo(({ transition, onClose, html }: T) => {
+  const [, setContext] = useContext(Context);
   const ref = useRef<HTMLDivElement>(null);
   const [style, setStyle] = useTween({ y: window.innerHeight });
 
   useEffect(() => {
     if (transition === TransitionType.FadeIn) setStyle({ y: 0 }, { duration: 500, delay: 200 });
   }, [transition]);
+
+  useEffect(() => {
+    const a = ref.current?.getElementsByTagName('a');
+    if (a) {
+      [...a].forEach((e) => {
+        e.addEventListener('click', () => {
+          setContext({ type: ActionType.News, state: { enabled: false } });
+        });
+      });
+    }
+    console.log(a);
+  }, []);
 
   return (
     <div className='dialog' style={style}>

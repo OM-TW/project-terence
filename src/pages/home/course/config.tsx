@@ -106,7 +106,7 @@ export const CourseMonsters = [
   {
     className: '公關危機',
     name: '張裕昌 Adonis Chang',
-    position: '總經理',
+    position: '董事總經理',
     description: <>公關人要自信，優雅並從容的影響世界。</>,
   },
 ];
