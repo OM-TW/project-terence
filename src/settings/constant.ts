@@ -26,6 +26,7 @@ export const NewsState = {
 
 export const ReadyState = {
   enabled: false,
+  contacts: '',
 };
 
 export const InitialState: IState = {

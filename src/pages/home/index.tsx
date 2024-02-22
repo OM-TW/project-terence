@@ -1,3 +1,4 @@
+import useInit from '@/hooks/useInit';
 import { Context } from '@/settings/constant';
 import { ActionType } from '@/settings/type';
 import OnloadProvider from 'lesca-react-onload';
@@ -5,7 +6,6 @@ import { Suspense, lazy, memo, useContext, useEffect, useMemo, useState } from '
 import { HomeContext, HomePages, HomeState, HomeStepType, THomeState } from './config';
 import './index.less';
 import Landing from './landing';
-import useInit from '@/hooks/useInit';
 
 const hash = window.location.hash;
 
@@ -42,7 +42,7 @@ const Home = memo(() => {
     if (data) {
       const [schedule] = data.schedule.data;
       const [news] = data.news.data;
-      setContext({ type: ActionType.Ready, state: { enabled: true } });
+      setContext({ type: ActionType.Ready, state: { enabled: true, contacts: schedule.contacts } });
       setContext({ type: ActionType.News, state: { enabled: true, html: news.html } });
       setState((S) => ({ ...S, schedule, news }));
     }

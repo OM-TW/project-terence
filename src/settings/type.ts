@@ -44,16 +44,21 @@ export type TNewsState = {
   html?: string;
 };
 
+export type TReadyState = {
+  enabled?: boolean;
+  contacts?: string;
+};
+
 export interface IState {
   page?: string;
   loadingProcess?: TLoadingProcessState;
   scrollbar?: TScrollbarState;
   news?: TNewsState;
-  ready?: { enabled?: boolean };
+  ready?: TReadyState;
 }
 
 export interface IAction {
-  state: IState | TLoadingProcessState | TScrollbarState | TNewsState;
+  state: IState | TLoadingProcessState | TScrollbarState | TNewsState | TReadyState;
   type: ActionType;
 }
 

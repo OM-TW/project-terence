@@ -28,7 +28,6 @@ const Dialog = memo(({ transition, onClose, html }: T) => {
         });
       });
     }
-    console.log(a);
   }, []);
 
   return (
