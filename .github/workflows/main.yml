@@ -19,5 +19,3 @@ jobs:
           ftp_password: ${{ secrets.FTP_PASSWORD }}
           local_dir: ./dist/
           port: 21
-          method: sftp
-          ARGS: --verbose
