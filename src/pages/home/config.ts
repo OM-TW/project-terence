@@ -22,12 +22,17 @@ export type THomeSchedule = {
   timestamp: number;
 };
 
+export type THomeNews = {
+  html: string;
+  timestamp: number;
+};
+
 export enum HomeStepType {
   unset,
   loaded,
   fontLoaded,
 }
-export type THomeState = { step: HomeStepType; schedule: THomeSchedule };
+export type THomeState = { step: HomeStepType; schedule: THomeSchedule; news: THomeNews };
 export type THomeContext = [THomeState, Dispatch<SetStateAction<THomeState>>];
 
 export const HomeState: THomeState = {
@@ -39,6 +44,10 @@ export const HomeState: THomeState = {
     oral: '',
     target: '升大四至研究所學生(2024.07-08需有在學身分)',
     schedule: '',
+    timestamp: 0,
+  },
+  news: {
+    html: '',
     timestamp: 0,
   },
 };

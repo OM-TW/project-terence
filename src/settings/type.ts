@@ -39,16 +39,21 @@ export type TScrollbarState = {
   enabled?: boolean;
 };
 
+export type TNewsState = {
+  enabled?: boolean;
+  html?: string;
+};
+
 export interface IState {
   page?: string;
   loadingProcess?: TLoadingProcessState;
   scrollbar?: TScrollbarState;
-  news?: { enabled?: boolean };
+  news?: TNewsState;
   ready?: { enabled?: boolean };
 }
 
 export interface IAction {
-  state: IState | TLoadingProcessState;
+  state: IState | TLoadingProcessState | TScrollbarState | TNewsState;
   type: ActionType;
 }
 

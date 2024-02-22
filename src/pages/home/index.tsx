@@ -13,7 +13,6 @@ const Home = memo(() => {
   const [, setContext] = useContext(Context);
   const [state, setState] = useState<THomeState>(HomeState);
   const { step } = state;
-
   const [data, getData] = useInit();
 
   const pages = useMemo(() => {
@@ -31,13 +30,10 @@ const Home = memo(() => {
 
   useEffect(() => {
     if (step === HomeStepType.fontLoaded) {
-      window.onload = function () {
-        window.location.hash = '';
-        setTimeout(() => {
-          window.location.hash = hash;
-        }, 400);
-      };
-
+      window.location.hash = '';
+      setTimeout(() => {
+        window.location.hash = hash;
+      }, 400);
       getData();
     } else window.location.hash = '';
   }, [step]);
@@ -45,8 +41,10 @@ const Home = memo(() => {
   useEffect(() => {
     if (data) {
       const [schedule] = data.schedule.data;
+      const [news] = data.news.data;
       setContext({ type: ActionType.Ready, state: { enabled: true } });
-      setState((S) => ({ ...S, schedule }));
+      setContext({ type: ActionType.News, state: { enabled: true, html: news.html } });
+      setState((S) => ({ ...S, schedule, news }));
     }
   }, [data]);
 

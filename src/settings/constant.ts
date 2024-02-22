@@ -21,6 +21,7 @@ export const ScrollbarState = {
 
 export const NewsState = {
   enabled: true,
+  html: '',
 };
 
 export const ReadyState = {
