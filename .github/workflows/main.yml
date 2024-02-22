@@ -14,13 +14,13 @@ jobs:
       - name: FTP-Deploy-Action
         uses: SamKirkland/FTP-Deploy-Action@4.3.3
         with:
-          server: waws-prod-se1-007.ftp.azurewebsites.windows.net
+          server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: ./dist/
           server-dir: ./site/wwwroot/
-          protocol: ftp
-          port: 990
+          protocol: ftps
+          port: 21
           exclude: |
             **/.html*
             **/.js*
