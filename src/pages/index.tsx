@@ -1,23 +1,26 @@
 import LoadingProcess from '@/components/loadingProcess';
 import Navigation from '@/components/navigation';
+import News from '@/components/news';
 import OgilvyLogo from '@/components/ogilvyLogo';
 import { PAGE } from '@/settings/config';
 import { Context, InitialState, Reducer } from '@/settings/constant';
 import '@/settings/global.less';
 import { ActionType, TContext } from '@/settings/type';
 import Fetcher, { contentType, formatType } from 'lesca-fetcher';
+import Gtag from 'lesca-gtag';
+import Landscape from 'lesca-react-landscape';
+import { GlobalScrollbar } from 'mac-scrollbar';
 import 'mac-scrollbar/dist/mac-scrollbar.css';
 import { Suspense, lazy, memo, useContext, useMemo, useReducer } from 'react';
 import ReactDOM from 'react-dom/client';
-import { GlobalScrollbar } from 'mac-scrollbar';
-import Landscape from 'lesca-react-landscape';
-import News from '@/components/news';
 
 Fetcher.install({
   hostUrl: import.meta.env.VITE_API_PATH || './api',
   contentType: contentType.JSON,
   formatType: formatType.JSON,
 });
+
+Gtag.install(import.meta.env.VITE_GOOGLE_ANALYTICS_ID);
 
 if (import.meta.env.VITE_MOCKING === 'true') {
   import('@/mocks/browser').then((e) => {
