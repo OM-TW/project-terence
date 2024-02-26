@@ -18,7 +18,19 @@ body {
 
 @layer components {
   .App {
+    -ms-overflow-style: none; /* Internet Explorer 10+ */
+    scrollbar-width: none; /* Firefox */
     @apply absolute h-full w-full;
+  }
+
+  ::-webkit-scrollbar {
+    display: none;
+    width: 0; /* Remove scrollbar space */
+    height: 0;
+    background: transparent; /* Optional: just make scrollbar invisible */
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #ff0000;
   }
 }
 
