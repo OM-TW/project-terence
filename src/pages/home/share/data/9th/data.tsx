@@ -1,7 +1,12 @@
 const 王薇涵 = () => (
   <>
     <h1>奧美陽春拳</h1>
-    <img src='./data/experienceArticle/9th/0.jpg' alt='' />
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710415514/project-terence/9th/waegsuxukafnyk8y2cqt.png'
+        alt=''
+      />
+    </figure>
     <p>
       如果你肖想兩個月學走什麼獨門功夫，那就太天真了。在奧美，人人有功練，但這些功夫絕不是高手過招時讓你帥殺全場的華麗技。奧美上下只學一套拳，練的是跌踹打：
     </p>
@@ -19,7 +24,12 @@ const 王薇涵 = () => (
 );
 const 嚴德鈞 = () => (
   <>
-    <img src='./data/experienceArticle/9th/1.jpg' alt='' />
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710415554/project-terence/9th/ocqbsm86zfcsqbbxmnzv.png'
+        alt=''
+      />
+    </figure>
     <p>
       2個月了，每天開門關門十來次，總會有幾次是公司的同事甚至老闆幫我撐著門，想給走在後面的我一個方便，小小貼心的舉動，就是奧美待人的生態。
     </p>
@@ -30,12 +40,22 @@ const 嚴德鈞 = () => (
       也許進入奧美裡，我就像個誤闖森林的小白兔，但好險，森林裡沒有大老虎，只有溫柔又堅定的的夥伴。
     </p>
     <p>我喜歡這個地方，因為奧美，讓我在參與大事的過程裡，學會珍惜生活中的小事。</p>
-    <img src='./data/experienceArticle/9th/2.jpg' alt='' />
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710415570/project-terence/9th/enlvsdyyxhbmxnppldvj.png'
+        alt=''
+      />
+    </figure>
   </>
 );
 const 張容瑄 = () => (
   <>
-    <img src='./data/experienceArticle/9th/3.jpg' alt='' />
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710415588/project-terence/9th/ygm7kvvcmd4rjveoxnlr.png'
+        alt=''
+      />
+    </figure>
     <p>兩個月下來最讓我深刻體會的問題是：人究竟該不該抱有期待。</p>
     <p>
       有個哲學家曾這樣說過（這也是我一直放在心中的）：人會難過是由於對未來的期待，因此我們該活在當下。
@@ -48,7 +68,12 @@ const 張容瑄 = () => (
     </p>
     <p>大家都希望自己更好，不是嗎？</p>
     <p>至少我是希望自己更好的，但我不敢說，因為我怕自己不夠好。</p>
-    <img src='./data/experienceArticle/9th/4.jpg' alt='' />
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710415605/project-terence/9th/yocwiqadklogg0k2pocm.png'
+        alt=''
+      />
+    </figure>
     <p>
       兩個月下來，發現自己什麼都不會。這是很深切的體悟。嘗試寫deck才發現自己大學四年做的PPT都是屁；嘗試做presentation才發現自己說話不明確、永遠詞不達意；聽了好多場會議跟進修課程才發現我懂得東西好少好少。
     </p>
@@ -62,11 +87,11 @@ const 張容瑄 = () => (
 );
 const 彭亭翊 = () => (
   <>
-    <figure>
+    <p>
       以前覺得，放假的時候時間過的很快
       <br />
       現在覺得，沒有日子過的比實習更快
-    </figure>
+    </p>
     <h2>Hello Taipei</h2>
     <p>
       長期住在加拿大的我，出國十幾年第一次一個人回來台灣，也是第一次回來這麼長時間。從通知錄取到真正坐上飛機，只隔了十天，我匆忙收好了行李，帶著既興奮又忐忑的心情來到了台北。剛來的幾天因為時差的關係晚上躺著卻睡不著，在一片漆黑的房間裡只有一個念頭：我要盡可能的做到最好。
@@ -75,12 +100,22 @@ const 彭亭翊 = () => (
     <p>
       開始上班了！第一天被介紹到位置上，慌亂之中把名牌貼好，電腦登入，開始進入狀況。我被分到業務部，有好多新的事情要學，利用自己本身知道的一切加上組員們的教導去完成每項任務，兩個月內麻煩了公司裡的好多人，真的很感謝奧美人的耐心。業務總是要細心的管理著公司的大小事，每次有哪個細節沒做好，我就會很討厭自己的粗心。後來開始覺得新的事物第一次沒做好就當作一個學習，第二次一定做好，絕不需要第三次機會。
     </p>
-    <img src='./data/experienceArticle/9th/5.jpg' alt='' />
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710415625/project-terence/9th/jptqfdsimqopgfqdyhgd.png'
+        alt=''
+      />
+    </figure>
     <h2>Over and Out</h2>
     <p>
       這兩個月真的好忙好忙，紅領帶的課程，作業，行政任務加上組內安排的大小事加起來忙到覺得十分鐘都很珍貴。我不知道我什麼時候還有機會再到奧美工作，但是我知道有這兩個月，我很開心。收拾收拾，帶著滿滿的回憶和精彩的故事，該回「加」了。不想說掰掰，因為這個經驗只是開始，也許下次不是在台灣，不過我會在世界的某個角落，努力再成為奧美人的!
     </p>
-    <img src='./data/experienceArticle/9th/6.jpg' alt='' />
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710415642/project-terence/9th/e1tl3ymvkwrh4qjkf5om.png'
+        alt=''
+      />
+    </figure>
   </>
 );
 

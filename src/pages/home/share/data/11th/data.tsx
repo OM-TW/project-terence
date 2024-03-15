@@ -31,7 +31,12 @@ const 林堉涵 = () => (
 
 const 劉亭妤 = () => (
   <>
-    <img src='./data/experienceArticle/11th/0.jpg' alt='' />
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710415921/project-terence/11th/qpjzc18g7bw2nuytr9td.png'
+        alt=''
+      />
+    </figure>
     <p>
       我想，現在打開google，隨便輸入「紅領帶計畫」就會出現好多的文章關於這個計畫的細節、這兩個月會有多豐富、能學到的太多太多。但是只要是一個好的實習計畫，這些心得好像是一定的吧。所以跟大家不一樣的那條紅領帶，都第十一年了，為何還有那麼多人為它著迷？
     </p>
@@ -55,7 +60,12 @@ const 劉亭妤 = () => (
       但是，快樂在終於親身參與廣告的產出、在這裡的人有很多可以教你，並且願意教你、有人會偷偷在你桌上放一瓶氣泡水，或是幫你的娃娃戴帽子，或是偷偷幫你慶生、在你不相信兩個月可以交到很好的朋友，但你真的交到了、在上完每堂課，又有很多熱血沸騰的理由、在只要你願意開口，大家也會給你回應。
     </p>
     <p>痛與快樂並存，兩個月來沒有一天感到無聊，所以樂在其中。</p>
-    <img src='./data/experienceArticle/11th/1.jpg' alt='' />
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710415948/project-terence/11th/s69cml3itbbbwex1toei.png'
+        alt=''
+      />
+    </figure>
     <h2>所以那條紅領帶給了我們什麼？</h2>
     <p>
       無論是在準備階段或是實習期間，到現在結束，都還是會遇到一個問題：「所以這就是你想做的事了嗎？」誠實地回答：「確切答案我可能也還沒想清楚。」
@@ -67,7 +77,12 @@ const 劉亭妤 = () => (
       這兩個月確實解答了很多我的疑問，也同樣有很多沒有找到答案。但是這裡的人與事證實了很多我所相信的，像是每個人的每個善意，像是要一直一直做你相信是對的事，我想光是這些就已經夠溫柔了。
     </p>
     <p>這大概就是紅領帶為什麼迷人的地方吧。</p>
-    <img src='./data/experienceArticle/11th/2.jpg' alt='' />
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710415966/project-terence/11th/avemddegdho1srnkng4j.png'
+        alt=''
+      />
+    </figure>
     <p />
   </>
 );
@@ -219,11 +234,16 @@ const 盛以和 = () => (
 
 const 方聖叡 = () => (
   <>
-    <figure>
+    <p>
       <q>一切從故事開始，也在故事中結束。</q>
       <figcaption>-方方</figcaption>
+    </p>
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710415992/project-terence/11th/vuczwdv8gytycqfdlor0.png'
+        alt=''
+      />
     </figure>
-    <img src='./data/experienceArticle/11th/3.jpg' alt='' />
     <p>
       2019年，是紅領帶計畫的第11年，也是我報名紅領帶的第2年。相似的備審，相同的筆試策略，甚至是相同的口試座位，唯一不同的是今年的我錄取了，使得本應是追劇耍廢的暑假，多了一些不同的意義。
     </p>
@@ -243,13 +263,23 @@ const 方聖叡 = () => (
     <p>
       奧美人是友善的，即便是像我這樣對廣告一知半解的實習生，正職們仍然願意耐心的解釋回答我的奇怪問題，在這裡我很少看到同事之間的爭吵或上對下的責罵，取而代之的是更充分的討論，讓不同職階的人，都能充分發表自己的意見。紅領帶實習的過程中間有安排幾次實習生跟大佬們的餐會，餐會中我有些冒犯的提出了自己對這間公司的一些觀察與結果，BOSS們不但沒有責備或阻止我的發言，反而接受了我的意見，給了我正面的回覆，體現出奧美願意接受各種意見，或許這正是奧美能有如此大規模的原因吧！
     </p>
-    <img src='./data/experienceArticle/11th/4.jpg' alt='' />
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710416014/project-terence/11th/wttxf1clph20evqqdgbb.png'
+        alt=''
+      />
+    </figure>
     <h2>100分的認真工作，也要100分的玩</h2>
     <p>
       有別於一般對企業很死板的印象，奧美對於玩也很重視，Summer
       Party中，看到平常認真工作的正職們，拋開一切形象的載歌載舞，真的很chill。即便是日常的工作中，趁著點心櫃一補貨就搶著搜刮；把一小面牆布置成超高級攝影棚，在裡面拍沙龍照；或是最後的期末報告我們實習生擺了一個喪禮的罐頭塔，奧美的人們也完全不忌諱，或許正因為對於玩的偌大包容，才能成就不凡的創意吧！
     </p>
-    <img src='./data/experienceArticle/11th/5.jpg' alt='' />
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710416032/project-terence/11th/dq8w9xdjwz7vfifjdltt.png'
+        alt=''
+      />
+    </figure>
     <h2>身懷絕技的紅領帶，想要一直連絡的人們</h2>
     <p>
       整個紅領帶計畫最大最大的收穫，莫過於身邊的這群夥伴了，大家都在不同的部門實習，透過一起上課，一起吃飯，你可以聽到每個人對於廣告的不同見解，這些見解的背後涵括的是每個人自己的故事，給出來的往往是你意想不到的答案，卻也間接開拓了自己的眼界。直到實習最後的期末報告，每個人在台上說著自己喜歡的主題，你會因為一些人的熱情產生強烈的認同感，也會因為另一部份人的感性而紅了眼眶。總結來說，我覺得奧美的人都很「真」，不需要特別戴上社交的假面具，就算你用最真實的樣貌癱在位子上，翹著二郎腿說著自己的故事，你也能看到一個人不計形象大啖漢堡炸雞的人認真聽著你的故事，我想這就是奧美讓我喜歡的原因吧！
@@ -271,7 +301,12 @@ const 徐聖勛 = () => (
     <p>
       口試階段會場內高手雲集，感覺就像現代版華山論劍，左一個台大學生會公關長、右一個B站知名的動畫主，而我比較像誤闖金庸世界的韋小寶，沒有任何實績能力，只能耍耍嘴皮子，賣弄一下自己世界大同的理想。但大家都知道韋小寶最後還是成為了武功高手並抱得美人歸，6月5號的凌晨我躺在床上，無意識的點進了紅領帶計畫的官網，跳出的頁面大概長這樣。
     </p>
-    <img src='./data/experienceArticle/11th/6.jpg' alt='' />
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710416067/project-terence/11th/lgosp8ndeclea3byyhjj.png'
+        alt=''
+      />
+    </figure>
     就這樣，我拿到了紅樂園的入場券，獲得了怪咖的認證（蓋章）。
     <h2>除了怪，一無所有。</h2>
     <p>
@@ -282,7 +317,12 @@ const 徐聖勛 = () => (
       idea部分樣貌。而在Cindy
       Team裡透過Sophie、Angela、Stacy的引導，我也動手學習做簡報、整理資料以及如何產出屬於自己客戶也需要的觀點，甚至還學習了許多與人相處的方式，兩個月，或許沒辦法讓我進化成大老鷹翱翔在廣告業的天空裡，但我確幸自己有變的那麼一點點的不一樣，變的更了解廣告了一點點，變的更喜歡廣告了很多點。
     </p>
-    <img src='./data/experienceArticle/11th/7.jpg' alt='' />
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710416091/project-terence/11th/yitdmvuwy69seex6nyqr.png'
+        alt=''
+      />
+    </figure>
     <p>
       <b>當怪咖遇上另一群怪咖。</b>
     </p>
@@ -292,7 +332,12 @@ const 徐聖勛 = () => (
     <p>
       一起經歷的雖然不多，但舉凡熬夜在理想主義一起產值歸零、在電梯前被期末報告逼到開始莫名傻笑、一起把告別式的DM貼在魚缸裡、為了我的手機到處奔波的背影，所有一起發生過的事，肯定都會深深烙印在我心裡，因為在這段從零到有，充滿壓力與挫折的日子裡，點亮每一幅分鏡稿的都是你們。
     </p>
-    <img src='./data/experienceArticle/11th/8.jpg' alt='' />
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710416110/project-terence/11th/rvu7j04e3qyiqgktpelp.png'
+        alt=''
+      />
+    </figure>
     <b>怪咖與他們的產地</b>
     <br />
     （其實用他們的產地不太精確，但因為我想製造噱頭，所以我還是用了。）
@@ -306,7 +351,12 @@ const 徐聖勛 = () => (
     <p>
       我才意識到，所謂的怪咖，或許不是指我們與一般人之間有著什麼極大的差異，並不是我們有著古怪的行為，並不是我們有著比一般人更耐操的肝，並不是我們長的特立獨行，而是怪在我們對這個世界多了一些些的溫柔、一些些的熱情、一些些的理想，而描繪出屬於我們每一個人不同的美好未來藍圖，對世界有相較他人更多不一樣的看法與表現，但其實，我們不過是一群希望能夠透過自己改變世界帶給世界多一點溫暖的人，也因此我們從各地集結而來，落地在奧美，這個怪咖與他們的家。
     </p>
-    <img src='./data/experienceArticle/11th/9.jpg' alt='' />
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710416126/project-terence/11th/vq8wojohj9fljrrlzbpc.png'
+        alt=''
+      />
+    </figure>
     <p>
       最後還是謝謝奧美提供紅領帶計畫，讓我有機會更了解並且徹底愛上廣告業的本質，更重新認識自己知道自己要什麼並該怎麼走未來的路，但最開心的還是讓我在這兩個月收穫了許多不一樣的人，接受不一樣的溫暖，記錄下更多不同的笑臉能夠化為能量繼續前進。
     </p>
@@ -315,10 +365,25 @@ const 徐聖勛 = () => (
 
 const 陳冠蓉 = () => (
   <>
-    <img src='./data/experienceArticle/11th/10.jpg' alt='' />
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710416144/project-terence/11th/w9qz5gw7ak4orlat9sf9.png'
+        alt=''
+      />
+    </figure>
     <p>相遇前，我們七個只是計畫錄取名單上冷冰冰的七個名字。</p>
-    <img src='./data/experienceArticle/11th/11.jpg' alt='' />
-    <img src='./data/experienceArticle/11th/12.jpg' alt='' />
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710416160/project-terence/11th/y5m309alce3c0ppkk5td.png'
+        alt=''
+      />
+    </figure>
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710416176/project-terence/11th/svsm2icayj61iu0sjnq3.png'
+        alt=''
+      />
+    </figure>
     <p>相遇後，我們成了七個不折不扣的瘋子XDDDD</p>
     <hr />
     <p>
@@ -439,7 +504,12 @@ const 陳冠蓉 = () => (
       我自己很喜歡聽案例分享 哈哈，因為不聽他們說，就完全不會知道這個 idea
       的來龍去脈、執行上遇到什麼喜怒哀樂，自己覺得大開眼界也很震撼。上這些課也不只是上爽得，可能會有課前或課後作業，絕對不是聽聽就好XD
     </p>
-    <img src='./data/experienceArticle/11th/13.jpg' alt='' />
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710416215/project-terence/11th/soj3nyzzk1mwuxa3o8w4.png'
+        alt=''
+      />
+    </figure>
     <h2>我的實習生活分享</h2>
     <p>
       業務部（AE）的工作內容非常雜，而且會因為案子的不同時期（比如籌備、發想與執行期），會經歷不同事。我被分配到的
@@ -451,23 +521,17 @@ const 陳冠蓉 = () => (
     <p>
       <b>Day1 (7/1) 初來乍到精神好</b>
       <br />
-      報到、聽簡報
-      {' >'}
+      報到、聽簡報 &gt;
       <br />
-      人資帶著實習生們遊街示眾
-      {' >'}
+      人資帶著實習生們遊街示眾 &gt;
       <br />
-      和大人們 (紅領帶委員+學長姐) 吃午餐
-      {' >'}
+      和大人們 (紅領帶委員+學長姐) 吃午餐 &gt;
       <br />
-      回各自的座位，與部門主管相見歡
-      {' >'}
+      回各自的座位，與部門主管相見歡 &gt;
       <br />
-      參與 Con-call (電話會議)
-      {' >'}
+      參與 Con-call (電話會議) &gt;
       <br />
-      聽Quick Study (去見客戶前和內部夥伴對過品牌的可及現有資訊)
-      {' >'}
+      聽Quick Study (去見客戶前和內部夥伴對過品牌的可及現有資訊) &gt;
       <br />
       幫忙蒐集客戶過去做過的傳播
       {' > '}
@@ -476,15 +540,13 @@ const 陳冠蓉 = () => (
     <p>
       <b>Day2 (7/2) 初嚐加班好新鮮</b>
       <br />
-      做KOL Study（提自己覺得合適，可以幫忙做曝光的網紅）
-      {' >'}
+      做KOL Study（提自己覺得合適，可以幫忙做曝光的網紅） &gt;
       <br />
       幫忙找
       reference（拍攝廣告前都要和客戶提案，那時候需要有參考的示意圖，讓客戶更能理解到時候成品長得樣子、以便溝通）
-      {' >'}
+      &gt;
       <br />
-      確認當週紅領帶培訓課程的講師需求（實習生要輪流當課程值日生）
-      {' >'}
+      確認當週紅領帶培訓課程的講師需求（實習生要輪流當課程值日生） &gt;
       <br />
       Competitior Study（每兩週要分析一次競品在數位上有沒有特別的操作）
       {' > '}
@@ -493,19 +555,14 @@ const 陳冠蓉 = () => (
     <p>
       <b>Day3 (7/3) 體力透支只需要三天</b>
       <br />
-      做紅領帶報告（列大綱、先讀網路上現有的資料，觀察哪個題目比較有發展性）
-      {' >'}
+      做紅領帶報告（列大綱、先讀網路上現有的資料，觀察哪個題目比較有發展性） &gt;
       <br />
-      幫忙搞定線上抽獎獎品確認貨源
-      {' >'}
+      幫忙搞定線上抽獎獎品確認貨源 &gt;
       <br />
-      幫忙查 reference
-      {' >'}
+      幫忙查 reference &gt;
       <br />
-      場勘隔天要拍攝的場地
-      {' >'}
-      <br />上 Zoe 的課（紅領帶課程）
-      {' >'}
+      場勘隔天要拍攝的場地 &gt;
+      <br />上 Zoe 的課（紅領帶課程） &gt;
       <br />
       Emily 交代整理藝術家資料
       {' > '}
@@ -514,20 +571,15 @@ const 陳冠蓉 = () => (
     <p>
       <b>Day4 (7/4) 在奧美的時間總感覺特別快</b>
       <br />
-      合作藝術家的資料蒐集與統整
-      {' >'}
+      合作藝術家的資料蒐集與統整 &gt;
       <br />
-      看AE 訓練課程的作業資料
-      {' >'}
+      看AE 訓練課程的作業資料 &gt;
       <br />
-      展覽拍攝
-      {' >'}
+      展覽拍攝 &gt;
       <br />
-      寫報告架構
-      {' >'}
+      寫報告架構 &gt;
       <br />
-      討論報告
-      {' >'}
+      討論報告 &gt;
       <br />
       AE meeting（案例分享、重要事項佈達等）
       <br />
@@ -535,16 +587,15 @@ const 陳冠蓉 = () => (
     </p>
     <p>
       <b>Day5 (7/5) 準時下班卻也沒直接回家</b>
-      做藝術家的統整報告
-      {' >'}
+      做藝術家的統整報告 &gt;
       <br />
-      Soundbites Report{' >'}
+      Soundbites Report&gt;
       <br />
-      幫忙印東西{' >'}
+      幫忙印東西&gt;
       <br />
-      跟紅領帶一起吃午餐{' >'}
+      跟紅領帶一起吃午餐&gt;
       <br />
-      蒐集期末報告的材料{' >'}
+      蒐集期末報告的材料&gt;
       <br />
       準時下班～ 19:00
     </p>

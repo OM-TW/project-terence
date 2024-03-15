@@ -1,22 +1,31 @@
 import Button from '@/components/button';
 import Dialog from '@/components/dialog';
+import { toChineseWithUnits } from 'chinese-number-format';
 import { memo, useContext, useMemo } from 'react';
+import { HomeContext } from '../config';
 import { ShareContext } from './config';
 import './detail.less';
-import { DefaultInternshipExperience } from './temp';
 
 const Detail = memo(() => {
+  const [homeState] = useContext(HomeContext);
   const [state, setState] = useContext(ShareContext);
   const { th, index } = state;
+  const { share } = homeState;
 
-  const { title, data } = useMemo(() => {
-    const currentData = Object.entries(DefaultInternshipExperience).filter(
-      (_, index) => index === th - 1,
-    )[0];
-    const title = currentData[0];
-    const data = currentData[1][index];
+  const data = useMemo(() => {
+    return share.filter((data) => data.session === th)[index];
+  }, [th, index, share]);
 
-    return { title, data };
+  const title = useMemo(() => {
+    const year = 2009 + th - 1;
+    const currentTh = toChineseWithUnits(th, 'zh-TW');
+    return `${year} 第${currentTh}屆紅領帶`;
+  }, [th]);
+
+  const currentTH = useMemo(() => {
+    if (th === 2) return 'nd';
+    else if (th === 3) return 'rd';
+    return 'th';
   }, [th]);
 
   return (
@@ -32,18 +41,18 @@ const Detail = memo(() => {
           <div className='header'>
             <h2>
               {th}
-              <span>th</span>
+              <span>{currentTH}</span>
             </h2>
             <hr />
             <div className='sub'>
               <span>{title}</span>
               <br />
               <h3>
-                {data.name.cht} {data.name.eng}
+                {data.name} {data.engName}
               </h3>
             </div>
           </div>
-          <div className='body'>{data.html()}</div>
+          <div className='body' dangerouslySetInnerHTML={{ __html: data.html }}></div>
         </div>
       </Dialog>
     </div>

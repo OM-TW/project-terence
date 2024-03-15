@@ -6,7 +6,12 @@ const 鄭暐翰 = () => (
       奧美是一間紅色的廣告代理商，紅領帶是實習計畫名稱，希望朋友們不要再問偶了
     </p>
     <h4>【Campaign隨筆 Ⅰ】</h4>
-    <img src='./data/experienceArticle/13th/0.jpg' alt='' />
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710485425/project-terence/editor/ah2t4xleivaewpbibcxv.png'
+        alt=''
+      />
+    </figure>
     奧美相信，如果我們能發揚每個品牌、每家企業、以及每一個人內蘊的恢宏，世界將會更美好
     <h3>紅雨滂沱</h3>
     <p>
@@ -47,7 +52,12 @@ const 鄭暐翰 = () => (
       小小實習心得，不足掛齒，所以輕輕草草地寫下來。
     </p>
     <h3>紅領帶實習報名</h3>
-    <img src='./data/experienceArticle/13th/1.jpg' alt='' />
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710485980/project-terence/13th/cuspbze9xveduppix8bp.png'
+        alt=''
+      />
+    </figure>
     <h1>給你一點顏色，你就要懂的開起染坊</h1>
     <p>
       認真生活，我相信只要一絲對生命獨特的體悟，用每個人最擅長的方式表達，就可以感動奧美。（用我相信的語法作為文章開頭，感覺世界和平多了：）
@@ -64,7 +74,12 @@ const 鄭暐翰 = () => (
       從作品集最後到口試，我都是以「愛」作為主題，然後用搞笑的口吻說明愛這件事。內容包括但不限於對事物的愛，談過的戀愛、洞房花燭、暗戀、情書等等。蠻享受在做不一樣關於自己的作品，進公司才發現，其實整個報名流程我們在做的也是關於自己的廣告。找到自己最亮眼的insight，用文字、聲音、平面、動態等表達方式，讓面試官記得你，喜歡你，最後決定buy
       in。
     </p>
-    <img src='./data/experienceArticle/13th/2.jpg' alt='' />
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710486393/project-terence/13th/t11yjlb6myysaoi6jqqi.png'
+        alt=''
+      />
+    </figure>
     <p>
       以前自己也會面試其他的學生團體或是公司，我覺得紅領帶更強調多一點無拘無束，多一點堅持不懈，多一點好奇，多一點好玩，多一點坦承，多一點casual，多一點勇氣，多一點理想主義（以上形容詞都是奧美會議室的名字）。我自己解讀起來像是要展現每個人特立獨行的光彩。
     </p>
@@ -72,9 +87,9 @@ const 鄭暐翰 = () => (
       我們這一屆每一個口試都……也算是無所不用其極嗎？有人特別會鋪陳故事，花滿5分鐘講一個走路到奧美的故事，直接驚為天人；有的人有製圖上的才能，整個口試過程都在Photoshop頁面操作，直接驚為天人；我的話是彈舌進去的？？？沒有驚為天人。
     </p>
     <h3>紅領帶實習工作</h3>
-    <figure>
+    <p>
       我很幸運，碰上很用心照顧我，希望我有所學習的工作主管，必須得狗腿地shout out to Sophie & Liping
-    </figure>
+    </p>
     <h1>「手弄髒，才好玩。」- Gino</h1>
     <p>
       沒按過電筆的人會興沖沖地想要按按看電筆，然後按下電筆的那一瞬間時間持續兩個月，就是我工作的體感與心得。痛啊痛，快樂還不確定，但確實充滿把勇氣用光的爽快感。
@@ -83,7 +98,12 @@ const 鄭暐翰 = () => (
       今年很不幸運地，實習的前三週都在線上實習，聽來好像是線上也不能幹嘛，但真的並不。記得第一天跟主管Sophie開會，她就問我：你想要浪費時間嗎？我說我不想。她說那好，我會把你當正職來對待。那時的我很興奮，心想一定要好好學習～
       然後，就開啟了我的嘔吐旅程：）
     </p>
-    <img src='./data/experienceArticle/13th/3.jpg' alt='' />
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710486411/project-terence/13th/gh2fphqxhwmedovetcle.png'
+        alt=''
+      />
+    </figure>
     沒有放上累死人後嘔吐的照片，放上累死人後大家看了會開心我也會開心的照片
     <p>
       我覺得我的工作也沒有超量，實在是因為我動作慢，學習能力很普通。而且對於完全陌生的廣告業，我一開始要搞懂這個行業在做什麼，他們的專業術語，還有一堆客戶資訊要吸收的時候，老實說真的是搞到天昏地暗我就爛。
@@ -110,7 +130,12 @@ const 鄭暐翰 = () => (
     <p>
       老實說，真實與客戶交流，參與到產出的內容，或是接地氣地與產業前輩跟上行銷趨勢，這些收穫很難想像是在短短兩個月能夠做到的。
     </p>
-    <img src='./data/experienceArticle/13th/4.jpg' alt='' />
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710486444/project-terence/13th/c0wzvdotknnhjfiqbzkh.png'
+        alt=''
+      />
+    </figure>
     菜鳥還是可以坐在中間的
     <p>如果你問我工作兩個月後，所以做廣告是我所熱愛的嗎？或是這兩個月你快樂嗎？</p>
     <p>
@@ -126,13 +151,28 @@ const 鄭暐翰 = () => (
       <p>
         每一週紅領帶都有特權，能夠跟業界最德高望重的前輩請益，那感覺就像是魯夫才剛出航就向雷利請教怎麼使用霸氣一樣，一樣不可能發生。但發生了。由於課程內容實在太扎實太好玩了，又不能透露太多機密，所以歡迎請我吃飯，問我課程好玩在哪裡兒。
       </p>
-      <img src='./data/experienceArticle/13th/5.jpg' alt='' />
-      <img src='./data/experienceArticle/13th/6.jpg' alt='' />
+      <figure>
+        <img
+          src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710486477/project-terence/13th/gqgqtmgwiagcpcyidhsl.png'
+          alt=''
+        />
+      </figure>
+      <figure>
+        <img
+          src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710486495/project-terence/13th/vtdefjsgsq7jh4y6cn2p.png'
+          alt=''
+        />
+      </figure>
       <li>代誌大條的結業</li>
       <p>
         分享實習期間的小小故事，在實體見面的第一天，因為我是個幼稚鬼又想皮一下，就把香蕉皮丟到另一個紅領帶小又的側背袋，然後沒過幾天我又變本加厲地整小又：
       </p>
-      <img src='./data/experienceArticle/13th/7.jpg' alt='' />
+      <figure>
+        <img
+          src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710486510/project-terence/13th/cmhcklwdfglfweegnofm.png'
+          alt=''
+        />
+      </figure>
       <p>
         『8/12那天，我心血來潮，想要增添一點紅領帶的活力，團隊的氛圍，一大早我寫了一張紙條，貼在小又桌上，請她下午到會議室報到。結果小又一整個早上都很焦慮，還跑過來問我說怎麼辦，好像人資要找她，我還跟她說，聽說Alice是專門資遣員工的，結果她嚇了一整個早上。』
         <br />
@@ -144,24 +184,39 @@ const 鄭暐翰 = () => (
       <p>
         那個荒謬的點來自於，原本被恐嚇會有很多大老闆來聽，我好像都沒有很放在心上，等到最後所有業界前輩都齊聚一堂，聊聊我們的結業呈現的時候，想到自己完全沒有把握機會展現自己，還把結業當成道歉大會，也算蠻可愛的。
       </p>
-      <img src='./data/experienceArticle/13th/8.jpg' alt='' />
+      <figure>
+        <img
+          src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710486527/project-terence/13th/tm1dplzipfthmtubemk0.png'
+          alt=''
+        />
+      </figure>
       感情很好的物證，這張照片裡面確實有我
       <p>
         Btw.必須小小吐槽，這一屆不太確定花生什麼事，聽說是紅領帶委員們怕我們遠距工作太閒暇？除了結業外，多增加了兩次跟策略部門的廣告案例分享與社群平台分析，我只能說，謝謝委員，但真的有點太辛苦：（
       </p>
     </ol>
     <h4>紅領帶夥伴 — RED BLUE（團名）</h4>
-    <figure>
+    <p>
       我要的生活不是大家穿著一模一樣的西裝，說著差不多的故事；我要的生活是大家穿著橘紫黑黃，說著說著，時間又差不多了。
+    </p>
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710486544/project-terence/13th/jrtzsalnbn5rkji5vc5f.png'
+        alt=''
+      />
     </figure>
-    <img src='./data/experienceArticle/13th/9.jpg' alt='' />
     For red ver but there’s no red here
     <p>
       做廣告是需要天份的，熱愛生活的天份，熱愛故事的天份，不是人人都能做。但要講自己的實習夥伴，我只想說：
       <br />
       他們每一個都可以說是天份點到最滿。
     </p>
-    <img src='./data/experienceArticle/13th/10.jpg' alt='' />
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710486561/project-terence/13th/w4uc1mbt6qfougcsnnjb.png'
+        alt=''
+      />
+    </figure>
     <p>
       我們在線上工作的前兩週，因為大老闆Zoe心血來潮，辦了一場嘻哈年會，我們6個人就必須在線上合作一首饒舌歌，在公司開會時表演給大家看。
       <br />
@@ -174,12 +229,22 @@ const 鄭暐翰 = () => (
     <p>
       印象還深刻的就是，在我們實習結束後，一行人去九份玩。說是說去九份，但就很像是大家在九份book了一個會議室，在裡面躺啊聊啊喝啊。我們才6個人，那一天光是分享每個人的愛情故事，就分享了7、8小時，大家起承轉合做好做滿，毫無冷場，各個都是大神（我無聊的故事只分享了約10分鐘）。
     </p>
-    <img src='./data/experienceArticle/13th/11.jpg' alt='' />
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710486579/project-terence/13th/ouyfh4qfnnho3fpuw9kd.png'
+        alt=''
+      />
+    </figure>
     最右邊那個不是我，那個是廣告界的天才，未來的明日之星Andre
     <p>
       很幸運能遇到他們，我們沒有在勾心鬥角（雖然前輩好像很希望看見我們廝殺），每天都會窩在一起吃飯，每天的群組都鬧哄哄然後把工作訊息掩埋，每一天都會抱怨一下到底這間公司讓不讓人活，每一天都在鬥嘴，每一天都會體貼別人，每一天都會彼此加油，每一天我們都想著要讓自己，也讓整個世界變好，應該啦。
     </p>
-    <img src='./data/experienceArticle/13th/12.jpg' alt='' />
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710486598/project-terence/13th/foqld0wueinldvi2tftt.png'
+        alt=''
+      />
+    </figure>
   </>
 );
 
@@ -442,11 +507,21 @@ const 詹蕎 = () => (
     <p>
       在創意部的這段時光，我跟我的主管、大主管、集團創意總監聊天，我跟參與案子的業務哥哥姊姊、製片、導演聊天，我跟組內的藝術指導、組外的人資哥姊、生活學姊聊天，他們每一個人在大學時期主修的東西都不同，每個人的專業都不同，而且個性都天差地遠，可是卻匯集到同一個地方，一起在廣告界發光發熱，每一個人都在奧美發揮自己所長，除了感覺自己十分渺小以外，你只會有無限的崇拜。
     </p>
-    <img src='./data/experienceArticle/13th/13.jpg' alt='' />
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710486648/project-terence/13th/ww70evldvsbfqe7901zw.png'
+        alt=''
+      />
+    </figure>
     <p>
       與其他實習夥伴（以下簡稱紅領帶）一起上班的這段時間，我們很常一起吃飯、一起加班、一起討論生活與人生。紅領帶們的過去都走在不同的道路上，安追在大學主修中文系，老威是政治雙法律系的大學長，昱伶則假德文系之名到處接設計海報的案，小紫是大傳界的酷甜小網紅，小又雖然和我一樣都是廣告系，但就像我前面提過，廣告系現在被分得很細，所以我們的主修也完全不同，而今年我們都在紅領帶相遇，我們全都在「廣告公司」實習，我們總是把所有的煩惱都攤在紅椅沙發區，丟給一群人，或者一起無解；我們總是把所有對未來的想像從腦中掏出來，一起具象化，或者一起看它們成為幻影。我們對於生活都很敏感，對未來都有憧憬，我們都努力讓青春更精采璀璨。
     </p>
-    <img src='./data/experienceArticle/13th/9.jpg' alt='' />
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710486769/project-terence/13th/jlqn0i5pb258nenad5db.png'
+        alt=''
+      />
+    </figure>
     「有著不同背景的人，擦亮不同的武器，在同個地方發光。」這就是我想回復大家好奇「廣告在幹嘛」的答案。
     <p>
       廣告，廣泛地探索生活、品味人生，並且告訴他人。世界上經典的廣告為甚麼會被人家記住？因為很多人可以產生共鳴，而那些共鳴來自你的感官，是你的感官幫你記住這種共鳴，所以你才會對一則廣告特別有感，與你是不是廣告系、會不會畫畫、懂不懂理論，根本無關，只要你願意認真生活、感受人生，每個人都可以是廣告人；大學時期不知道那些理論，根本不會怎樣，只要你打開感官享受人生，你也可以想出一個精準的策略，何況如果你在奧美實習，只要開放心胸，體驗生活，時間久了，你會是個了不起的廣告巨擘。
@@ -461,14 +536,24 @@ const 詹蕎 = () => (
       從奧美畢業那一天，主管馬達送我一段話，其中一句話是這麼說的：「期待妳向下沉潛，看見自己內心的世界，消化生活細鎖的點滴，成為一個豐厚且有故事的人。」我想繼續抱著這些好奇，去探索我的生命，讓自己成為一個有故事的人，廣泛地探索世界、廣泛地品嘗生活，再廣泛地告訴世界屬於我的故事。
     </p>
     <p>相信自己，活出自己，即是一則動人的廣告。不論你是誰</p>
-    <img src='./data/experienceArticle/13th/14.jpg' alt='' />
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710486648/project-terence/13th/ww70evldvsbfqe7901zw.png'
+        alt=''
+      />
+    </figure>
     <p>最後，我想告訴所有看到這篇心得的學弟妹以下這段話：</p>
     <p>
       當初我是看著第12屆學姐的心得文，才下定決心報考紅領帶，在準備過程中，看到很多網路上的學長姊都說，如果想進入紅領帶計畫，唯一的辦法只有表現出最真誠的自己，這是真的。從繳交履歷、進行筆試，到最後面試，想出一個屬於你說故事的方式，把自己的真心獻給奧美，不要去想自己的經歷沒人家好，因為奧美人真的不在乎，他們只想要你的真心。進入紅領帶之後，你會瞬間覺得自己甚麼都不會，請你不要懷疑自己，因為你正進入一個巨人國，你唯一可以做的，就是記住自己的優秀，然後努力爬上去，或是從路上撿一些營養，讓自己也變成巨人，我知道很辛苦，可是千萬不能否定自己，因為能進入紅領帶的人都有一種很倔強的特質，請你好好保護它、傳承它。
       <br />
       兩個月過後，你可能會開心、會悲傷、會不捨，有什麼情緒都是好的，好好消化它，成為自己的寶藏，有一天你就會發現，你的過往幫助你開拓自己的眼光，在奧美發生的好事壞事，都值得你收藏。加油！
     </p>
-    <img src='./data/experienceArticle/13th/15.jpg' alt='' />
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710487124/project-terence/13th/yoge6a5b7ghjb0jealjd.png'
+        alt=''
+      />
+    </figure>
   </>
 );
 

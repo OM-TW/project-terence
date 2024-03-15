@@ -1,7 +1,12 @@
 const 邱彥蓁 = () => (
   <>
     <h1>第一話。獻身{'>>'}</h1>
-    <img src='./data/experienceArticle/3rd/0.jpg' alt='' />
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710410695/project-terence/3rd/w7cazt6hfzwkixzayjpq.png'
+        alt=''
+      />
+    </figure>
     <p>
       <b>一位娼妓的告白 :</b>
       <br />
@@ -21,7 +26,12 @@ const 邱彥蓁 = () => (
       還有，新的紅色熱情。
     </p>
     <h1>第二話。觀點{'>>'}</h1>
-    <img src='./data/experienceArticle/3rd/1.jpg' alt='' />
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710410729/project-terence/3rd/pr9ihyiikdyt6gzwdfxi.png'
+        alt=''
+      />
+    </figure>
     <p>
       <b>國語辭典</b>
       <br />
@@ -45,7 +55,12 @@ const 邱彥蓁 = () => (
     <p>也就是因為這些「觀點」所碰撞出來的火花，從每個人身上，你都可以學到不同的東西。</p>
     <p>你問我什麼是觀點，我說，要讓自己從不同的角度看事情。</p>
     <h1>第三話。笑容{'>>'}</h1>
-    <img src='./data/experienceArticle/3rd/2.jpg' alt='' />
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710410767/project-terence/3rd/nucusictkshhngncwn61.png'
+        alt=''
+      />
+    </figure>
     <p>人說「笑容，能夠拉近人與人之間的距離」。</p>
     <p>
       從大學時的參訪、紅領帶面試、到現在進到奧美，
@@ -80,7 +95,12 @@ const 邱彥蓁 = () => (
 );
 const 鄒玉珊 = () => (
   <>
-    <img src='./data/experienceArticle/3rd/3.jpg' alt='' />
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710410966/project-terence/3rd/tgmpwnwshwlw8iopzsbz.png'
+        alt=''
+      />
+    </figure>
     <figcaption>這是我在Derrick課堂上寫下的筆記</figcaption>
     <p>
       Derrick幫我們上的這一堂課叫做「如何評估創意」
@@ -103,7 +123,12 @@ const 鄒玉珊 = () => (
       <br />
       這些日子的努力，也是在等待著某個當自己夠好而能被看見的時刻
     </p>
-    <img src='./data/experienceArticle/3rd/4.jpg' alt='' />
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710411019/project-terence/3rd/uuw7lywcxr8jsm5deqz0.png'
+        alt=''
+      />
+    </figure>
     <p>
       通常沒見過大場面的菜鳥實習生兼鄉巴佬如我
       <br />
@@ -124,7 +149,12 @@ const 鄒玉珊 = () => (
       卻又自以為好像真的是這團隊中的一份子
     </p>
     <p>那感覺，好難形容阿！</p>
-    <img src='./data/experienceArticle/3rd/5.jpg' alt='' />
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710411044/project-terence/3rd/qveh28lzgzrf1ffj9gcn.png'
+        alt=''
+      />
+    </figure>
     <p>
       「欸我現在才發現，原來那裡有把吉他！」『ㄜ，那是中提琴啦……………』
       <br />
@@ -149,19 +179,34 @@ const 鄒玉珊 = () => (
 const 盧亭軒 = () => (
   <>
     貼心
-    <img src='./data/experienceArticle/3rd/6.jpg' alt='' />
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710411114/project-terence/3rd/bkgatbctyf5ed5uaazjr.png'
+        alt=''
+      />
+    </figure>
     <p>
       第一天踏入奧美，team
       members不在，但關心並不減。一張紙條撫平了我因陌生而不安的心，並約我隔一個工作天邊吃早餐邊瞭解客戶，好有心也好有心機，因為當天吃的正是客戶的早餐。邊吃邊瞭解工作，彷彿跟這個品牌瞬間靠近。Team
       member周到地附上一份七月行事曆，業務的一天總有很多事要記，空白欄位等著我填滿，我也準備要讓新鮮的一切填滿自己。
     </p>
     堅持不懈
-    <img src='./data/experienceArticle/3rd/7.jpg' alt='' />
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710411135/project-terence/3rd/ohmdl47gsucnuaouermz.png'
+        alt=''
+      />
+    </figure>
     <p>
       「今天在哪上課？」「堅持不懈阿。」這是一間會議室，紅領帶們固定上課的教室。公司裡充滿各種形容詞名詞組成的會議室，隨時喚醒人們的意識，要坦誠、要無拘無束、要有勇氣……，堅持不懈更是重要，這兩個月爬著奧美山，有時會有挫折，覺得好多課題很難，但又怎能輕言放棄？還沒攻頂，就堅持下去吧！
     </p>
     小密室
-    <img src='./data/experienceArticle/3rd/8.jpg' alt='' />
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710411155/project-terence/3rd/feonrn4bfywnig4wf57n.png'
+        alt=''
+      />
+    </figure>
     <p>
       第七週某晚10:30，半個創意部突然熄燈了，planner小密室顯得格外明亮。回家加班可能會東摸西摸，但有人一起在小密室加班，會特別認真也特別不孤單。九妞妞組成的紅領時代，偶爾在小密室訂餐，偶爾在小密室嘰嘰喳喳，我們漸漸更有話聊，更認識彼此，吃飯會記得揪，誰感冒腸胃炎會幫她買碗粥。雖然沒有全員一起工作的革命情感，但對未來有相似理想讓我們更貼近了J
     </p>
@@ -170,7 +215,12 @@ const 盧亭軒 = () => (
 const 蔡育旻 = () => (
   <>
     <h1>「老娘終於進奧美啦！」</h1>
-    <img src='./data/experienceArticle/3rd/9.jpg' alt='' />
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710411185/project-terence/3rd/hf4mlpavrv8ycqieslbp.png'
+        alt=''
+      />
+    </figure>
     <p>
       一直嚮往的廣告界，總算踏進來了！第一天備受禮遇，帶著這張臨時識別證，去了餐廳用午餐；看到奧美廣告預訂了好大一個包廂，顯示我們被重視的程度。就知不虛此行了。
     </p>
@@ -180,7 +230,12 @@ const 蔡育旻 = () => (
     <p>
       <b>「拋開妳的包袱！！這裡拒絕無聊和消極！」</b>
     </p>
-    <img src='./data/experienceArticle/3rd/10.jpg' alt='' />
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710411208/project-terence/3rd/mle3qbawsfribno5llt6.png'
+        alt=''
+      />
+    </figure>
     <p>
       內心跟外表都是個小少女如我，要說我有哪些包袱，還真的是沒有啊。就是一個真真切切的實習生。沒有任何隱藏吹噓，但他們卻總覺得「妳好無聊啊…」
     </p>
@@ -189,7 +244,12 @@ const 蔡育旻 = () => (
       好吧我承認，不管是創意或業務，這些人已經修鍊成精。但若人人都像他們懂得運用天賦，世界會變得如何？一定也很無聊吧？
     </p>
     <p>「這些第一次，超爽的。」</p>
-    <img src='./data/experienceArticle/3rd/11.jpg' alt='' />
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710411236/project-terence/3rd/sb8ww7b9jpkoqim2ug3c.png'
+        alt=''
+      />
+    </figure>
     <p>
       7/4(一)上工第一天，認識的第一個廣告導演叫做PP，第一個合作的客戶是IKEA，跟拍的第一支TVC是IKEA年末出清《手抖篇》，第一個認識的業務部夥伴是Ella，遇到公司裡第一個年紀比我小的人是UJ，第一個跟我耐心講解TVC拍攝過程和原由、分工細節的人是Abby
       Ku，我好愛她。

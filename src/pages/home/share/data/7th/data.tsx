@@ -16,11 +16,26 @@ const 何伯濤 = () => (
     <p>
       在真正以紅領帶身份進入奧美的第一天，委員就告訴我們許多我們具有的特權：不僅有各大管理階層的主管為紅領帶們在每週上專屬課程；D.O挑戰賽也是紅領帶專屬，不定期的接到Brief再組隊挑戰，增加學習機會；並且各種會議、討論、提案（客戶願意的前提下）都可以在場；公司裡的正職訓練課程也都能夠參與；最後一天還有一個大型個人提報的機會，在全公司面前表現自己這段時間所學，在這兩個月實習期間，別著一個紅領結，象徵我們的特別之處，也提醒我們還沒拿到最後的紅領帶，一定要再更努力
     </p>
-    <img src='./data/experienceArticle/7th/0.jpg' alt='' />
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710414603/project-terence/7th/tq4pymccx1zf0l01okxl.png'
+        alt=''
+      />
+    </figure>
     <figcaption>（總經理Lu為我們上紅領帶專屬課程）</figcaption>
-    <img src='./data/experienceArticle/7th/1.jpg' alt='' />
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710414632/project-terence/7th/rrrsm0ezrv0ayd9qbagn.png'
+        alt=''
+      />
+    </figure>
     <figcaption>（胸前的紅領結提醒著我們都是一群還沒拿到紅領帶的小子們）</figcaption>
-    <img src='./data/experienceArticle/7th/2.jpg' alt='' />
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710414647/project-terence/7th/txqgxn6k5l669mwcdw8o.png'
+        alt=''
+      />
+    </figure>
     <figcaption>（和客戶的提案我們也能跟去學習）</figcaption>
     <p>
       難得進入我夢想的公司，還是我一心所向的創意部，在這兩個月我志向從想做文案到想做Art，但這兩個月我兩個角色的事都有參與，卻深感自己應該更精進繪圖軟體的能力，也更瞭解好的腳本是符合客戶需求，而不是自己覺得有梗就硬說能解決商業課題，更學到從Brief想idea是多麼美妙的一件事，如果確實on
@@ -30,18 +45,48 @@ const 何伯濤 = () => (
     <p>
       實習進到八月，很幸運的能跟到拍片，並且是企業CSR的案子，因此能看到更具格局的事前準備及前置作業，跟著team的人及劇組到南部拍攝了三天兩夜，感性的畫面背後我看到的是更感性的導演和演員，之間的情感已經在一次次的溝通和搏感情中建立起來，親眼見證那一個個故事的背後是多%253F真實，所以回台北後看「小小鼓手」，我竟然落淚了，因為我不再認為那是假的是操作，而是一個個真實的人、真實的故事呈現在我們面前，我已身在廣告之中，而我為此感動
     </p>
-    <img src='./data/experienceArticle/7th/3.jpg' alt='' />
-    <img src='./data/experienceArticle/7th/4.jpg' alt='' />
-    <img src='./data/experienceArticle/7th/5.jpg' alt='' />
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710414664/project-terence/7th/ft02kysuvgwjjdojilat.png'
+        alt=''
+      />
+    </figure>
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710414686/project-terence/7th/aeewhxjbv5fef7ibxq5w.png'
+        alt=''
+      />
+    </figure>
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710414704/project-terence/7th/aexxylvlu5tov4v5butl.png'
+        alt=''
+      />
+    </figure>
     <figcaption>（和楊雅導演合照）</figcaption>
     <p>
       在最後一天的結業提報後，所有委員和紅領帶們圍成一圈，我們靜靜說著我們的感想，在場的人也靜靜聽著，說完再聽著工作學長和生活學長，對自己這兩個月的表現做出總結及建議，我當時心中其實很緊張，看著大家滔滔不絕說出好多自己的沈澱、改進及學習等等，但我心裡卻想不到要說什麼，輪到我時情況卻大大不一樣，我想到什麼就說什麼，竟然有好多我自己也沒發現的感想和沈澱，就這樣在被大腦整理出的那一刻就脫口而出，不加粉飾，我想我當時的一字一句都是我的真心話，不為了要說給誰聽，只是很真實地說出自己這兩個月看到的事，學到的東西，以及真的很高興能進到奧美這間以「人」為本的企業，並且真正在這裡看到「人」的價值，人與人之間沒有隔閡，是一間真正由「人」組成的企業
     </p>
-    <img src='./data/experienceArticle/7th/6.jpg' alt='' />
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710414720/project-terence/7th/yhrnxje8j1pb6tmyvt6r.png'
+        alt=''
+      />
+    </figure>
     <figcaption>（拿到結業證書）</figcaption>
-    <img src='./data/experienceArticle/7th/7.jpg' alt='' />
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710414736/project-terence/7th/im6xrnhfzijhjasoalrl.png'
+        alt=''
+      />
+    </figure>
     <figcaption>（謝謝我的組員們，不然我沒有拿到紅領帶的一天）</figcaption>
-    <img src='./data/experienceArticle/7th/8.jpg' alt='' />
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710414754/project-terence/7th/eveennisay4vothhp9z2.png'
+        alt=''
+      />
+    </figure>
     <figcaption>（拿到紅領帶）</figcaption>
     <p>
       能以紅領帶身份進到奧美真的很幸運，因為可以得到公司最大的資源跟心力，能學習到的太多太多，卻越學越覺得不夠，而在我提出問題後，答案往往伴隨著「這裏的人是真心的幫著我想讓我進步」這個念頭一起回來，我真心感謝奧美、感謝紅領帶計畫，也謝謝林宗緯前輩，是你給我們這段幸運的日子，讓我更愛廣告，最後一晚的聚餐，歷代紅領帶一起來把酒言歡
@@ -66,7 +111,12 @@ const 林叡志 = () => (
     <p>
       每個人口中的信念都是迷人的，我迷失在這些信念中，想要從中挑選，但是找不到原本屬於自己的那一份，好險在離開前我找回了它的一角，這次不該再輕易地丟掉了。
     </p>
-    <img src='./data/experienceArticle/7th/9.jpg' alt='' />
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710414806/project-terence/7th/emcwah9ryxiqxvhxggnk.png'
+        alt=''
+      />
+    </figure>
   </>
 );
 const 施又寧 = () => (
@@ -84,15 +134,17 @@ const 施又寧 = () => (
     <p>是因為我們熱愛這個世界，熱愛思考，並熱愛與人接觸。</p>
     <p>這是我後來赫然發現為什麼這間公司和我想像中的職場有那麼大的不同。</p>
     <p>這裏的人愛你的程度，會像進了邪教那樣令你打顫。</p>
-    <img src='./data/experienceArticle/7th/10.jpg' alt='' />
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710414828/project-terence/7th/cyptbc2wgt573c5esdjv.png'
+        alt=''
+      />
+    </figure>
   </>
 );
 const 林峻毅 = () => (
   <>
-    <figure>
-      實習的最後，我以為我會哭......但是我沒有。
-      <figcaption>＿政治大學民族學系四年級 林峻毅</figcaption>
-    </figure>
+    <p>實習的最後，我以為我會哭......但是我沒有。 ＿政治大學民族學系四年級 林峻毅</p>
     <p>
       2016年的夏天，我錄取了「紅領帶實習計劃」，有幸在奧美廣告實習了兩個月。這個時間點非常精彩，奧美正量產了諸多精彩作品：獨立樂團偕同盲人兒童完成搖滾夢的「小小鼓手」（國泰）正在進行，〈全聯經濟美學〉正用時下最夯的街拍SNAPP引領風騷，〈遠傳開口說愛〉正在醞釀第三波鼓勵台灣的企劃，IKEA更是準備用超級明星產品〈好好吃飯桌〉來矯正現代人的飯桌文化......我是在這樣一個時間點進來這裡實習，第一線見證厲害的廣告人一波又一波的影響大眾文化，不可否認，相當過癮！
     </p>
@@ -108,7 +160,12 @@ const 林峻毅 = () => (
       半個月後的最終面試，只有二十人晉級，總共分成三輪，第一階段是自我介紹，第二階段則是回答貼在自己座椅底下的隨機題目，題目包括「如果你是上帝，你會淘汰什麼器官？」、「如何賣給客戶“伊莎貝爾-他他篇”這支聲援多元成家的廣告？」、「如何發一篇被瘋狂轉載的臉書po文？」，這些題目必須要急智地在五分鐘之內想出答案，無從準備，只能各憑本事。老實說當下實在緊張，
       所以泰半時間我幾乎是在地愣，眼睛透過落地窗瞪著對面影城的《復仇者聯盟2》戶外廣告，心中不斷提醒自己那個被講到長繭的時代警語「做自己！做自己！做自己！」，最後，我直白地向面試委員坦白了很多想法，一面覺得自己大抵是搞砸了這場面試，但也很慶幸，面試的最後，奧美廣告總經理LU講了這一句話：「做廣告業難免會遇到價值衝突的時候，但千萬不要忘記你的belief！」而後我幸運地被錄取了，至於這句話，也常常在我半夜三點才離開公司時，在腦裡重播著，很吵。
     </p>
-    <img src='./data/experienceArticle/7th/11.jpg' alt='' />
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710414849/project-terence/7th/ojxnkjzmtovsfbmqjgiz.png'
+        alt=''
+      />
+    </figure>
     <figcaption>IKEA廣告裡的雷峰塔，確實存在，我如同白蛇被鎮在我組員的心中。</figcaption>
     <p>
       <b>奧美的初探，緊守的創意堅持</b>
@@ -125,7 +182,12 @@ const 林峻毅 = () => (
     <p>
       流暢的、邏輯的、專業的、俐落的、原生的，光看上面這段流程總有這樣的誤讀，會以為廣告公司正如同影集《廣告狂人》一般的光鮮，很抱歉，不是的！由於每一次的廣告製作與投放，都是以百萬千萬計價，客戶對於廣告創意的要求是非常嚴格的，加上奧美人不甘於流俗的作品、守舊的表現，即使眼前擺著捷徑，告訴著他們譁眾取寵、引爆話題、賺點擊率，並非難事，他們也不願輕易地用「十二星座」或者「鮮肉、女神」來矇混過關。在創意部實習，的確可以十一點才從容抵達辦公室，但在這兩個月，我也多次看見日出，才離開辦公室。
     </p>
-    <img src='./data/experienceArticle/7th/12.jpg' alt='' />
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710414870/project-terence/7th/trcy84oaoejotdyhzjv1.png'
+        alt=''
+      />
+    </figure>
     <figcaption>跨部門同仁徹夜討論訓練課程的作業</figcaption>
     <p>
       <b>職人的潛心，生為滾石即不甘停滯</b>
@@ -140,7 +202,12 @@ const 林峻毅 = () => (
       實習的階段，剛好是在世界級的廣告盛事「坎城廣告節」之後，本屆臺北奧美並無斬獲任何獎項，卻依舊派了創意部高層前去取經，更在公司有了為期兩週的坎城週，由取經後的創意部高僧替大家「唱佛」。早已耳聞奧美廣告的培訓課程是相當扎實精彩，親臨坎城週後，更感受到整間公司對於好作品、好觀點、好藝術的堅持，在這個自媒體的時代，廣告早已非傳統形態，不囿於電視螢幕或家外廣告欄位，所以思考的課題不斷地再更新，如何達到病毒傳播，如何策劃出精彩的social
       campaign，如何在公益廣告掛帥的時代持續促進銷售，如何協同客戶去挖掘出改善世界的品牌大理想........不諱言的，我想這就是廣告迷人之處，不斷挑戰著動腦的速度，堅信用創意開拓新路，才能一直與時代同步。
     </p>
-    <img src='./data/experienceArticle/7th/13.jpg' alt='' />
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710414903/project-terence/7th/th8oalmeoldqqcqihjne.png'
+        alt=''
+      />
+    </figure>
     <figcaption>
       廣告人的玩心！想不出idea就去騎一下新客戶的產品-Gogoro 莽撞的珍貴，別怕這個時代迷信專業
     </figcaption>
@@ -156,7 +223,12 @@ const 林峻毅 = () => (
     <p>
       曾經以為，自己過了22歲，工作的一切就會只是重複的重複；甚至誤解，資本主義以數字為圭臬的時代，傳播的一切就會只是叫賣再叫賣。然而回想這兩個月，我跟這群做過無數精彩廣告的創意工作者，共處一室，我甚至見識了羅景壬導演，以及充滿奧美風格的客戶提案現場，才會發現，廣告這工作涵養的美學與競速，會讓你不再輕易地說這世界無聊。這兩個月很酷，我的自傳會再花一整個章節聊聊這段青春，但得先讓我玩夠。
     </p>
-    <img src='./data/experienceArticle/7th/14.jpg' alt='' />
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710414924/project-terence/7th/bce614es9oxv4mrkncum.png'
+        alt=''
+      />
+    </figure>
     <figcaption>經過兩個月的實習，總算見到傳說中的「紅領帶」。</figcaption>
   </>
 );

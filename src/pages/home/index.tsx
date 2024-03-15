@@ -42,9 +42,10 @@ const Home = memo(() => {
     if (data) {
       const [schedule] = data.schedule.data;
       const [news] = data.news.data;
+      const share = data.share.data;
       setContext({ type: ActionType.Ready, state: { enabled: true, contacts: schedule.contacts } });
       setContext({ type: ActionType.News, state: { enabled: true, html: news.html } });
-      setState((S) => ({ ...S, schedule, news }));
+      setState((S) => ({ ...S, schedule, news, share }));
     }
   }, [data]);
 

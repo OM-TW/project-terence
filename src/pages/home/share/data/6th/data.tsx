@@ -1,6 +1,11 @@
 const 錢雅莛 = () => (
   <>
-    <img src='./data/experienceArticle/6th/0.jpg' alt='' />
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710413947/project-terence/6th/hobb5wbcfbyoxzpakz3x.png'
+        alt=''
+      />
+    </figure>
     <p>這不會是一個全然快樂的兩個月，不管從哪個角度來看。</p>
     <p>
       照片是公司內部的模樣，右邊櫃子上有個雞頭，牠扮演了我這兩個月來精神支柱的角色，每當我想不到點子、頭痛、無聊的時候都會去抱抱牠。
@@ -19,7 +24,12 @@ const 錢雅莛 = () => (
       七月初時我空著手進來，沒什麼期待，八月底時我抱著滿滿的故事，順便帶了好幾個需要問自己的問題離開，在多了煩惱的同時我卻更確定了：
     </p>
     <p>廣告是人的產業，願終身相處，以身相許。</p>
-    <img src='./data/experienceArticle/6th/1.jpg' alt='' />
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710413974/project-terence/6th/twnx4ghx9i22znj7ksjf.png'
+        alt=''
+      />
+    </figure>
     <figcaption>(第六屆紅領帶獎助學金獲獎者 - 錢雅莛 政治大學廣告學系/四年級 。 )</figcaption>
   </>
 );
@@ -46,7 +56,12 @@ const 江昀潔 = () => (
       <br />
       也是實習兩個月下來最真摯的感受。
     </p>
-    <img src='./data/experienceArticle/6th/2.jpg' alt='' />
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710413993/project-terence/6th/regjresib7lryigxosah.png'
+        alt=''
+      />
+    </figure>
     <p>
       不管是那一天，還是實習期間，又或是事隔半年的現在，
       <br />
@@ -99,7 +114,12 @@ const 江昀潔 = () => (
       <br />
       並且從這兩種不同的工作經驗中，發覺自己蹦蹦跳跳的特質比起 Planner 更適合做 Account。
     </p>
-    <img src='./data/experienceArticle/6th/3.jpg' alt='' />
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710414012/project-terence/6th/lgcdl8kcvnvhuojutw66.png'
+        alt=''
+      />
+    </figure>
     <b>
       因為他們願意讓我們嘗試，而嘗試開啟了機會，機會則豐富了我們的選擇，
       <br />
@@ -141,7 +161,12 @@ const 江昀潔 = () => (
       <br />
       卻因為帶著像家人般的鼓勵，而充滿力量。
     </p>
-    <img src='./data/experienceArticle/6th/4.jpg' alt='' />
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710414036/project-terence/6th/l1jft7vrr4zdtw869kpm.png'
+        alt=''
+      />
+    </figure>
     <b>
       實習生也許總是聽到，因為懂得少，要耐磨、耐熬、耐操點才學得到東西，
       <br />
@@ -180,7 +205,12 @@ const 江昀潔 = () => (
       <br />
       讓我們更了解要如何抓到不同廣告的消費者Insight。
     </p>
-    <img src='./data/experienceArticle/6th/5.jpg' alt='' />
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710414052/project-terence/6th/ezyvnrg8j4xv8pozlyuq.png'
+        alt=''
+      />
+    </figure>
     <b>
       說來有點慚愧，人生20年好像還是頭一次這麼想要學，
       <br />
@@ -245,7 +275,12 @@ const 江昀潔 = () => (
         是我在奧美真槍實彈的戰場上，學會最寶貴的一件事。
       </b>
     </p>
-    <img src='./data/experienceArticle/6th/6.jpg' alt='' />
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710414081/project-terence/6th/kfzx8ds2olmjmgaojf5m.png'
+        alt=''
+      />
+    </figure>
     <b>最美的文字是信念，最美的風景是人</b>
     <p>
       進入奧美與離開奧美的那天，我都站在這片面牆前面許久，
@@ -276,7 +311,12 @@ const 江昀潔 = () => (
       <br />
       是他們不用說也讀得到、感受得到的兩個字。
     </p>
-    <img src='./data/experienceArticle/6th/7.jpg' alt='' />
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710414095/project-terence/6th/wxzdrtthlrc6y3qflkrx.png'
+        alt=''
+      />
+    </figure>
     <p>
       另外則是『人』，
       <br />
@@ -301,7 +341,12 @@ const 江昀潔 = () => (
         這可能也就是為何我對這塊紅如此著迷的原因了吧！
       </b>
     </p>
-    <img src='./data/experienceArticle/6th/8.jpg' alt='' />
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710414116/project-terence/6th/gllxvgmy5ywpbcjz53uq.png'
+        alt=''
+      />
+    </figure>
     <b>先別管別人怎麼想，你知道自己怎麼想嗎</b>
     <p>
       必須很誠實地說，剛進入奧美的前兩個禮拜，我是感到格格不入的。
@@ -350,7 +395,12 @@ const 江昀潔 = () => (
       <br />
       不過就像他們說的，進奧美之後，也許就會認識到不一樣的自己。
     </p>
-    <img src='./data/experienceArticle/6th/9.jpg' alt='' />
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710414132/project-terence/6th/fxgltnq93tqfntltfgch.png'
+        alt=''
+      />
+    </figure>
     <p>
       <b>
         紅領帶的夏天，就這樣結束在鹹鹹甜甜的眼淚與回憶裡，
@@ -392,12 +442,22 @@ const 白傑 = () => (
       我申請的是奧美舉辦第六屆紅領帶計畫的實習機會，為的是紀念一位熱情的廣告人–林宗緯，這與一般實習生不同的是，你將有機會得到「特別的課程」，不論是業務上的溝通技巧、策略上的邏輯思考，或是創意上的天馬行空，都會透過奧美資深的夥伴傳授給你，我沒有獨愛哪一堂課，因為每一堂課都是最精華、最精彩的(Amy(奧美廣告-策略總監)教我們怎麼do
       brief、Jessie(奧美廣告-副總經理)教我們找到行銷切入點、Jimi(奧美廣告-創意總監)觀察我們的筆記本、Lu(奧美廣告-總經理)讓我們試著找出廣告insight、Oliver(奧美廣告-策略總監)告訴我們品牌大理想，並找到自己的品牌大理想，Sean(奧美廣告-創意總監)告訴我們數位的真相、Zoe(奧美廣告-業務協理)教我們廣告基本功、Gino(奧美廣告-業務協理)教我們如何面對提案)。除了訓練課程外，還會被分配到不同的團隊中，參與工作上大部分的流程、貼身學習，這也是我這兩個月中，最珍貴的收穫。
     </p>
-    <img src='./data/experienceArticle/6th/10.jpg' alt='' />
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710414147/project-terence/6th/aqdijkw8z7bteinf5rl3.png'
+        alt=''
+      />
+    </figure>
     <b>「如果因害怕而不敢吃眼前的那顆果實，那你永遠無法品嚐到它的美味。」</b>
     <p>
       在還沒投履歷的某一天入睡前，回想起曾經在台北奧美粉絲專頁上看到的「奧美紅領帶計畫」，心想奧美是多麼遙不可及的地方，只曾在書上看過，我這輩子應該都無法到達。而且我從來不了解廣告，廣告對我來說，就是節目與節目之間，讓我休息的片段罷了。但是我試著想：「如果我要參加，要如何在那麼競爭的人海裡突顯出來？」又再想：「一樣都有機會，別人卻可以達到，那為什麼我不行呢？」開始在腦海中規劃我要怎麼介紹自己、呈現我的優點，就像廣告人在行銷商品一樣，越想越有趣，隔天我就開始動手執行、寄送履歷，繼續過我的生活。
     </p>
-    <img src='./data/experienceArticle/6th/11.jpg' alt='' />
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710414164/project-terence/6th/my22wpvzvffw1qncyetu.png'
+        alt=''
+      />
+    </figure>
     <b>「進入奧美最大的訣竅是什麼？做你自己就對了！」</b>
     <p>
       我完全沒想到會進入到最後階段，不是不在意，而是不敢相信。從接到第二階段通知、單獨到台北參加筆試，面對1、200人同時進行筆試的畫面，到同時12人集體面對奧美資深人員，完全都像在作夢一樣，至今無法忘記。在面試前，我曾問一位紅領帶的學姊：「我必須準備什麼才能順利通過面試？」她說：「自信，做自己！」你也許會想怎麼會是那麼籠統的答案，我當時也是這麼想的。但在實習最後一天的結業式裡，我的生活學長Gino告訴我：「面試時，我覺得你跟別人很不一樣，直覺告訴我就賭賭看，看這小子會不會真的很特別，而在最後的這一天，你證明我選對了。」當下我聽到十分感動，也想起當時的那句話：自信，做自己！」
@@ -405,7 +465,12 @@ const 白傑 = () => (
     <p>
       就像是世界上有上千上萬種人，每個人都是獨特的，而在奧美，是沒有只尋找怎樣特質的人，而是找到最特別的你。簡單來說，是你的就是你的，你再怎麼證明、表現，都不如做自己來得有用許多。所以這兩個月對我來說最大的啟發就是，做事被別人看到、被肯定是好事，但是在被別人看到之前，必須先相信自己，並且肯定自己，而不是一味地做給別人看，就算別人看不到也不能氣餒，始終相信自己在做對的事情、保持最原始的你，「你」才是最特別的那個你。
     </p>
-    <img src='./data/experienceArticle/6th/12.jpg' alt='' />
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710414223/project-terence/6th/jsbhwcpoiuhnyhgr9cwl.png'
+        alt=''
+      />
+    </figure>
     <b>「在奧美可以學到什麼？應該說，你自己想學到什麼？」</b>
     <p>
       在進入奧美實習之前，我對於廣告懵懵懂懂，可以說是進入一個完全陌生的環境，只能強迫自己適應及學習。
@@ -422,14 +487,24 @@ const 白傑 = () => (
     <p>
       除此之外，奧美廣告也提供不同有趣的機會讓我們參與，例如突發其來的Brainstorming會議、不定期舉辦的福委會活動，只要準備好了，就能表現自己，讓自己成長。我也因此藉機做了不同的海報，貼在公司各處與活動現場！
     </p>
-    <img src='./data/experienceArticle/6th/13.jpg' alt='' />
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710414266/project-terence/6th/hvf3owdjfrqefirg2qxs.png'
+        alt=''
+      />
+    </figure>
     <p>
       一位紅領帶這麼說：「人活著最膚淺的事就是希望獲得他人的肯定，最犯賤的事就是永遠害怕肯定只是幸運。」這句話我一直銘記在心裡，以前我是一個不斷需要被肯定的人，好像只有這樣才能證明自己的能力，不過現在我相信只要自己夠努力、把事情做好，就能使自己一步一步成長。
     </p>
     <p>
       除了在創意部待兩個月，在Team旁邊貼身學習外，我們實習生也一起練舞、一起準備策略部的提案，雖然也因此常常被身上的作業與工作追著跑，但也因為這樣我能更享受邊玩邊工作的環境，我也很開心能將自己所擅長的平面設計，為這裡做點什麼，雖然累，但是卻是一種甜蜜的負擔。
     </p>
-    <img src='./data/experienceArticle/6th/14.jpg' alt='' />
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710414283/project-terence/6th/szsubxczqwolhufgrnyv.png'
+        alt=''
+      />
+    </figure>
     <h2>「結業式報告：必須讓所有奧美的人覺得精采！」</h2>
     <p>
       在我們第一天來到奧美時，就被交派一個任務「結業式報告」，之所以說它是一個任務，是因為在實習的最後一天，奧美的人必須放下手邊的工作，花時間聽每一個人約30分鐘的Show，如果不夠精采，大家可能寧可把時間花在手邊的工作上，而不是聽一份無趣的報告。所以從第一天起，奧美就讓我知道什麼都是「來真的！」錄取實習機會根本沒什麼了不起，其實還有許多更艱難的挑戰在等著我們。
@@ -437,7 +512,12 @@ const 白傑 = () => (
     <p>
       而結業式報告當天，紅領帶們也無所不用其極，有人剪輯影片、有人做許多深度訪談、有人研究別人筆跡，而我當然也不能輸！我將第六屆紅領帶們一一畫成小卡、寫上我所認識的他們，並將這些小卡噴漆，做成像是刮刮卡一般。當天報告現場看到台下的觀眾們興奮地刮著卡片與討論，讓我覺得辛苦都值得了！
     </p>
-    <img src='./data/experienceArticle/6th/15.jpg' alt='' />
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710414304/project-terence/6th/neyzq2u9s8mure6mt48n.png'
+        alt=''
+      />
+    </figure>
     <p>
       在奧美的最後一天，我以為我能笑著離開，但是我哭到無法自拔，不知道是因為要離開暑假每天早上搭車到台北最繁華的信義區、舒服自在的工作環境、讓體重遲遲無法降低的零食櫃、晚上大家一起喝酒玩遊戲、還是充實的訓練課程？但我發現，其實是這裡的「人」最讓我捨不得。我還記得老闆在我不舒服時的關心與問候、實習生們共同克服難關、Team上耐心教導我大大小小的事、生活學長陪我聊所有的瑣事並給我建議...等等，我想這才是真正讓我愛上奧美、捨不得離開奧美的原因。
     </p>
@@ -445,7 +525,12 @@ const 白傑 = () => (
     <p>
       還記得前面我說：「我從來不了解廣告，廣告對我來說，就是節目與節目之間，讓我休息的片段罷了。」現在我會說：「我開始愛上了廣告，廣告對我來說，就是人與人之間最有趣的溝通方式！」
     </p>
-    <img src='./data/experienceArticle/6th/16.jpg' alt='' />
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710414324/project-terence/6th/kmgvri65ojhckbczxmbu.png'
+        alt=''
+      />
+    </figure>
   </>
 );
 

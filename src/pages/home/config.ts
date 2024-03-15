@@ -27,12 +27,24 @@ export type THomeNews = {
   timestamp: number;
 };
 
+export type THomeShare = {
+  session: number;
+  name: string;
+  engName: string;
+  html: any;
+};
+
 export enum HomeStepType {
   unset,
   loaded,
   fontLoaded,
 }
-export type THomeState = { step: HomeStepType; schedule: THomeSchedule; news: THomeNews };
+export type THomeState = {
+  step: HomeStepType;
+  schedule: THomeSchedule;
+  news: THomeNews;
+  share: THomeShare[];
+};
 export type THomeContext = [THomeState, Dispatch<SetStateAction<THomeState>>];
 
 export const HomeState: THomeState = {
@@ -50,5 +62,6 @@ export const HomeState: THomeState = {
     html: '',
     timestamp: 0,
   },
+  share: [],
 };
 export const HomeContext = createContext<THomeContext>([HomeState, () => {}]);

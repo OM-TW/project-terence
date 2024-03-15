@@ -74,7 +74,12 @@ const 林姿儀 = () => (
     <p>
       養分表如下圖▼
       <br />
-      <img src='./data/experienceArticle/14th/0.jpg' alt='' />
+      <figure>
+        <img
+          src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710487878/project-terence/14th/ldgk3ssql3e0sjpq3apc.png'
+          alt=''
+        />
+      </figure>
     </p>
     <h2>Step 2「比起堅持，放棄更需要努力。」</h2>
     <p>
@@ -85,7 +90,12 @@ const 林姿儀 = () => (
     <p>
       <br />
       在構思紅領帶期末報告時，為了讓奧美人能喜歡，我不斷的修改內容、說法，最後我失焦於初衷，這時有人提醒我「為了配合而不斷修改，你的報告將一點也不特別，觀點沒有對與錯，有你的道理就行，不用擔心別人能否接受。」最終期末報告融入了我熱愛的調酒，相信原先選擇的題目、內容，引起台下觀眾的讚許及想多喝幾杯的回饋。
-      <img src='./data/experienceArticle/14th/1.jpg' alt='' />
+      <figure>
+        <img
+          src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710487918/project-terence/14th/xgzg5g32kpnwilogjae2.png'
+          alt=''
+        />
+      </figure>
     </p>
     <h2>Step 4「過度幸運，所以必須更努力。」</h2>
     <p>
@@ -100,7 +110,12 @@ const 林姿儀 = () => (
     <p>
       右圖為啤酒節的海報「每周五，別鬧了！」
       <br />
-      <img src='./data/experienceArticle/14th/2.png' alt='' />
+      <figure>
+        <img
+          src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710487932/project-terence/14th/yysy9o0kmjkowna3m6ce.png'
+          alt=''
+        />
+      </figure>
       <br />
       謝謝紅領帶計畫的每一位相關人士，
       <br />
@@ -114,7 +129,12 @@ const 林姿儀 = () => (
       <br />
       下台一鞠躬～謝謝奧美的照顧！
       <br />
-      <img src='./data/experienceArticle/14th/3.jpg' alt='' />
+      <figure>
+        <img
+          src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710487950/project-terence/14th/ukfjewrlrycubh5rjay4.png'
+          alt=''
+        />
+      </figure>
     </p>
   </>
 );
@@ -253,7 +273,12 @@ const 林妤晴 = () => (
     </p>
     <p>持續前行。</p>
     <p>
-      <img src='./data/experienceArticle/14th/4.jpg' alt='' />
+      <figure>
+        <img
+          src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710487967/project-terence/14th/yxw9vwpzaltxzryljn0k.png'
+          alt=''
+        />
+      </figure>
       <br />
       （拍照、做視覺，與奧美小魚，那些奇幻旅程的一些鮮明標籤）
     </p>

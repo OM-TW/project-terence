@@ -3,12 +3,13 @@ import Fetcher from 'lesca-fetcher';
 import { useContext, useState } from 'react';
 import { REST_PATH } from '../settings/config';
 import { Context } from '../settings/constant';
-import { THomeNews, THomeSchedule } from '@/pages/home/config';
+import { THomeNews, THomeSchedule, THomeShare } from '@/pages/home/config';
 
 export type TResult =
   | {
       schedule: { res: boolean; msg: string; data: THomeSchedule[] };
       news: { res: boolean; msg: string; data: THomeNews[] };
+      share: { res: boolean; msg: string; data: THomeShare[] };
     }
   | undefined;
 
@@ -19,6 +20,7 @@ const useInit = () => {
   const fetch = async () => {
     setContext({ type: ActionType.LoadingProcess, state: { enabled: true } });
     const respond = (await Fetcher.get(REST_PATH.init)) as TResult;
+
     setState(respond);
     setContext({ type: ActionType.LoadingProcess, state: { enabled: false } });
   };

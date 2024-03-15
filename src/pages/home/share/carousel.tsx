@@ -1,14 +1,14 @@
 import Button from '@/components/button';
 import { ScrollbarElement } from '@/settings/type';
 import { WheelEvent, memo, useContext, useEffect, useMemo, useRef, useState } from 'react';
-import { renderToString } from 'react-dom/server';
+import { HomeContext, THomeShare } from '../config';
 import './carousel.less';
 import { ShareContext } from './config';
 import ScrollBar from './scrollbar';
 import { DefaultInternshipExperience } from './temp';
 
 const data = DefaultInternshipExperience['2009 第一屆紅領帶'];
-type T = { data: (typeof data)[number]; index: number };
+type T = { data: THomeShare; index: number };
 
 const Slide = memo(({ data, index }: T) => {
   const [, setState] = useContext(ShareContext);
@@ -16,15 +16,20 @@ const Slide = memo(({ data, index }: T) => {
   return (
     <div className='slide'>
       <div className='title'>
-        <h2>{data.name.cht}</h2>
+        <h2>{data.name}</h2>
         <div />
-        <span>{data.name.eng}</span>
+        <span>{data.engName}</span>
       </div>
-      <div className='content'>
-        {renderToString(data.html())
-          .replace(/(<([^>]+)>)/gi, '')
-          .slice(0, 63) + '...'}
-      </div>
+      <div
+        className='content'
+        dangerouslySetInnerHTML={{
+          __html:
+            data.html
+              .replace(/(<([^>]+)>)/gi, '')
+              .replace(/(&nbsp;)*/g, '')
+              .slice(0, 63) + '...',
+        }}
+      />
       <div className='w-full flex justify-end'>
         <Button onClick={() => setState((S) => ({ ...S, index, trigger: true }))}>
           <Button.More size='small'>More</Button.More>
@@ -36,10 +41,18 @@ const Slide = memo(({ data, index }: T) => {
 
 const Carousel = memo(() => {
   const [state] = useContext(ShareContext);
+  const [homeState] = useContext(HomeContext);
+
   const { percent, th } = state;
+
   const list = useMemo<typeof data>(() => {
     return Object.values(DefaultInternshipExperience)[th - 1];
   }, [th]);
+
+  const shareList = useMemo<THomeShare[]>(() => {
+    const { share } = homeState;
+    return share.filter((data) => data.session === th);
+  }, [th, homeState]);
 
   const slickRef = useRef<HTMLDivElement>(null);
   const scrollRef = useRef<ScrollbarElement>(null);
@@ -103,7 +116,7 @@ const Carousel = memo(() => {
             touchProperty.current.enabled = false;
           }}
         >
-          {list?.map((data, index) => {
+          {shareList?.map((data, index) => {
             return <Slide key={JSON.stringify(data) + index} data={data} index={index} />;
           })}
         </div>

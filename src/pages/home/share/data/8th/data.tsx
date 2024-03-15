@@ -1,6 +1,11 @@
 const 林亞駿 = () => (
   <>
-    <img src='./data/experienceArticle/8th/0.jpg' alt='' />
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710415363/project-terence/8th/cngxwbatt71mmcil3yq6.png'
+        alt=''
+      />
+    </figure>
     <h1>（「哇，我真的進來奧美了！」報到第一天我看著這個名牌發愣。）</h1>
     <p>
       我以為錄取紅領帶已經是個目的地，但這兩個月才發現每天都必須不斷前進。如同新生嬰孩摸索語言，攫取單詞與聲調想讓自己也能說個好故事；充實的課程與訓練是生長激素，過程中的工作與任務是養分。每天都跟自己說快點成長吧！
@@ -18,12 +23,22 @@ const 林亞駿 = () => (
     <p>
       謝謝老闆小Winnie和Roger，謝謝紅領帶委員們，謝謝好多願意和我聊聊與分享的人，謝謝這兩個月的暑期實習生們。謝謝兩個月來的每個你和妳！
     </p>
-    <img src='./data/experienceArticle/8th/1.jpg' alt='' />
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710415388/project-terence/8th/pr0vjjszsdy0jgoom61x.png'
+        alt=''
+      />
+    </figure>
   </>
 );
 const 蘇怡心 = () => (
   <>
-    <img src='./data/experienceArticle/8th/2.jpg' alt='' />
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710415404/project-terence/8th/cxpw0uwnbqihkwbrbkgq.png'
+        alt=''
+      />
+    </figure>
     <p>
       終於進了夢寐以求的地方，一開始帶著忐忑不安的心情，決定把自己放下，打開全身感官，感受奧美美好的文化。
     </p>

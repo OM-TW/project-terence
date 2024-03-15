@@ -17,8 +17,12 @@ const 林奕瑄 = () => (
       <br />
       奧美可以。
     </p>
-
-    <img src='./data/experienceArticle/12th/0.jpg' alt='' />
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710416738/project-terence/12th/kr56vabhhasyqafpkf6w.png'
+        alt=''
+      />
+    </figure>
     <figcaption>圖一：正妹與奧美的合照</figcaption>
 
     <h2>紅紅的名片 紅紅的想像</h2>
@@ -33,8 +37,12 @@ const 林奕瑄 = () => (
     </p>
 
     <h1>我又沒什特別的</h1>
-
-    <img src='./data/experienceArticle/12th/1.jpg' alt='' />
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710416760/project-terence/12th/nn95dke0zolgjwpvyga2.png'
+        alt=''
+      />
+    </figure>
     <figcaption>圖二：喪氣的正妹與Jerry的對話</figcaption>
     <p>
       將近兩個月的申請時間，我因為不相信自己做得到，在申請的deadline那天糊裡糊塗的交出了一份自己都不滿意、普普通通的履歷和作品集。
@@ -68,7 +76,12 @@ const 林奕瑄 = () => (
     </p>
 
     <h2>有一點才氣的八個人</h2>
-    <img src='./data/experienceArticle/12th/2.jpg' alt='' />
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710416777/project-terence/12th/zngg2sshvqb9lyihhiuy.png'
+        alt=''
+      />
+    </figure>
     <figcaption>圖三：我們</figcaption>
 
     <p>
@@ -81,24 +94,44 @@ const 林奕瑄 = () => (
       <br />
       （不知道在官網上合不合法我們繼續看下去）
     </p>
-
-    <img src='./data/experienceArticle/12th/3.jpg' alt='' />
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710416794/project-terence/12th/vzsj32aenvqkw3zsensg.png'
+        alt=''
+      />
+    </figure>
     <figcaption>圖四：正妹的姓名貼都長這樣</figcaption>
 
     <h4>因為在這裡什麼都合法，為了我們的期末大會，還能做一堆有的沒的周邊商品。</h4>
-
-    <img src='./data/experienceArticle/12th/4.jpg' alt='' />
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710416810/project-terence/12th/kviwbgj2qgow6whg5fid.png'
+        alt=''
+      />
+    </figure>
     <figcaption>圖五：選舉大會Banner，正妹是7號</figcaption>
-
-    <img src='./data/experienceArticle/12th/5.jpg' alt='' />
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710416850/project-terence/12th/fbbnza2lsbeaq4gqwa8n.png'
+        alt=''
+      />
+    </figure>
     <figcaption>圖六：選舉一定要發衛生紙ㄚ</figcaption>
-
-    <img src='./data/experienceArticle/12th/6.jpg' alt='' />
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710416869/project-terence/12th/alrqjxgtglvvpbsztgzu.png'
+        alt=''
+      />
+    </figure>
     <figcaption>圖七：選舉一定要發選舉公報ㄚ</figcaption>
 
     <h1>A Blessing Journey</h1>
-
-    <img src='./data/experienceArticle/12th/7.jpg' alt='' />
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710416900/project-terence/12th/kqvbglgtkdhgbbxcefpc.png'
+        alt=''
+      />
+    </figure>
     <p>
       給焦慮刷著紅領帶計畫官網，覺得沒自信的你一句老掉牙的話：
       <br />
@@ -188,7 +221,12 @@ const 賴彥廷 = () => (
 
 const 許茹涵 = () => (
   <>
-    <img src='./data/experienceArticle/12th/8.jpg' alt='' />
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710416924/project-terence/12th/l4m7dyel9dmt3kqgkztv.png'
+        alt=''
+      />
+    </figure>
     <p>
       兩個月的混亂開始於紅領帶開學式的最後，Derrick笑咪咪的跟我們說：「不用想幫上什麼忙，因為我們很厲害。」
     </p>
@@ -212,9 +250,24 @@ const 許茹涵 = () => (
     <p>
       每個紅領帶在實習期末都要上台發表一個報告，題目不限。因為題目不限，做這個期末大報告的過程會經歷一番探索，發掘自己身上的能量點，然後思考發展成期末報告的可能。以我自己的情況為例，我的備選主題就有關於媒介與觀看、美感、古典音樂、家族歷史、故事等等。我選題目的方式是在第一週伸出觸角，往備選的各個方向研究，第二週的時候定案以「故事」為主題，分享自己對於故事、對於創作的看法，交出大綱。
     </p>
-    <img src='./data/experienceArticle/12th/9.jpg' alt='' />
-    <img src='./data/experienceArticle/12th/10.jpg' alt='' />
-    <img src='./data/experienceArticle/12th/11.jpg' alt='' />
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710416943/project-terence/12th/hpdzh1szbevnd4khzq0o.png'
+        alt=''
+      />
+    </figure>
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710416965/project-terence/12th/z6hkqvs7uicvshekebca.png'
+        alt=''
+      />
+    </figure>
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710416980/project-terence/12th/mqziazippjay2dq5zvvr.png'
+        alt=''
+      />
+    </figure>
     <p>
       如果你還在觀望這個實習計畫，我想跟你說奧美就是一個懂勾引的渣男，奉上紅領帶之路最爽的三個心動時刻：
     </p>
@@ -245,7 +298,12 @@ const 邱子瑜 = () => (
   <>
     <h2>“ 領帶勒在脖子上，脖子比領帶紅。 ”</h2>
     <p>如果你厭惡一成不變、希望生活多點刺激，那紅領帶適合你。</p>
-    <img src='./data/experienceArticle/12th/12.jpg' alt='' />
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710417011/project-terence/12th/una3uxaijgvknx8dearj.png'
+        alt=''
+      />
+    </figure>
     <h2>「奧，奧特of control？」</h2>
     <p>我是邱子瑜，身處在周子瑜仍然紅遍亞洲、海賊王即將完結的2020年。</p>
     <p>
@@ -276,7 +334,12 @@ const 邱子瑜 = () => (
     <p>
       廣告不問正解，只問是否能撼動人，尤其是在奧美，只要你的idea有說服力，你可以加入個人觀點、可以充滿破壞性，無拘無束。它可能是創意部某句前無古人的文案、策略部出人意表的廣告切角，或者是業務部想出某個別出心裁的構想，在這個包容異音的溫室裡，這些沾著創意的點子不容易被扼殺。
     </p>
-    <img src='./data/experienceArticle/12th/13.jpg' alt='' />
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710417035/project-terence/12th/bddoqybjb8xztblqbuld.png'
+        alt=''
+      />
+    </figure>
     <figcaption>（奧美的人有多怪，看紅領帶可以略知一二）</figcaption>
     <p>
       奧美的人們也很奇杷。有些業務四五點會去宜蘭衝浪再回來上班、創意常穿著拖鞋走來走去；策略平常看起來安靜，但吵起來都會把腦袋裡裝的幹話噴得到處都是。在這裏，似乎沒有一個絕對的生活或工作標準規範，每個人照著自己想法長成獨特的樣子。看著看著，你會有點期待未來能成為這樣的職場玩家。
@@ -284,7 +347,12 @@ const 邱子瑜 = () => (
     <p>
       好的靈感、好的人才沒有標準答案，這是我這兩個月看見的。紅領帶可以讓你探索出不止一個對創意、對產業、對美，甚至於美好人生的答案。
     </p>
-    <img src='./data/experienceArticle/12th/14.jpg' alt='' />
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710417057/project-terence/12th/tnom4sfy3y93q6tw9wkf.png'
+        alt=''
+      />
+    </figure>
     <figcaption>紅領帶壓力大？倒不一定，但累是真的。</figcaption>
     <h2>「上課時的我們是陀螺」</h2>
     <p>
@@ -314,7 +382,12 @@ const 邱子瑜 = () => (
       在紅領帶，很多事情常常是一人出頭，眾人響應。這是怪人們的默契，也是紅領帶可貴的革命情感。譬如會一起偷訂乾杯燒肉便當、揪團去外面吃豬排吃半個下午，甚至連實習心得都可以集體遲交（？）
     </p>
     <p>紅領帶可以交到一群很棒的怪朋友呢。</p>
-    <img src='./data/experienceArticle/12th/15.jpg' alt='' />
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710417079/project-terence/12th/iprumloblhtpfinboi8z.png'
+        alt=''
+      />
+    </figure>
     <h2>「個體的重量」</h2>
     <p>
       從第一天就被提醒紅領帶是「具有特權」的一群人，可以參與很多高層會議，可以常常吃一些大餐，公司裡有些人會因為腰上的紅色領結而多看你一眼。
@@ -335,7 +408,12 @@ const 邱子瑜 = () => (
     <p>
       真正走過一回，會有種過去累積的簡報能力、搜尋經驗都根本都是幼稚園等級的怨嘆，但這段經驗也會是個很好的體悟：策略的門檻不低，當及格的策略人不容易。
     </p>
-    <img src='./data/experienceArticle/12th/16.jpg' alt='' />
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710417096/project-terence/12th/wefj0t6jfbhzxxnrlxng.png'
+        alt=''
+      />
+    </figure>
     <h2>「領帶勒在脖子上，脖子比領帶紅。」</h2>
     <p>紅領帶兩個月，在大腦的激盪走跳中帶走一把比玫瑰還紅的回憶。</p>
   </>
@@ -344,7 +422,12 @@ const 邱子瑜 = () => (
 const 林芝羽 = () => (
   <>
     <h1>瑪姬夢遊仙境</h1>
-    <img src='./data/experienceArticle/12th/17.jpg' alt='' />
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710417112/project-terence/12th/oofohkxuyu7r8ryfefsn.png'
+        alt=''
+      />
+    </figure>
     <p>
       「越奇越怪，越奇越怪。」
       <br />
@@ -365,7 +448,12 @@ const 林芝羽 = () => (
       你沒有辦法想像，這兩個月的實習簡直是用飛的在過。我掉進了兔子洞，來到了紅色的大門，拼了命的想要一探究竟這個世界。始業式後，我被分到了原本意料之外的數位部門CE&C（因為去年的心得沒有學長姐分享這個部門），而後在social
       team跟著CN一起當全聯小編，寫過各式商品和不同切角的文案。另外因為正值中元節，在這段時期中，我也有幸參與到創意部的TVC拍攝、業務部的提案匯報大小行程安排、社群平台延伸的互動操作等等。現在走進全聯福利中心後，我腦海中響起的已不再是「請支援收銀」，而是奧美如何在全聯這個品牌上玩轉行銷，以及背後那群閃閃發光的人們。
     </p>
-    <img src='./data/experienceArticle/12th/18.jpg' alt='' />
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710417139/project-terence/12th/uueyhf7hiojw53bhbj0g.png'
+        alt=''
+      />
+    </figure>
     <p>
       對了我還想要再帶回到CE&C（Customer Engagement &
       Commerce）一下，這個部門是在全球啟動「一個奧美（One
@@ -375,7 +463,12 @@ const 林芝羽 = () => (
     <p>
       （如果你聽了還是有些不理解，沒關係，因為我花了兩個月才把數位部門大致上在做些什麼了解個大概，接下來的疑問就邀請你們親自到CE&C玩樂吧！）
     </p>
-    <img src='./data/experienceArticle/12th/19.jpg' alt='' />
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710417161/project-terence/12th/tyndc3p2t5xvrwlzijak.png'
+        alt=''
+      />
+    </figure>
     <p>─</p>
     <h2>好多好多顆蘑菇</h2>
     <p>
@@ -383,7 +476,12 @@ const 林芝羽 = () => (
       is about
       present”，演講就是把自己準備的東西真誠的送禮給大家；Zoe牌的蘑菇告訴我work&life要如何平衡，定義生活的樣貌然後全力以赴；Daniel牌的蘑菇告訴我，做廣告真的是太棒了，若幾十年前他沒來這個地方根本不知道現在的自己會在哪；Shenan牌的蘑菇讓我知道什麼是「女性」獨有的領導力，在這多元的職場生態環境裡，要如何展現出自己的風格與能力。我喜歡並享受在奧美的各個辦公室中採集這些蘑菇，並珍惜的放進籃子裡。不清楚這條道路要走多遠，但我知道只要肚子飢餓時，就能隨時拿出這些磨菇來充饑，補充能量。
     </p>
-    <img src='./data/experienceArticle/12th/20.jpg' alt='' />
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710417178/project-terence/12th/z2yzm6jey19x6jnftn80.png'
+        alt=''
+      />
+    </figure>
     <p>─</p>
     <h2>瘋狂夏令營</h2>
     <p>
@@ -393,8 +491,18 @@ const 林芝羽 = () => (
       瘋狂夏令營中，還少不了一群熱情活潑的紅包袋實習生們，認識他們就像開箱彈出的驚喜般有趣。一起掃光零食櫃、一起去樓下買咖啡、一起加班、一起練習唱歌跳舞表演、一起在summer
       party中玩得不亦樂乎。「知道長長的一生是要自己走完的，才會明白每個人的到來都是一份禮物。」還是那句話，在奧美遇見你們是這個夏天最棒的禮物。
     </p>
-    <img src='./data/experienceArticle/12th/21.jpg' alt='' />
-    <img src='./data/experienceArticle/12th/22.jpg' alt='' />
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710417197/project-terence/12th/aew0ky15vi7s7lisbixi.png'
+        alt=''
+      />
+    </figure>
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710417215/project-terence/12th/aq1plahzrm2mdpepc7kx.png'
+        alt=''
+      />
+    </figure>
     <h2>就當是一場夢，醒了很久還是很感動</h2>
     <p>
       愛麗絲在河邊醒來，發現自己做了個奇怪的夢。而我也終於在兩個月後大夢初醒，在期末報告結束後，紅領帶委員們和我們圍成圈坐在一起各自分享時，嚎啕大哭。哭著釋放出的壓力、自卑、負能量，試著將步步成長的印記拼湊起來，可以對著用力奔跑的瑪姬也說一聲：辛苦了！你很棒！
@@ -456,7 +564,12 @@ const 吳若慈 = () => (
       <br />
       題目我就沒特別記下來了，但我記得，我前面的抽到的題目有「發一則限時動態」、「跟現場其中一位（自選）求婚」，當時我內心竊喜，這種搞搞笑的題目對我來說應該不會太難，結果，一打開我椅子下的題目：
     </p>
-    <img src='./data/experienceArticle/12th/23.jpg' alt='' />
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710417234/project-terence/12th/y52j5bgrac477eggbng0.png'
+        alt=''
+      />
+    </figure>
     <p>
       嗯？？
       <br />
@@ -465,7 +578,12 @@ const 吳若慈 = () => (
       但位子跟題目是自己選的。好，沒事。
     </p>
     <p>在腦袋空白以及人生跑馬燈以及心臟爆擊後，幸好最後還是講出了能讓我收到這封email的答案，</p>
-    <img src='./data/experienceArticle/12th/24.jpg' alt='' />
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710417256/project-terence/12th/shpe87krlk2gcv98eefc.png'
+        alt=''
+      />
+    </figure>
     <figcaption>謝謝奮力勇敢的小腦袋。</figcaption>
     <p>
       還記得面試當天看到一堆台大、政大，不然就是周遊列國或是贏得超多專業比賽冠軍王，自信心大受打擊，但我還是高興自己能參與這次面試，增廣見聞。
@@ -513,7 +631,12 @@ const 吳若慈 = () => (
 
 const 黃少甫 = () => (
   <>
-    <img src='./data/experienceArticle/12th/25.jpg' alt='' />
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710417277/project-terence/12th/tonvkydinweu43b8bfkq.png'
+        alt=''
+      />
+    </figure>
     從今天開始我要每天記錄在奧美的一切，刻畫自己青澀的模樣，用最輕的筆畫，寫下最深的回憶。
     <h2>2020.07.07「我第二天在回家的計程車上就哭了」</h2>
     <p>
@@ -540,7 +663,12 @@ const 黃少甫 = () => (
     <p>
       紅領帶最煩惱的便是最後一天的期末報告，我選擇在這個看似歡樂的期末報告主題，面對我自己最不想回憶的傷疤，沒想到在Lu上課時展演的五分鐘精簡版本情緒潰堤，眼淚不是潸潸落下，而是如水柱般噴發，但我沒想到的是最後大家也哭成一片好好笑哈哈哈。期末尾聲Robert一直提醒我們要做宣傳，我們一直對他苦哈哈笑，但我們只花了一天就光速討論與製作完了！奧美真的要幫我們組個「狗急跳牆但成果一級棒小組」。我愛紅領帶的大家，送你們三個字，五告讚！
     </p>
-    <img src='./data/experienceArticle/12th/26.jpg' alt='' />
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710417294/project-terence/12th/uf0cuuyuluztlahgpsve.png'
+        alt=''
+      />
+    </figure>
     <h2>2020.08.26「廣告會帶你去你想去的地方」</h2>
     <p>
       中正傳播廣告相關的課只有幾堂課，老師極度熱衷播放全聯和Waterman多喝水的系列廣告，沒想到我來奧美根本就是來追星的！追到的不是防彈少年團也不是Blackpink，而是追到Waterman本人！廣告的魅力就在這裡，雖然廣告被認為是最偉大的騙術，但是各種精心構思的廣告仍然以各處轟炸我們的方式影響著我們生活的每個層面。
@@ -555,7 +683,12 @@ const 黃少甫 = () => (
     <p>
       每一段故事裡，都會有一百個想要放棄的瞬間，有一百個被刺痛的瞬間，有一百個強忍不哭的瞬間，但這個故事是多%253F的讓人不捨得、捨不得，奧美的故事並不會只停留在今天。
     </p>
-    <img src='./data/experienceArticle/12th/27.jpg' alt='' />
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710417314/project-terence/12th/ls1amlrojmgfswddpnpz.png'
+        alt=''
+      />
+    </figure>
     和奧美最愛的「有錢又有力」合照，但笑得太開心了，法令紋比雞排妹的乳溝還深。
   </>
 );

@@ -13,7 +13,12 @@ const 牛嗣捷 = () => (
     <p>
       奧美廣告，對我來說，是一扇紅色大門，裡面是這一切美麗的萬花筒。而我幸在22歲時一窺這人人稱羨的美好世界，認識了許多有才華有熱情的主管與同事，無論未來何去何從，這都是我生命中最美好的回憶之一，而我的脖子上始終掛著這條紅領帶。
     </p>
-    <img src='./data/experienceArticle/5th/0.jpg' alt='' />
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710413780/project-terence/5th/n6hke5hxqzbqbivbukk9.png'
+        alt=''
+      />
+    </figure>
   </>
 );
 const 汪世怡 = () => (
@@ -29,7 +34,12 @@ const 汪世怡 = () => (
     <p>
       水是涼的更好。這樣試水溫就是費時、費事了。我好想來到奧美的第一天，我就是個專業人士，跟得上拍子。即可上緊發條，拚命的活動。但現在要離去時，身體卻熱了，紅得像火，要和奧美紅契合時，哪知天要催促我成為天空藍。
     </p>
-    <img src='./data/experienceArticle/5th/1.jpg' alt='' />
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710413807/project-terence/5th/ekdcmeasm190scv0dtqx.png'
+        alt=''
+      />
+    </figure>
   </>
 );
 const 涂子軒 = () => (

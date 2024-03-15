@@ -13,18 +13,42 @@ const 蔡承翰 = () => (
     <p>
       有煙有酒有胡扯，但絕不會對自已作品敷衍，兩個月的日子，不只實習了廣告也實習了失敗，不斷的壓榨右腦第37條神經線，不停試探肝指數的最高值；滿堆的紙張，滿桌的零食和酒，我想我知道我是在做廣告，好險7月8月都是大，讓我可以多被折磨了兩天的廣告生活！好險！
     </p>
-    <img src='./data/experienceArticle/2nd/0.jpg' alt='' />
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710408902/project-terence/2nd/mjavqubz4gnz3brz6ryl.jpg'
+        height='auto'
+        width='auto'
+      />
+    </figure>
     <figcaption>討論３小時後雜亂不堪的筆記</figcaption>
-    <img src='./data/experienceArticle/2nd/1.jpg' alt='' />
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710408902/project-terence/2nd/w4pufnxhyswwyfb2kgls.jpg'
+        height='auto'
+        width='auto'
+      />
+    </figure>
     <figcaption>半夜辦公室 不剩半滴的酒</figcaption>
-    <img src='./data/experienceArticle/2nd/2.jpg' alt='' />
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710408902/project-terence/2nd/uh0cykda2aoumcxainbz.jpg'
+        height='auto'
+        width='auto'
+      />
+    </figure>
     <figcaption>我在點子裡 實習失敗</figcaption>
     <p>(蔡承翰，現任奧美廣告 - 文案 by 2015)</p>
   </>
 );
 const 王彤 = () => (
   <>
-    <img src='./data/experienceArticle/2nd/3.jpg' alt='' />
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710408902/project-terence/2nd/cphpbaxstuvieydxoyvz.jpg'
+        height='auto'
+        width='auto'
+      />
+    </figure>
     <p>
       擺在辦公室的月曆。這是，8月。
       <br />
@@ -48,7 +72,13 @@ const 王彤 = () => (
       <br />
       謝謝奧美。
     </p>
-    <img src='./data/experienceArticle/2nd/4.jpg' alt='' />
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710408902/project-terence/2nd/hj5w3jqbijtf3sdfnz7u.jpg'
+        height='auto'
+        width='auto'
+      />
+    </figure>
     <p>
       誠如各位所見，
       <br />
@@ -80,7 +110,13 @@ const 王彤 = () => (
       <br />
       謝謝奧美。
     </p>
-    <img src='./data/experienceArticle/2nd/5.jpg' alt='' />
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710408902/project-terence/2nd/gy00ais0t6ttzjsh3abr.jpg'
+        height='auto'
+        width='auto'
+      />
+    </figure>
     一點了。這鐘每到整點會唱歌，但到這個時間才聽得見。
     <p>
       11樓總是人聲鼎沸，
@@ -115,17 +151,32 @@ const 陳昱安 = () => (
     <p>
       按照道理說，我現在好像應該要用一個很有創意的方式開頭。不過想了又想，還是不免俗的要說一下：時間真的過得好快好快，快到還來不及去發現，兩個月就接近尾聲了。
     </p>
-    <img src='./data/experienceArticle/2nd/6.jpg' alt='' />
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710408902/project-terence/2nd/czf98cqxtekdmm9qylqi.jpg'
+        alt=''
+      />
+    </figure>
     <p>
       這段日子對我而言最棒的禮物就是，讓我有機會發現原來和我在同一個空間裡還有這麼多的“Cool
       Freak”，能夠和這些人一起共事，真的是一個很棒的體驗。記得在創意部有一次，湘雲和我們team在做review，我站在湘雲後面，認真的聽著大家討論，突然，我發現─“天啊！我現在正在奧美的創意部裡，在我眼前討論著的這群人，不就是過去我在雜誌上崇拜的那些人嗎！而我現在竟然是這其中的一員！”當下真的有一種難以言喻的感動。
     </p>
-    <img src='./data/experienceArticle/2nd/7.jpg' alt='' />
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710408903/project-terence/2nd/dywhvdl9bdnzsfzbhpiv.jpg'
+        alt=''
+      />
+    </figure>
     <p>
       今天，大中幫我們上【大創意】的課程，他請我們每個人一塊原味“歐菲香”，“歐菲香”的英文是“Old
       Fashioned”，他說這是林宗緯最喜歡的口味。雖然我不確定自己是不是真的完全了解大中所要表達的東西，但我知道，這堂課在我心底改變了一些什麼，我覺得自己好像更勇敢了。尼采說過：“知道生活意義的人能夠克服幾乎所有困難。”為什麼想要做廣告呢？未來的日子應該可以好好想想。
     </p>
-    <img src='./data/experienceArticle/2nd/8.jpg' alt='' />
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710408903/project-terence/2nd/spuqf96zydvdwi5117lt.jpg'
+        alt=''
+      />
+    </figure>
     <p>
       這是一台Waterman垃圾車，它本來不是長這個樣子的，應該說它本來長得跟現在沒有一個地方一樣，不過，我喜歡它現在的樣子。這是為了Zoe的一個報告做的，星期四晚上AE大會結束，我把原本做好的垃圾車給榴槤、阿笑、Andy…他們看，阿笑看了之後就開始跟我說哪邊應該怎麼改、哪邊應該加什麼…之類的，當下真的覺得很挫敗，而且心裡真的一千一百萬個不想改，因為對我來說要把一個自己辛苦完成的作品破壞掉是一件很困難的事情，而且萬一弄得更糟，該怎麼辦。但是心底又會問自己說：如果可以更好，為什麼不？於是那天晚上就在他們一句“沒有什麼不可能，你可以的！”的鼓勵下，我做了過去從來沒做過的舉動，我真的動手讓全部重新開始，完成的時候已經是半夜十二點多，我覺得好開心、好有成就感。當天晚上在奧美的頂樓，一群實習生和AE們一起喝著不冰的啤酒，那種感覺真的很好，當下我覺得，在奧美遇見的這群人，真的很不一樣。
     </p>
@@ -140,7 +191,12 @@ const 曾韻丞 = () => (
     <p>
       小女孩依著格子跳過來，她的笑容讓我醒了，從睡眼惺忪中醒來，從茫然的庸庸碌碌中醒來，原來我都忘了，要追求的只是快樂。
     </p>
-    <img src='./data/experienceArticle/2nd/9.jpg' alt='' />
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710408903/project-terence/2nd/hqsxaobvewt0orsm1gft.jpg'
+        alt=''
+      />
+    </figure>
     <figcaption>不懂自己在賺錢，把片場當遊樂場的小女孩</figcaption>
     <p>奧美運動會當天我們不像是日夜顛倒的廣告人，全都回到了學生時代。</p>
     <p>
@@ -149,7 +205,12 @@ const 曾韻丞 = () => (
     <p>
       誰說長大了就要卸去瘋狂的外衣和青春的心，然後穿上別人所期許的模樣。如果能，我希望青春就像是女人的底妝，沒有的話就像是裸體出門，羞於見人。
     </p>
-    <img src='./data/experienceArticle/2nd/10.jpg' alt='' />
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710408903/project-terence/2nd/bejzqqhtkipbyv6fyb5z.jpg'
+        alt=''
+      />
+    </figure>
     <figcaption>青春不是時間、不是年齡、不是外表、不是皺紋，是你的心</figcaption>
     <p>藍天是什麼模樣。</p>
     <p>
@@ -158,15 +219,35 @@ const 曾韻丞 = () => (
     <p>他就在那，那麼美好，只是你遺忘了很久，連帶著那些曾經有過的夢也都忘了。</p>
     <p>如果人生是一張上帝給的門票，我正坐在遊樂園裡的板凳上躲避艷陽。</p>
     <p>想想真不值得，是嗎?</p>
-    <img src='./data/experienceArticle/2nd/11.jpg' alt='' />
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710408903/project-terence/2nd/nafqw5csszesjxxn5ac0.jpg'
+        alt=''
+      />
+    </figure>
     <figcaption>這是我第三十二次經過這裡，第一次注意到藍天</figcaption>
   </>
 );
 const 張競 = () => (
   <>
-    <img src='./data/experienceArticle/2nd/15.jpg' alt='' />
-    <img src='./data/experienceArticle/2nd/16.jpg' alt='' />
-    <img src='./data/experienceArticle/2nd/17.jpg' alt='' />
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710408902/project-terence/2nd/hj5w3jqbijtf3sdfnz7u.jpg'
+        alt=''
+      />
+    </figure>
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710408902/project-terence/2nd/ze8qiuxn8eljyevw5f29.jpg'
+        alt=''
+      />
+    </figure>
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710408902/project-terence/2nd/crzzhoxzbrcyks47gpho.jpg'
+        alt=''
+      />
+    </figure>
     <p>一個實習，兩個月，40個工作天，能帶給一個人什麼？</p>
     <p>在回答這個問題前，我想還是要先回答正規的問題：三件最有意義的事情。</p>
     <p>三件事之首，最重要的一定是奧美的「人」。</p>
@@ -191,17 +272,32 @@ const 葉致綱 = () => (
     <p>
       曾經或在夢中或在客戶遺棄的點子裡頭見過很有趣的腳本談老闆用辦公室監視器監控員工導致反動，而我在創意部實習的座位附近正好有支攝影機幾乎也是不偏不倚對著我的螢幕，那感覺就像是我在參與組內發想創意時控制我的那隻手，或因為個性或因為習慣讓我拘束並且自我設限，後來發現那支攝影機其實不會動，只要輕輕跳開就可離開她的視線管轄範圍，我想，要做個突破自我的創意人員也是同樣的吧，輕描淡寫地躍過所有侷限與障礙，再狠狠地丟出嚇死人的點子，雖然目前我仍未成功過(泣)。
     </p>
-    <img src='./data/experienceArticle/2nd/12.jpg' alt='' />
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710408903/project-terence/2nd/vzjtn52jqj0cneiadp4h.jpg'
+        alt=''
+      />
+    </figure>
     <h2>Text 02. 留戀留念</h2>
     <p>
       奧美的光環讓這些參與紅領帶筆試完的學子們在考試結束後依然戀戀不捨地靠在門口拍照留戀，如今實習結束的我其實心情也是一樣，總感覺自己認識的人還不夠、看過的東西還不夠甚至於胡鬧的事情也不夠，只因這塊紅色招後頭實在有太多有趣的故事與回憶了。
     </p>
-    <img src='./data/experienceArticle/2nd/13.jpg' alt='' />
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710408904/project-terence/2nd/lbsmtgmswkmr0kbz7mjx.jpg'
+        alt=''
+      />
+    </figure>
     <h2>Text 03. 星期幾</h2>
     <p>
       禮拜二要準備禮拜一的工作、禮拜二要想想禮拜三小週末的餘興節目，禮拜二在奧美有個小小典故，但在我旁敲側擊之下還不是很清楚，而對於我來說，奧美的禮拜二代表的是，永遠不要管他今天是星期幾、或是幾點甚至於在哪裡，想做的事情直接去做就對了！
     </p>
-    <img src='./data/experienceArticle/2nd/14.jpg' alt='' />
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710408902/project-terence/2nd/nefbwpj8qz45fvaxc5d2.jpg'
+        alt=''
+      />
+    </figure>
   </>
 );
 

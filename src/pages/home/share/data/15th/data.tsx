@@ -51,7 +51,12 @@ const 卓宜蓁 = () => (
       謝謝照顧
     </p>
     <p>
-      <img src='./data/experienceArticle/15th/0.jpg' alt='' />
+      <figure>
+        <img
+          src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710488160/project-terence/15th/liki9bcvqknxmqtqjiea.png'
+          alt=''
+        />
+      </figure>
       附上去年拒絕紅色大門而悲慘哭泣的可憐人，
       <br />
       我回來了、還好回來了。
@@ -151,8 +156,13 @@ const 邱慧琪 = () => (
     <p>
       還有很多交流過的奧美同仁們，甚至是一張在海報上的便利貼，都讓我深刻地感覺到自己被接住。無論是批評或是肯定，每一句話都發自內心地推向我成為更好的人。
     </p>
-    <img src='./data/experienceArticle/15th/1.jpg' alt='' />
-    <figcaption>（後來才知道兩張都是創意阿達留下的文字）</figcaption>
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710488362/project-terence/15th/hxpyrdmp0juwlyepzdgs.png'
+        alt=''
+      />
+    </figure>
+    <p>（後來才知道兩張都是創意阿達留下的文字）</p>
     <p>
       我想回答自己在說明會上提出的疑問：
       <br />
@@ -160,8 +170,13 @@ const 邱慧琪 = () => (
         是的，這個地方會因為你做自己而喜歡你。因為大家都誠實地成為自己，也寬容別人是自己，這是這裡的魔法。
       </span>
     </p>
-    <img src='./data/experienceArticle/15th/2.jpg' alt='' />
-    <figcaption>奧美魔法牆，從第一眼看就深深被打動，兩個月後確知這就是奧美魔法。</figcaption>
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710488379/project-terence/15th/d1ugkthxth9duq8nucte.png'
+        alt=''
+      />
+    </figure>
+    <p>奧美魔法牆，從第一眼看就深深被打動，兩個月後確知這就是奧美魔法。</p>
     <p>
       <span className='underline underline-offset-4'>
         認識關於自己的第四件事：我會繼續堅定地走在廣告行業的路上
@@ -173,7 +188,12 @@ const 邱慧琪 = () => (
       過程中我收集了好多人說過的話，獲得一本my
       version的Ogilvy語錄，繼續陪伴我走在路上。奧美，謝謝你陪我啟程，未來路上再見❤️
     </p>
-    <img src='./data/experienceArticle/15th/3.jpg' alt='' />
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710488395/project-terence/15th/c3pmhuwczahxy9xsdjf2.png'
+        alt=''
+      />
+    </figure>
     <hr />
     <p>
       <span className='font-bold'>小番外一｜沙漠中的紅洲；溺水時的紅木——紅領帶七仙子</span>
@@ -188,7 +208,12 @@ const 邱慧琪 = () => (
       <br />
       願我們一直都在，做愛做的事。
     </p>
-    <img src='./data/experienceArticle/15th/4.jpg' alt='' />
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710488435/project-terence/15th/l7qvdm8ytstbfeujaqyu.png'
+        alt=''
+      />
+    </figure>
   </>
 );
 
@@ -302,7 +327,12 @@ const 麥海柔 = () => (
       <br />
       就這樣，在4/26中午12:00，我收到了錄取的e-mail。
     </p>
-    <img src='./data/experienceArticle/15th/5.jpg' alt='' />
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710488474/project-terence/15th/d2mq5lw4ownwlzmesbln.png'
+        alt=''
+      />
+    </figure>
     <p>
       當下，我的手是顫抖的，眼淚是止不住地從眼眶裡滑出，我感激我身邊所遇到的一切，也感謝每一個幫助過我的人。
     </p>
@@ -312,12 +342,22 @@ const 麥海柔 = () => (
       <br />
       想起阿力在開學那天告訴我們的，「這兩個月你會覺得你一無是處，但請不要忘記你的初衷。不要站在場邊看，下來一起打球吧！」
     </p>
-    <img src='./data/experienceArticle/15th/6.jpg' alt='' />
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710488491/project-terence/15th/kiiwzk2xr2vbdhazzjqq.png'
+        alt=''
+      />
+    </figure>
     <p>
       就這樣，我在奧美經歷了好多第一次。第一次做出荒唐的期末報告，把每一個人都當作外送茶專員，出版我們的自製小卡（歸功於做到凌晨5:00的開開）、第一次把保險套放在公司最引人注目的角落，提醒大家回歸初衷做自己愛做的事、第一次在公司Free
       hug、第一次講出自己內心最底層的話、第一次認真的做自己想做的事、第一次做出任性的事然後被溫柔地接住。這麼這麼多的第一次都在這裡實現了，是因為我知道不管再怎麼樣，我都能夠被牢牢地抱住並溫柔地被包裹著，好像多奇怪的事放在這裡都會自動變得合理一樣，就像Derrick在第一次上課說的，每一個奧美人共通有的特質就是溫柔，而我也真的感受到了。
     </p>
-    <img src='./data/experienceArticle/15th/7.jpg' alt='' />
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710488522/project-terence/15th/dzsechq3pwmvpguzxsq7.png'
+        alt=''
+      />
+    </figure>
     <figcaption>
       （圖左）第一次在公司Free Hug
       <br />
@@ -332,12 +372,22 @@ const 麥海柔 = () => (
     <p>
       每一個我們都是一個個性鮮明獨立的個體，卻在這個名叫奧美的染缸相遇，我們碰撞成型，卻又互不相染。但這個夏天，我們都染上了這鮮明的紅色。謝謝每一個，你們。
     </p>
-    <img src='./data/experienceArticle/15th/8.jpg' alt='' />
-    <figcaption>
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710488539/project-terence/15th/magdacm3y0lhqfapnmqv.png'
+        alt=''
+      />
+    </figure>
+    <span>
       （圖左）紅領紅包一家親{'<'}333 <br />
       （圖右）每一個把我當妹妹在照顧的team member（我好愛你們）
-    </figcaption>
-    <img src='./data/experienceArticle/15th/9.jpg' alt='' />
+    </span>
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710488555/project-terence/15th/kx87qxf5hcux6dp44f9j.png'
+        alt=''
+      />
+    </figure>
   </>
 );
 const 黃楷翔 = () => (
@@ -366,14 +416,24 @@ const 黃楷翔 = () => (
       因此展開了各種計畫與各種挑戰， 「開開xOgilvy’s
       Baby的午餐Dating」跟不同部門的同仁一起吃飯，更瞭解每個部門的工作及考驗，他們都會仔細聆聽我們的想法與煩惱，不會把我們當小孩子看待，反倒很真摯地分享過往相似經驗，幫助我們度過難關或找尋未來方向，變成親近的朋友，可以掏心掏肺分享很深層的感受。
     </p>
-    <img src='./data/experienceArticle/15th/10.jpg' alt='' />
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710488596/project-terence/15th/cdwb20m9hhylh5zqmepu.png'
+        alt=''
+      />
+    </figure>
     <figcaption>（圖說：開開xOgilvy’s Baby的午餐Dating）</figcaption>
     <p>
       還有紅領帶的期末報告宣傳，我們選擇以《做愛做的事》為主題，發行一系列既澀澀又有趣的文宣（像是發放仿外送茶廣告的小卡、引人遐想的貼紙）這類有點遊走界線的雙關，感覺除了奧美之外沒有其他公司敢給我們這樣搞。
       <br />
       （管家公呢喃：做愛做的事是想跟大家溝通在破事滿天飛的時候，做一些喜歡的事情來度過難關吧！就像是大家愛廣告愛到願意加班做到完美一樣，不是只有色色的意思la）
     </p>
-    <img src='./data/experienceArticle/15th/11.jpg' alt='' />
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710488623/project-terence/15th/cozmjkfkrvad49ckib8j.png'
+        alt=''
+      />
+    </figure>
     <figcaption>（圖說：我孿生姊妹的外送茶小卡）</figcaption>
     <p>
       甚至主管讓我有在客戶面前提案的機會，起初以為是在開玩笑，結果來真的。縱使準備過程壓力超大，花了很多時間練習彩排，在提案當天早上Internal
@@ -383,7 +443,12 @@ const 黃楷翔 = () => (
       <br />
       從以為用力過猛就能適應的奧嘟嘟，遭逢內心靈魂拷問，鼓起勇氣說出問題，成為了伸縮自如從心所欲的奧運級快樂冠軍，這趟旅程是一部精采絕倫的公路電影！
     </p>
-    <img src='./data/experienceArticle/15th/12.jpg' alt='' />
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710488641/project-terence/15th/znbiobrjall51wejuevn.png'
+        alt=''
+      />
+    </figure>
     <p>
       <i className='font-bold'>「開箱奧美紅領帶之旅，墜入超脫現實的魔幻時刻」</i>
     </p>
@@ -410,7 +475,12 @@ const 黃楷翔 = () => (
       <br />
       我沒想過能有一間公司，上班時可以像在玩樂一樣充滿歡笑，之前一直思考生活是什麼？只有私人能支配的時間才算生活嗎，在奧美這個遊樂園，工作也可以是生活的一部分。
     </p>
-    <img src='./data/experienceArticle/15th/13.jpg' alt='' />
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710488662/project-terence/15th/nee892olgbug5ln74rho.png'
+        alt=''
+      />
+    </figure>
     <p>
       <i className='font-bold'>「開箱奧美紅領帶之旅，來場白駒過隙的黑馬營」</i>
     </p>
@@ -458,7 +528,12 @@ const 黃楷翔 = () => (
       B、Room
       C還有Casual，陪伴我談心、做期末報告的好幾個夜晚（下班後在會議室做事還不小心睡著在裡面好幾次，超好睡）
     </p>
-    <img src='./data/experienceArticle/15th/14.jpg' alt='' />
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710488683/project-terence/15th/hinsdvnlxzauwvd6lfud.png'
+        alt=''
+      />
+    </figure>
     <figcaption>（圖說：Showmin全家福）</figcaption>
     <p>
       面試自我介紹，我唱跳了IVE的《I AM》，大聲跟奧美說我是誰，我是維他命偶像！
@@ -486,16 +561,21 @@ const 黃楷翔 = () => (
       我是Account Derrick Cell中Showmin
       Team的紅領帶黃楷翔Sean，無論我是活力滿滿的維他命偶像、在辦公室內奔跑衝刺的開開，還是進了奧美後大變髮總是被戲稱的料理鼠王，紅色大門庇護的這些日子，在充滿愛的暖巢，獲得大家的滋養，慢慢拼湊自己的翅膀，現在我要展翅高飛，開啟新的旅途了，相信日後一定還會再與奧美的大家相見！
     </p>
-    <img src='./data/experienceArticle/15th/15.jpg' alt='' />
-    <figcaption>（圖說：比較像黑駒的白駒過隙）</figcaption>
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710488714/project-terence/15th/xi5ybiejli9h9uetbyom.png'
+        alt=''
+      />
+    </figure>
+    <p>（圖說：比較像黑駒的白駒過隙）</p>
   </>
 );
 const 蔡尚倫 = () => (
   <>
-    <figure>
+    <span>
       「心得有字數限制嗎？我有預感我會寫出一篇論文。」在提筆寫下心得前，我問了問Robert。
       不是開玩笑，因為這兩個月有太多感受，我又是特別不會斷捨離的人。
-    </figure>
+    </span>
     <p>
       算了，就當作日記寫吧！
       <br />
@@ -516,10 +596,13 @@ const 蔡尚倫 = () => (
     <p>
       紅色沙發區在四樓樓梯旁，不太大的開放式空間，兩張小小的圓桌加上幾張椅墊不再鬆軟的旋轉椅，忙碌的大人們無論是開會或只是裝個水都會經過這兒。隔壁業務與創意的交談搭配雅美姐安靜優雅地整理茶水區的畫面，我和其他六位紅領帶在這築起了一點也不秘密的秘密基地，構成了我們的七月。
     </p>
-    <img src='./data/experienceArticle/15th/16.jpg' alt='' />
-    <figcaption>
-      （左邊就是我們在紅色沙發區聚會的模樣）（右邊可憐的卓不舒服所以先躺一下）
-    </figcaption>
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710488737/project-terence/15th/hmvh8il7yqgvefp2syma.png'
+        alt=''
+      />
+    </figure>
+    <p>（左邊就是我們在紅色沙發區聚會的模樣）（右邊可憐的卓不舒服所以先躺一下）</p>
     <p>
       「最近又在忙什麼？」
       <br />
@@ -576,7 +659,12 @@ const 蔡尚倫 = () => (
       <br />
       Fei（我的主管）要交辦任務給我了。
     </p>
-    <img src='./data/experienceArticle/15th/17.jpg' alt='' />
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710488753/project-terence/15th/btrsdeh9uaaqpims6tqw.png'
+        alt=''
+      />
+    </figure>
     <figcaption>（我的座位 單純記錄一下 畫面沒有重點）</figcaption>
     <p>
       Fei總問我找資料的工作會不會枯燥無聊，怎麼會呢？我甚至覺得這是世界上最適合我的工作了，從網路上提取有用的資訊，努力耙梳其中語彙背後的意涵，再精煉成一份具邏輯脈絡的簡報，最後，跌倒。
@@ -623,12 +711,17 @@ const 蔡尚倫 = () => (
       <br />
       期末大主題「做愛做的事」是在One會議室誕生的，它不在任何人原本的意料之中，但喜歡上它卻完全在意料之內，因為我們擁抱各種可能，各種，荒誕奇葩的可能。
     </p>
-    <img src='./data/experienceArticle/15th/18.jpg' alt='' />
-    <figcaption>
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710488779/project-terence/15th/pgcocvidk25prp4u6vu7.png'
+        alt=''
+      />
+    </figure>
+    <span>
       （我們鼓勵大家用便利貼寫下自己愛做的事）
       <br />
       （超感謝願意參與的每一個人們）
-    </figcaption>
+    </span>
     <p>
       從沒想過有朝一日，自己會在知名企業大玩色情梗，但玩得很有深度（自己覺得
       <br />
@@ -694,8 +787,13 @@ const 蔡尚倫 = () => (
       <br />
       開開心心。
     </p>
-    <img src='./data/experienceArticle/15th/19.jpg' alt='' />
-    <figcaption>（我最喜歡的，十五屆紅領帶們）</figcaption>
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710488799/project-terence/15th/w04xzbfcwuavayz13q4x.png'
+        alt=''
+      />
+    </figure>
+    <span>（我最喜歡的，十五屆紅領帶們）</span>
   </>
 );
 const 龐舒勻 = () => (
@@ -823,11 +921,16 @@ const 龐舒勻 = () => (
       這兩個月的冒險，會成為我人生故事中重要的一頁
     </p>
     <p>我在奧美學到的大秘寶，就是所有在奧美預見的你/妳們。</p>
-    <img src='./data/experienceArticle/15th/20.jpg' alt='' />
-    <figcaption>
+    <figure>
+      <img
+        src='https://res.cloudinary.com/dzgjlijfc/image/upload/v1710488814/project-terence/15th/hunffqqygorn7znhcqlj.png'
+        alt=''
+      />
+    </figure>
+    <span>
       最愛的紅領帶，以及奧美的每個人，就是我的大秘寶
       {' <3'}
-    </figcaption>
+    </span>
   </>
 );
 
