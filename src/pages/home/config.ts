@@ -10,6 +10,7 @@ export const HomePages = [
   { page: 'project', name: '紅領帶計畫介紹' },
   { page: 'share', name: '就是相信自己，永遠可以更棒' },
   { page: 'about', name: '他是林宗緯' },
+  { page: 'cookies', name: '隱私聲明' },
 ];
 
 export type THomeSchedule = {
