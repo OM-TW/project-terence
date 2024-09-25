@@ -1,24 +1,13 @@
 import Select from '@/components/select';
 import { chinese } from '@/settings/chineseNumerals';
 import { memo, useContext } from 'react';
-import './header.less';
 import { ShareContext } from './config';
-import { DefaultInternshipExperience } from './temp';
+import './header.less';
 
 const Header = memo(() => {
   const [state, setState] = useContext(ShareContext);
+  const { data } = state;
   const fullYear = new Date().getFullYear();
-  const th = fullYear - 2008;
-
-  // const { title, data } = useMemo(() => {
-  //   const currentData = Object.entries(DefaultInternshipExperience).filter(
-  //     (_, index) => index === th - 1,
-  //   )[0];
-  //   const title = currentData[0];
-  //   const data = currentData[1][index];
-
-  //   return { title, data };
-  // }, [th]);
 
   return (
     <div className='Header'>
@@ -32,17 +21,12 @@ const Header = memo(() => {
             }}
             defaultValue={state.th}
           >
-            {[...new Array(th).keys()].map((index) => {
-              const currentData = Object.entries(DefaultInternshipExperience).filter(
-                (_, i) => i === index - 1,
-              )[0];
-              if (!currentData) return null;
-              return (
-                <option key={`option-${index}`} value={th - index}>
-                  {fullYear - index} 第{chinese.toChinese(th - index)}屆
-                </option>
-              );
-            })}
+            {Object.keys(data).map((key) => (
+              <option key={`option-${key}`} value={Object.keys(data).length - parseInt(key) + 1}>
+                {fullYear - parseInt(key)} 第
+                {chinese.toChinese(Object.keys(data).length - parseInt(key) + 1)}屆
+              </option>
+            ))}
           </Select>
         </div>
       </div>

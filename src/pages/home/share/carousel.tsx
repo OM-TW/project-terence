@@ -5,9 +5,7 @@ import { HomeContext, THomeShare } from '../config';
 import './carousel.less';
 import { ShareContext } from './config';
 import ScrollBar from './scrollbar';
-import { DefaultInternshipExperience } from './temp';
 
-const data = DefaultInternshipExperience['2009 第一屆紅領帶'];
 type T = { data: THomeShare; index: number };
 
 const Slide = memo(({ data, index }: T) => {
@@ -43,11 +41,12 @@ const Carousel = memo(() => {
   const [state] = useContext(ShareContext);
   const [homeState] = useContext(HomeContext);
 
-  const { percent, th } = state;
+  const { percent, th, data: stateData } = state;
 
-  const list = useMemo<typeof data>(() => {
-    return Object.values(DefaultInternshipExperience)[th - 1];
-  }, [th]);
+  const list = useMemo<THomeShare[]>(() => {
+    if (Object.keys(stateData).length === 0) return [];
+    return Object.values(stateData)[th - 1];
+  }, [th, stateData]);
 
   const shareList = useMemo<THomeShare[]>(() => {
     const { share } = homeState;
