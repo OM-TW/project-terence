@@ -23,7 +23,7 @@ const Header = memo(() => {
           >
             {Object.keys(data).map((key) => (
               <option key={`option-${key}`} value={Object.keys(data).length - parseInt(key) + 1}>
-                {fullYear - parseInt(key)} 第
+                {fullYear - parseInt(key) + 1} 第
                 {chinese.toChinese(Object.keys(data).length - parseInt(key) + 1)}屆
               </option>
             ))}
