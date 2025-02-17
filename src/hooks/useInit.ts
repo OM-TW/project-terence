@@ -20,6 +20,7 @@ const useInit = () => {
   const fetch = async () => {
     setContext({ type: ActionType.LoadingProcess, state: { enabled: true } });
     const respond = (await Fetcher.get(REST_PATH.init)) as TResult;
+    console.log(respond);
 
     setState(respond);
     setContext({ type: ActionType.LoadingProcess, state: { enabled: false } });

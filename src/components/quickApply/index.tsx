@@ -1,20 +1,25 @@
-import { memo, useEffect } from 'react';
-import './index.less';
+import { HomeContext } from '@/pages/home/config';
+import { memo, useContext, useEffect } from 'react';
 import Button from '../button';
-import { GOOGLE_FORM_URL } from '@/settings/config';
+import './index.less';
 
 const QuickApply = memo(() => {
   useEffect(() => {}, []);
+  const [state] = useContext(HomeContext);
+  const { formURL } = state.schedule;
+
   return (
     <div className='QuickApply'>
       <div>
-        <Button
-          onClick={() => {
-            window.open(GOOGLE_FORM_URL, '_blank');
-          }}
-        >
-          <Button.Apply />
-        </Button>
+        {formURL && (
+          <Button
+            onClick={() => {
+              window.open(formURL, '_blank');
+            }}
+          >
+            <Button.Apply />
+          </Button>
+        )}
       </div>
     </div>
   );

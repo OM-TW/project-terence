@@ -21,6 +21,7 @@ export type THomeSchedule = {
   target: string;
   schedule: string;
   timestamp: number;
+  formURL: string;
 };
 
 export type THomeNews = {
@@ -57,6 +58,7 @@ export const HomeState: THomeState = {
     oral: '',
     target: '升大四至研究所學生(2024.07-08需有在學身分)',
     schedule: '',
+    formURL: '',
     timestamp: 0,
   },
   news: {
