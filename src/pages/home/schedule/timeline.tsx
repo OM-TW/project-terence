@@ -2,6 +2,7 @@ import { CommaStringToList } from 'lesca-comma-string';
 import { Fragment, memo, useContext, useMemo } from 'react';
 import { twMerge } from 'tailwind-merge';
 import { HomeContext } from '../config';
+import { numberToZh } from 'number-to-zh';
 import './timeline.less';
 
 const Timeline = memo(() => {
@@ -22,9 +23,15 @@ const Timeline = memo(() => {
     { date: '', name: '' },
   );
 
+  const fullYear = new Date().getFullYear();
+  const th = fullYear - 2008;
+
   return (
     <div className='Timeline'>
-      <h1>2024第十六屆申請時間表</h1>
+      <h1>
+        {fullYear}第{numberToZh(th, { language: 'zh-TW-lowercase', skipOneBeforeTen: true })}
+        屆申請時間表
+      </h1>
       <div className='steps'>
         <div className='line'>
           {ScheduleTimeline.map((data, index) => {
